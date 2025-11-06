@@ -1,0 +1,21 @@
+{
+  "slug": "lawbridge",
+  "title": "LawBridge – Legal Document Simplifier",
+  "topic": "Civic & Governance Batch",
+  "difficulty": "★★★☆☆ – NLP-heavy but manageable locally.",
+  "goal": "Convert contracts, terms, and bills into easy summaries with structured key points.",
+  "why_it_matters": "Legal documents are dense and inaccessible to non-lawyers; this tool simplifies them into everyday language.",
+  "users": "Students, NGOs, legal-aid clinics.",
+  "data": "Sample policy texts, PDFs, open legal datasets (GovInfo, Justice.gov).",
+  "ai": [
+    "Rule-based clause extraction.",
+    "Summarization with fine-tuned BART-small or rule templates."
+  ],
+  "workflow": [
+    "Upload legal text.",
+    "Detect clause structure.",
+    "Translate jargon to plain terms.",
+    "Output simplified summary + key definitions."
+  ],
+  "outcome": "Clear use of NLP for accessibility and ethics-driven design."
+}

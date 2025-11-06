@@ -1,0 +1,20 @@
+{
+  "slug": "safezone",
+  "title": "SafeZone – Epidemic Spread Simulator",
+  "topic": "Health & Medicine Batch",
+  "difficulty": "★★★★☆ – simulation modeling.",
+  "goal": "Simulate spread of an infectious disease under different control measures.",
+  "why_it_matters": "Modeling disease spread helps in awareness and preparedness.",
+  "users": "Students, public health departments.",
+  "data": "Synthetic population + infection parameters.",
+  "ai": [
+    "SEIR model + optional LSTM for prediction."
+  ],
+  "workflow": [
+    "Input population size & R₀.",
+    "Simulate infection spread day by day.",
+    "Show graph of cases with/without interventions.",
+    "Compare outcomes visually."
+  ],
+  "outcome": "Quantitative modeling with policy relevance."
+}

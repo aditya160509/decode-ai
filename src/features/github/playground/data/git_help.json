@@ -1,0 +1,29 @@
+{
+  "Basics": [
+    { "cmd": "git init", "desc": "Start a repository" },
+    { "cmd": "git status", "desc": "Check working tree" },
+    { "cmd": "git diff", "desc": "See line changes" }
+  ],
+  "Committing": [
+    { "cmd": "git add <file>", "desc": "Stage a file" },
+    { "cmd": "git commit -m \"msg\"", "desc": "Create a commit" }
+  ],
+  "Branching": [
+    { "cmd": "git branch", "desc": "List branches" },
+    { "cmd": "git checkout -b feature", "desc": "Create and switch" }
+  ],
+  "Merging": [
+    { "cmd": "git merge feature", "desc": "Merge another branch" }
+  ],
+  "Rebasing": [
+    { "cmd": "git rebase main", "desc": "Replay commits on main" }
+  ],
+  "Stashing": [
+    { "cmd": "git stash", "desc": "Shelve changes" },
+    { "cmd": "git stash pop", "desc": "Restore and drop" }
+  ],
+  "Tags": [
+    { "cmd": "git tag -a v1.0 -m \"release\"", "desc": "Annotated tag" },
+    { "cmd": "git show v1.0", "desc": "Show tag details" }
+  ]
+}

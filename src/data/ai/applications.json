@@ -1,0 +1,16 @@
+{
+  "sectors": [
+    {"name":"Education","examples":["AI tutors","Automated grading"]},
+    {"name":"Healthcare","examples":["Image analysis","Symptom checkers"]},
+    {"name":"Finance","examples":["Fraud detection","Robo-advisors"]},
+    {"name":"Art & Creativity","examples":["Music generation","Image synthesis"]},
+    {"name":"Customer Service","examples":["Chatbots","Virtual agents"]},
+    {"name":"Retail","examples":["Personalization","Inventory"]},
+    {"name":"Transportation","examples":["Self-driving","Route optimization"]},
+    {"name":"Science","examples":["Data analysis","Drug discovery"]},
+    {"name":"Law","examples":["Contract review","Legal research"]},
+    {"name":"Manufacturing","examples":["Predictive maintenance","Quality control"]},
+    {"name":"Social Media","examples":["Moderation","Trend analysis"]},
+    {"name":"Agriculture","examples":["Crop monitoring","Yield prediction"]}
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "mediscan",
+  "title": "MediScan – Prescription Digitizer",
+  "topic": "Health & Medicine Batch",
+  "difficulty": "★★★★☆ – OCR + NLP pipeline.",
+  "goal": "Digitize and interpret prescriptions into structured, searchable data.",
+  "why_it_matters": "Handwritten prescriptions cause misreading and medication errors.",
+  "users": "Pharmacies, clinics, researchers.",
+  "data": "Sample prescription images, synthetic handwriting datasets.",
+  "ai": [
+    "OCR (Tesseract) + text normalization.",
+    "Entity extraction (Drug, Dosage, Frequency)."
+  ],
+  "workflow": [
+    "Upload prescription photo.",
+    "Extract text via OCR.",
+    "Parse structured info.",
+    "Save in digital format + flag potential conflicts."
+  ],
+  "outcome": "Vision + NLP hybrid; practical healthcare automation."
+}

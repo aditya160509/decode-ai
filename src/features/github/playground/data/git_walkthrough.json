@@ -1,0 +1,29 @@
+{
+  "stash_work": [
+    { "title": "Make any edit", "expected": ["nano", "echo", "touch"] },
+    { "title": "View status", "expected": ["git status"] },
+    { "title": "Stash changes", "expected": ["git stash"] },
+    { "title": "Switch to main", "expected": ["git checkout main"] },
+    { "title": "Restore work", "expected": ["git stash pop"] }
+  ],
+  "merge_conflict": [
+    { "title": "Merge conflicting branch", "expected": ["git merge feature/conflict"] },
+    { "title": "Check unmerged paths", "expected": ["git status"] },
+    { "title": "Stage resolved file", "expected": ["git add src/App.tsx"] },
+    { "title": "Commit the resolution", "expected": ["git commit -m"] }
+  ],
+  "rebase_practice": [
+    { "title": "Start rebase", "expected": ["git rebase main"] },
+    { "title": "Continue rebase", "expected": ["git rebase --continue"] },
+    { "title": "Inspect log", "expected": ["git log --oneline"] }
+  ],
+  "tag_release": [
+    { "title": "Create tag v1.0", "expected": ["git tag -a"] },
+    { "title": "Show tag details", "expected": ["git show v1.0"] }
+  ],
+  "undo_commit": [
+    { "title": "Reset softly", "expected": ["git reset --soft"] },
+    { "title": "Amend commit", "expected": ["git commit -m"] },
+    { "title": "View log", "expected": ["git log --oneline"] }
+  ]
+}

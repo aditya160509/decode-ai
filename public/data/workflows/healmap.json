@@ -1,0 +1,21 @@
+{
+  "slug": "healmap",
+  "title": "HealMap – Hospital Availability & Service Tracker",
+  "topic": "Health & Medicine Batch",
+  "difficulty": "★★★☆☆ – data integration + mapping.",
+  "goal": "Map hospital availability and specializations in real-time.",
+  "why_it_matters": "During emergencies, people waste time finding open hospitals or ICU beds.",
+  "users": "Citizens, emergency networks.",
+  "data": "Public health directories, API for bed availability (mock if needed).",
+  "ai": [
+    "Clustering by distance & specialization.",
+    "Optional predictive model for bed demand (linear regression)."
+  ],
+  "workflow": [
+    "Fetch or seed hospital data.",
+    "Cluster nearby facilities.",
+    "Display availability and ratings.",
+    "Predict occupancy trend (optional)."
+  ],
+  "outcome": "Excellent real-time mapping app for civic tech portfolios."
+}

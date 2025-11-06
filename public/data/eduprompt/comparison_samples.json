@@ -1,0 +1,124 @@
+{
+  "comparisonSamples": [
+    {
+      "id": "cmp_climate_summary_basic",
+      "title": "Summarize climate article for grade 8",
+      "taskType": "summarize",
+      "promptA": "Summarize this text.",
+      "promptB": "You are a science teacher. Summarize the following climate change article for an 8th grade student in 4 to 5 simple sentences. Keep terms like greenhouse gases and global warming. Avoid political opinions. Text:",
+      "outputA": "Climate change is happening. It is caused by humans. It affects weather.",
+      "outputB": "This article says that Earth is warming because gases from cars and factories trap heat in the air. This is called the greenhouse effect. Warmer temperatures can change rainfall and make storms stronger. Scientists say we should reduce pollution so the problem does not get worse.",
+      "scoreA": 4,
+      "scoreB": 9,
+      "whyBetter": "Prompt B gives role, audience, length and vocabulary constraints. Prompt A is too short and underspecified."
+    },
+    {
+      "id": "cmp_email_rewrite_formal",
+      "title": "Rewrite email for manager",
+      "taskType": "rewrite",
+      "promptA": "Rewrite this better.",
+      "promptB": "Rewrite the following email in a polite and professional tone for a manager. Keep all dates and numbers. Do not add facts. Make it concise.",
+      "outputA": "Here is a better version of your email.",
+      "outputB": "Subject: Timeline update on the data dashboard\n\nHi Maria,\nI wanted to share a quick update. The dashboard build is on track, but the team needs until Thursday 4 PM to finish QA. This will not affect the rollout on Monday. Please let me know if you would like a brief demo tomorrow.\n\nThank you,\nKrishna",
+      "scoreA": 3,
+      "scoreB": 9,
+      "whyBetter": "Prompt B states audience, tone, constraints and preservation of facts. Prompt A does not say who the email is for."
+    },
+    {
+      "id": "cmp_explain_code_js",
+      "title": "Explain JavaScript function for a beginner",
+      "taskType": "explain_code",
+      "promptA": "Explain this code.",
+      "promptB": "Explain the following JavaScript function to a beginner. First say what the function does in one sentence. Then explain each line in simple words. Then give one example input and output. Do not assume React knowledge.",
+      "outputA": "This code is a function.",
+      "outputB": "This function takes an array of numbers and returns only the even ones.\nLine by line:\n1. It defines a function named filterEvens.\n2. It loops through each number.\n3. It checks if number % 2 === 0 which means the number is even.\n4. If it is even, it adds it to the result.\nExample: Input [1,2,3,4] → Output [2,4].",
+      "scoreA": 2,
+      "scoreB": 10,
+      "whyBetter": "Prompt B gives structure, level, and output format so the model can produce a teachable answer."
+    },
+    {
+      "id": "cmp_proofread_academic_short",
+      "title": "Proofread academic paragraph",
+      "taskType": "proofread",
+      "promptA": "Fix grammar.",
+      "promptB": "Proofread the following academic paragraph. Fix grammar, casing, punctuation, and flow. Keep the original meaning. Keep the technical terms. Output only the corrected paragraph.",
+      "outputA": "Fixed version.",
+      "outputB": "This study examines how student attention shifts when visual uncertainty is present in dashboards. The results indicate that participants focused more on clearly bounded intervals than on vague ranges, which suggests that tighter visual encoding improves decision confidence.",
+      "scoreA": 4,
+      "scoreB": 9,
+      "whyBetter": "Prompt B names the domain, the task, and the output format. Prompt A is too open."
+    },
+    {
+      "id": "cmp_resume_bullets",
+      "title": "Generate strong resume bullets",
+      "taskType": "rewrite",
+      "promptA": "Make resume points.",
+      "promptB": "You are an ATS aware resume writer. Turn the following project description into 3 action oriented resume bullets. Start each bullet with a strong verb. Include metrics if they are present. Keep it under 2 lines per bullet.",
+      "outputA": "Created project. Used Python. Good.",
+      "outputB": "Built an AI powered event extractor in Python to identify relevant events from unstructured text.\nImproved match accuracy to sponsor criteria by prioritizing topic, date, and location signals.\nDelivered results in a structured JSON format, enabling the team to compare extraction quality with Perplexity.",
+      "scoreA": 3,
+      "scoreB": 10,
+      "whyBetter": "Prompt B defines role, format, count, style and constraints. This gives a predictable resume style output."
+    },
+    {
+      "id": "cmp_student_feedback",
+      "title": "Give student friendly feedback",
+      "taskType": "feedback",
+      "promptA": "Give feedback.",
+      "promptB": "Give constructive and encouraging feedback on the following short answer written by a student. Point out one thing they did well, one thing to improve, and one tip to get full marks next time. Keep it under 120 words.",
+      "outputA": "Good work.",
+      "outputB": "You explained the main idea clearly and used a good example. To improve, define the term earlier so the reader knows what you are describing. Next time, follow the prompt order and add one sentence that connects the example back to the main point. You are very close to full marks.",
+      "scoreA": 4,
+      "scoreB": 9,
+      "whyBetter": "Prompt B is shaped for education. It gives structure and length. Prompt A is generic."
+    },
+    {
+      "id": "cmp_data_cleaning_help",
+      "title": "Ask for data cleaning plan",
+      "taskType": "plan",
+      "promptA": "How do I clean data.",
+      "promptB": "I have a CSV with 12k rows of student survey responses. Give me a step by step data cleaning plan. Include detecting missing values, handling weird unicode, normalizing categorical values, and exporting a final clean CSV. Output in numbered steps.",
+      "outputA": "You can clean it in Python.",
+      "outputB": "1. Load the CSV and inspect column names and dtypes.\n2. Count missing values per column and decide per column whether to drop or impute.\n3. Detect unicode artifacts and normalize to UTF 8.\n4. Standardize categorical values like \"Female\", \"female\", \"F\" into one label.\n5. Drop exact duplicate rows.\n6. Reorder columns into logical order.\n7. Export the cleaned CSV and log rows dropped.",
+      "scoreA": 3,
+      "scoreB": 9,
+      "whyBetter": "Prompt B gives context, size, tasks to cover, and output structure. Prompt A does not tell the model the dataset."
+    },
+    {
+      "id": "cmp_prompt_engineering_teach",
+      "title": "Teach prompt engineering concept",
+      "taskType": "summarize",
+      "promptA": "Explain prompt engineering.",
+      "promptB": "Explain the idea of structured prompt engineering to a college student who knows ChatGPT but not LLM internals. Cover role, task, context, constraints, and examples in 5 short bullets.",
+      "outputA": "Prompt engineering is writing prompts.",
+      "outputB": "• You give the model a role so it knows who it should act as.\n• You state the task clearly so the model knows what to produce.\n• You add context like audience or domain so the answer fits.\n• You add constraints such as length or format so it is consistent.\n• You give examples to make the model copy the pattern.",
+      "scoreA": 4,
+      "scoreB": 10,
+      "whyBetter": "Prompt B breaks the concept into exact bullets and defines the audience. Prompt A is too open to generic answers."
+    },
+    {
+      "id": "cmp_cover_letter_tight",
+      "title": "Tighten cover letter paragraph",
+      "taskType": "rewrite",
+      "promptA": "Shorten this.",
+      "promptB": "Rewrite the following cover letter paragraph so it is 120 to 140 words, focused on the company mission, and mentions only one project example. Keep the tone confident but not over the top.",
+      "outputA": "Here is a shorter version.",
+      "outputB": "I am interested in this role because Speechify’s mission to make reading accessible matches the work I already do at ASU. I recently built a campus tool that lets students generate transcripts for recorded lectures, and I saw how much it helped students who preferred listening. I want to bring that same energy to a production level iOS app. I can work with your team on feature experiments, performance profiling, and documenting the flows so the rest of the org can reuse them.",
+      "scoreA": 3,
+      "scoreB": 9,
+      "whyBetter": "Prompt B locks length, focus, tone, and number of examples. Prompt A gives no target."
+    },
+    {
+      "id": "cmp_multi_step_reasoning",
+      "title": "Force multi step reasoning for DS question",
+      "taskType": "reasoning",
+      "promptA": "Answer this data science question.",
+      "promptB": "You are a data science TA. Answer the following question in 3 parts: 1 restate the problem in your own words, 2 list assumptions or missing info, 3 give the final answer. Keep it concise.",
+      "outputA": "The answer is 0.87.",
+      "outputB": "1. The problem is asking us to choose a model that can handle a small labeled dataset and many features.\n2. We are assuming the features are mostly numeric and we care about interpretability.\n3. A good starting point is regularized logistic regression with cross validation, because it can reduce overfitting and is easy to explain.",
+      "scoreA": 2,
+      "scoreB": 10,
+      "whyBetter": "Prompt B breaks the answer into steps so the model cannot skip reasoning. Prompt A jumps to an answer without justification."
+    }
+  ]
+}

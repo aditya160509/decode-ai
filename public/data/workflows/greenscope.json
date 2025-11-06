@@ -1,0 +1,21 @@
+{
+  "slug": "greenscope",
+  "title": "GreenScope – Urban Air Quality Dashboard",
+  "topic": "Environment & Sustainability Batch",
+  "difficulty": "★★★★☆ – combines real-time API + forecasting.",
+  "goal": "Build a live dashboard that tracks AQI trends, visualizes pollutant composition, and predicts next-day air quality.",
+  "why_it_matters": "Air pollution data exists but isn’t visualized in a way that helps people act on it.",
+  "users": "Citizens, researchers, environment clubs.",
+  "data": "OpenAQ API, local weather data, satellite air quality indexes.",
+  "ai": [
+    "Time-series forecasting (Prophet / LSTM) for next-day AQI prediction.",
+    "Anomaly detection for sudden spikes."
+  ],
+  "workflow": [
+    "Collect hourly AQI and weather feeds.",
+    "Normalize pollutants (PM2.5, NO2, CO).",
+    "Predict upcoming AQI trends.",
+    "Display map + chart dashboards with safe-hour highlights."
+  ],
+  "outcome": "Demonstrates ML forecasting + civic visualization; highly relevant sustainability app."
+}

@@ -1,0 +1,164 @@
+{
+  "miniChallenges": [
+    {
+      "id": "ch01",
+      "title": "The One Minute TED Talk",
+      "difficulty": "Medium",
+      "taskType": "Summarize",
+      "inputText": "In 200 words, a researcher explains how climate change affects coral reefs through ocean acidification and temperature stress.",
+      "idealAnswer": "Climate change heats and acidifies oceans, bleaching coral reefs and unraveling the delicate balance of marine life."
+    },
+    {
+      "id": "ch02",
+      "title": "Fix the Press Release",
+      "difficulty": "Easy",
+      "taskType": "Rewrite",
+      "inputText": "Our new product might be useful for some people, though we are still figuring out its actual purpose.",
+      "idealAnswer": "We proudly introduce a product built to make everyday work faster, smarter, and more purposeful for every user."
+    },
+    {
+      "id": "ch03",
+      "title": "Grammar Detective",
+      "difficulty": "Easy",
+      "taskType": "Proofread",
+      "inputText": "Each students were asked to submit their essays before Friday, but most of them forgets the deadline.",
+      "idealAnswer": "Each student was asked to submit an essay before Friday, but most forgot the deadline."
+    },
+    {
+      "id": "ch04",
+      "title": "Decode the Loop",
+      "difficulty": "Easy",
+      "taskType": "Explain Code",
+      "inputText": "nums = [2, 4, 6, 8]; total = 0; for n in nums: total += n; print(total)",
+      "idealAnswer": "The program loops through the numbers 2, 4, 6, and 8, adds them to total, and prints 20 as the sum."
+    },
+    {
+      "id": "ch05",
+      "title": "Make It Sound Smart",
+      "difficulty": "Medium",
+      "taskType": "Rewrite",
+      "inputText": "The movie was kind of good but had boring parts.",
+      "idealAnswer": "The film tells a compelling story yet loses momentum in slower scenes that soften its dramatic impact."
+    },
+    {
+      "id": "ch06",
+      "title": "The Executive Brief",
+      "difficulty": "Medium",
+      "taskType": "Summarize",
+      "inputText": "The company increased its renewable energy investment by 45 percent, expanded into three new markets, and launched an employee training initiative on sustainability.",
+      "idealAnswer": "The company strengthened its sustainability agenda through larger renewable investments, market expansion, and employee training."
+    },
+    {
+      "id": "ch07",
+      "title": "Polish the Email",
+      "difficulty": "Easy",
+      "taskType": "Proofread",
+      "inputText": "hey sir i send the report yesturday please check and give me feedback asap thanks",
+      "idealAnswer": "Dear Sir, I sent the report yesterday and would appreciate your feedback at your earliest convenience. Thank you."
+    },
+    {
+      "id": "ch08",
+      "title": "Explain the Mystery Function",
+      "difficulty": "Medium",
+      "taskType": "Explain Code",
+      "inputText": "def mystery(x): return x[::-1]",
+      "idealAnswer": "The function returns the reverse of its input. For example, mystery('hello') produces 'olleh'."
+    },
+    {
+      "id": "ch09",
+      "title": "Positive Spin Doctor",
+      "difficulty": "Medium",
+      "taskType": "Rewrite",
+      "inputText": "The team failed to meet the deadline because of multiple mistakes.",
+      "idealAnswer": "The team turned earlier mistakes into valuable insights and refined its workflow for stronger future performance."
+    },
+    {
+      "id": "ch10",
+      "title": "Tweet Sized Summary",
+      "difficulty": "Medium",
+      "taskType": "Summarize",
+      "inputText": "In a world where people are increasingly dependent on technology, human interaction is becoming rare, affecting mental health and empathy.",
+      "idealAnswer": "Technology connects minds but separates hearts, reducing empathy and genuine human connection."
+    },
+    {
+      "id": "ch11",
+      "title": "The Late Submission",
+      "difficulty": "Medium",
+      "taskType": "Rewrite",
+      "inputText": "hi prof i missed class and could not finish the assignment can i get some extra time",
+      "idealAnswer": "Dear Professor, I missed class due to personal reasons and kindly request a brief extension for the assignment."
+    },
+    {
+      "id": "ch12",
+      "title": "Code in Action",
+      "difficulty": "Medium",
+      "taskType": "Explain Code",
+      "inputText": "def add_nums(a, b): return a + b",
+      "idealAnswer": "The function adds two numbers and returns their sum. For instance, add_nums(3, 7) returns 10."
+    },
+    {
+      "id": "ch13",
+      "title": "Tight Summary",
+      "difficulty": "Medium",
+      "taskType": "Summarize",
+      "inputText": "Artificial intelligence is helping students write better essays by suggesting improvements in tone, grammar, and structure while reducing teacher workload.",
+      "idealAnswer": "AI tools enhance student writing by improving tone, grammar, and structure while reducing teacher workload."
+    },
+    {
+      "id": "ch14",
+      "title": "Kind Feedback",
+      "difficulty": "Medium",
+      "taskType": "Rewrite",
+      "inputText": "Your answer is wrong and you did not follow the instructions.",
+      "idealAnswer": "You have made a thoughtful start, but your response missed some instructions. Review them carefully to strengthen your answer."
+    },
+    {
+      "id": "ch15",
+      "title": "Clear the Confusion",
+      "difficulty": "Easy",
+      "taskType": "Proofread",
+      "inputText": "The model are running slow because there is to many users at once.",
+      "idealAnswer": "The model is running slowly because there are too many users accessing it at once."
+    },
+    {
+      "id": "ch16",
+      "title": "Explain the Sort",
+      "difficulty": "Medium",
+      "taskType": "Explain Code",
+      "inputText": "def sort_numbers(nums): return sorted(nums)",
+      "idealAnswer": "The function takes a list of numbers and returns a new list sorted in ascending order."
+    },
+    {
+      "id": "ch17",
+      "title": "Project Report Headline",
+      "difficulty": "Expert",
+      "taskType": "Summarize",
+      "inputText": "The AI project improved response accuracy by 30 percent and reduced latency by 25 percent after optimizing model architecture.",
+      "idealAnswer": "Model optimizations boosted accuracy by 30 percent and cut response time by a quarter, delivering faster smarter AI."
+    },
+    {
+      "id": "ch18",
+      "title": "Rewrite the Apology",
+      "difficulty": "Medium",
+      "taskType": "Rewrite",
+      "inputText": "sorry for the delay we totally forgot to send the file earlier",
+      "idealAnswer": "I apologize for the delay. The file has now been sent, and I appreciate your patience and understanding."
+    },
+    {
+      "id": "ch19",
+      "title": "Debug the Function",
+      "difficulty": "Expert",
+      "taskType": "Explain Code",
+      "inputText": "def avg(nums): return sum(nums)/len(nums)",
+      "idealAnswer": "The function computes the average of a list by dividing the sum of its elements by their count."
+    },
+    {
+      "id": "ch20",
+      "title": "Fix the Announcement",
+      "difficulty": "Medium",
+      "taskType": "Proofread",
+      "inputText": "The new guidelines will helps team member works together more better.",
+      "idealAnswer": "The new guidelines will help team members work together more effectively and improve overall collaboration."
+    }
+  ]
+}

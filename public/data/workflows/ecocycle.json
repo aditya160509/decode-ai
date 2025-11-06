@@ -1,0 +1,21 @@
+{
+  "slug": "ecocycle",
+  "title": "EcoCycle – E-Waste Collection & Routing Planner",
+  "topic": "Environment & Sustainability Batch",
+  "difficulty": "★★★★☆ – routing + optimization + maps.",
+  "goal": "Plan optimal routes for e-waste pickup from drop-off points to recycling centers.",
+  "why_it_matters": "E-waste often ends up in landfills due to inefficient routing and awareness gaps.",
+  "users": "Recycling companies, students, sustainability startups.",
+  "data": "City map data, drop-off locations, vehicle capacity.",
+  "ai": [
+    "Dijkstra or A* path optimization.",
+    "Clustering (K-Means) to assign nearest facility."
+  ],
+  "workflow": [
+    "Collect center + pickup data.",
+    "Cluster pickups by proximity.",
+    "Compute optimal daily route per truck.",
+    "Visualize route map and progress metrics."
+  ],
+  "outcome": "Combines optimization algorithms with tangible impact."
+}

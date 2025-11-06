@@ -1,0 +1,21 @@
+{
+  "slug": "wastegrid",
+  "title": "WasteGrid – Smart Waste Collection Optimizer",
+  "topic": "Energy & Infrastructure Batch",
+  "difficulty": "★★★★☆ – routing + ML.",
+  "goal": "Optimize collection schedules based on fill-level data.",
+  "why_it_matters": "Waste trucks follow inefficient routes, wasting fuel.",
+  "users": "Smart-city waste departments.",
+  "data": "Bin fill-sensor readings, truck capacities, road network.",
+  "ai": [
+    "Regression for fill-level prediction.",
+    "Vehicle routing optimization (Dijkstra / Genetic Algorithm)."
+  ],
+  "workflow": [
+    "Collect bin-level data.",
+    "Predict which bins need pickup.",
+    "Generate optimized routes.",
+    "Display map and distance reduction."
+  ],
+  "outcome": "Optimization + sustainability + logistics engineering."
+}

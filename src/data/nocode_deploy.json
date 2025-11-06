@@ -1,0 +1,14 @@
+{
+"steps": [
+{ "id": "setup", "title": "Set up your account", "minutes": 2, "link": "[https://lovable.ai/signup](https://lovable.ai/signup)" },
+{ "id": "choose", "title": "Choose a template", "minutes": 2, "link": "[https://bubble.io/templates](https://bubble.io/templates)" },
+{ "id": "build", "title": "Build your app visually", "minutes": 10 },
+{ "id": "connect", "title": "Connect to data source", "minutes": 3 },
+{ "id": "test", "title": "Test with sample data", "minutes": 5 },
+{ "id": "customize", "title": "Customize app settings", "minutes": 4 },
+{ "id": "integrate", "title": "Integrate with other tools", "minutes": 5, "link": "[https://zapier.com/apps](https://zapier.com/apps)" },
+{ "id": "deploy", "title": "Deploy to the web or app store", "minutes": 3, "link": "[https://vercel.com/docs](https://vercel.com/docs)" },
+{ "id": "share", "title": "Share your app link", "minutes": 1 },
+{ "id": "monitor", "title": "Monitor app usage and feedback", "minutes": 2 }
+]
+}

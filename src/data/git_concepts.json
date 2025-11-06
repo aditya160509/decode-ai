@@ -1,0 +1,22 @@
+[
+  {
+    "term": "Repository",
+    "explain": "A repository stores your project files, tracks changes, and maintains version history. It's the home base for your code."
+  },
+  {
+    "term": "Branch",
+    "explain": "Allows parallel work without conflicts. Create branches to experiment with features without affecting the main codebase."
+  },
+  {
+    "term": "Commit",
+    "explain": "A snapshot of changes with a descriptive message. Think of it as a save point in your project's history."
+  },
+  {
+    "term": "Pull Request",
+    "explain": "Merge code from one branch to another. It's a request to review and integrate your changes into the main project."
+  },
+  {
+    "term": "Merge Conflict",
+    "explain": "Occurs when two edits overlap the same lines of code. Git needs your help to decide which changes to keep."
+  }
+]

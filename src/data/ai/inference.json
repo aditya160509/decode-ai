@@ -1,0 +1,22 @@
+{
+  "steps": [
+    "User submits a prompt",
+    "Model tokenizes input",
+    "Neural network processes tokens in layers",
+    "Model predicts next tokens iteratively",
+    "Tokens join into the final output"
+  ],
+  "tasks": [
+    "Summarization",
+    "Translation",
+    "Image captioning",
+    "Code generation",
+    "Sentiment",
+    "Question answering",
+    "Data extraction",
+    "Classification",
+    "Dialogue",
+    "Math"
+  ],
+  "visual": "Prompt -> internal processing -> output"
+}

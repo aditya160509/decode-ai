@@ -1,0 +1,20 @@
+{
+  "slug": "carbonsaver",
+  "title": "CarbonSaver – Personal Carbon Footprint Calculator",
+  "topic": "Environment & Sustainability Batch",
+  "difficulty": "★★☆☆☆ – mostly logic-based.",
+  "goal": "Provide users with an interactive calculator and personalized reduction plan.",
+  "why_it_matters": "Individuals rarely know their carbon output from travel, food, and utilities.",
+  "users": "Students, offices, eco-clubs.",
+  "data": "Lifestyle questionnaire responses.",
+  "ai": [
+    "Simple rule-based scoring; optional regression for target comparison."
+  ],
+  "workflow": [
+    "Collect lifestyle data (miles driven, diet, energy use).",
+    "Estimate CO₂ equivalent per category.",
+    "Compare against the national average.",
+    "Suggest daily actions and milestones."
+  ],
+  "outcome": "Engaging UI + data ethics showcase; strong for behavioral-change apps."
+}

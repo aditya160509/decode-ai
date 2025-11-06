@@ -1,0 +1,44 @@
+[
+{
+"title": "Personal Portfolio Website",
+"description": "A real working personal portfolio site with motion design, scroll effects, and case studies.",
+"buttonText": "View example →",
+"buttonHref": "https://peteroravec.com/sk/",
+"tags": ["Portfolio", "Personal Site", "Web"]
+},
+{
+"title": "Startup Landing Page",
+"description": "A real startup landing page with hero, product pitch, screenshots, and clear CTA.",
+"buttonText": "View example →",
+"buttonHref": "https://minitap.ai/",
+"tags": ["Startup", "Landing", "SaaS"]
+},
+{
+"title": "Editorial / Longform Story",
+"description": "An interactive longform article layout with scroll-based visuals and storytelling.",
+"buttonText": "View example →",
+"buttonHref": "https://www.quantamagazine.org/how-we-came-to-know-earth-20250915/",
+"tags": ["Editorial", "Story", "Scroll"]
+},
+{
+"title": "E-Commerce Storefront",
+"description": "A real commerce site with product grid, PDP pages, cart, and checkout.",
+"buttonText": "View example →",
+"buttonHref": "https://cancanfurnishings.com/",
+"tags": ["Store", "Shop", "Checkout"]
+},
+{
+"title": "Creative Studio Site",
+"description": "A studio website with showcase work, reels, and high-end visuals.",
+"buttonText": "View example →",
+"buttonHref": "https://www.wearekaleida.com/",
+"tags": ["Studio", "Agency", "Showreel"]
+},
+{
+"title": "Learning / Course Portal",
+"description": "A live education product with lessons, modules, and progress-based access.",
+"buttonText": "View example →",
+"buttonHref": "https://finance-able.com/",
+"tags": ["Learning", "Courses", "Portal"]
+}
+]

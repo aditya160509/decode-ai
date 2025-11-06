@@ -1,0 +1,21 @@
+{
+  "slug": "healthnarrate",
+  "title": "HealthNarrate – AI Medical Report Summarizer",
+  "topic": "Health & Medicine Batch",
+  "difficulty": "★★★★☆ – NLP-heavy, needs accuracy and structure.",
+  "goal": "Summarize long reports into easy, structured summaries with key terms explained.",
+  "why_it_matters": "Patients struggle to interpret dense lab and imaging reports.",
+  "users": "Patients, health tech startups, telemedicine apps.",
+  "data": "Public pathology reports (MIMIC-III subset or synthetic data).",
+  "ai": [
+    "Section extraction and summarization (T5-small / BART-base).",
+    "Entity extraction for medical terms (MedNER / scispaCy)."
+  ],
+  "workflow": [
+    "Upload or paste report text.",
+    "Split by sections (Findings, Impression, Notes).",
+    "Summarize each section into 1–2 simple lines.",
+    "Add definitions for jargon using a glossary."
+  ],
+  "outcome": "Advanced NLP use with social impact; strong ethical focus."
+}

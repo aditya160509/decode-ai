@@ -1,0 +1,38 @@
+{
+  "summarize": [
+    {
+      "id": "research",
+      "title": "AI Research Paper",
+      "text": "Recent advances in transformer architectures have revolutionized natural language processing. Models like GPT-4 and Claude demonstrate unprecedented ability to understand context, generate coherent text, and even reason about complex problems. These developments are built on attention mechanisms that allow models to weigh the importance of different input tokens. The scalability of these models has led to emergent behaviors not explicitly programmed, raising questions about AI capability boundaries.",
+      "output": "Transformer models like GPT-4 use attention mechanisms to understand context and generate text. Their large scale enables emergent reasoning abilities not explicitly programmed, pushing the boundaries of AI capabilities."
+    },
+    {
+      "id": "business",
+      "title": "Business Memo",
+      "text": "Our Q4 performance exceeded expectations across all divisions. Revenue grew 23% year-over-year, driven primarily by our enterprise segment. Customer retention improved to 94%, and we successfully launched three new product lines. However, we face headwinds from increased competition and rising operational costs. The executive team recommends investing heavily in R&D and customer success to maintain our growth trajectory.",
+      "output": "Q4 showed strong 23% revenue growth and 94% retention. Three products launched successfully. Challenges include competition and costs. Recommendation: invest in R&D and customer success."
+    }
+  ],
+  "classify": [
+    {
+      "id": "feedback1",
+      "title": "Customer Feedback",
+      "text": "The new update is absolutely terrible. My app crashes every 5 minutes and I lost all my data. This is completely unacceptable for a paid service!",
+      "output": "Sentiment: Negative | Category: Technical Issue | Urgency: High | Topic: App Stability & Data Loss"
+    },
+    {
+      "id": "feedback2",
+      "title": "Product Review",
+      "text": "I've been using this for two months and it's decent. Does the job but nothing special. The interface could be more intuitive.",
+      "output": "Sentiment: Neutral | Category: Product Feedback | Urgency: Low | Topic: User Experience"
+    }
+  ],
+  "extract": [
+    {
+      "id": "contract",
+      "title": "Contract Clause",
+      "text": "This agreement shall commence on January 15, 2024, and continue for a period of two (2) years. The monthly fee shall be $5,000 USD, payable within 15 days of invoice date. Either party may terminate with 60 days written notice. The primary contact is Sarah Johnson (sarah.j@company.com, +1-555-0123).",
+      "output": "Start Date: January 15, 2024\nDuration: 2 years\nFee: $5,000 USD/month\nPayment Terms: Due within 15 days\nTermination: 60 days notice\nContact: Sarah Johnson, sarah.j@company.com, +1-555-0123"
+    }
+  ]
+}

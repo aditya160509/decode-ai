@@ -1,0 +1,82 @@
+{
+  "Healthcare": [
+    {
+      "name": "MediSummarizer",
+      "desc": "Summarize patient records into digestible reports for doctors.",
+      "difficulty": "Intermediate",
+      "tools": ["GPT-4", "LangChain", "Python"]
+    },
+    {
+      "name": "SymptomChecker",
+      "desc": "AI chatbot for preliminary symptom assessment before doctor visits.",
+      "difficulty": "Advanced",
+      "tools": ["Claude", "React", "Vercel"]
+    },
+    {
+      "name": "DrugInteraction",
+      "desc": "Check medication interactions using NLP on drug databases.",
+      "difficulty": "Intermediate",
+      "tools": ["BioBERT", "FastAPI", "PostgreSQL"]
+    }
+  ],
+  "Finance": [
+    {
+      "name": "SentimentTrader",
+      "desc": "Analyze news sentiment to predict stock movements.",
+      "difficulty": "Advanced",
+      "tools": ["FinBERT", "yFinance", "Streamlit"]
+    },
+    {
+      "name": "ExpenseClassifier",
+      "desc": "Auto-categorize expenses from bank statements using NLP.",
+      "difficulty": "Beginner",
+      "tools": ["spaCy", "Pandas", "Gradio"]
+    },
+    {
+      "name": "FraudDetector",
+      "desc": "Detect anomalous transactions in real-time.",
+      "difficulty": "Advanced",
+      "tools": ["XGBoost", "Kafka", "Docker"]
+    }
+  ],
+  "Agriculture": [
+    {
+      "name": "CropPricePredictor",
+      "desc": "Forecast crop prices using historical data and weather patterns.",
+      "difficulty": "Intermediate",
+      "tools": ["LSTM", "Prophet", "Plotly"]
+    },
+    {
+      "name": "PestIdentifier",
+      "desc": "Image recognition for identifying crop pests and diseases.",
+      "difficulty": "Intermediate",
+      "tools": ["ResNet", "TensorFlow", "React Native"]
+    },
+    {
+      "name": "YieldOptimizer",
+      "desc": "Recommend optimal planting strategies based on soil and climate data.",
+      "difficulty": "Advanced",
+      "tools": ["Random Forest", "Jupyter", "Dash"]
+    }
+  ],
+  "Education": [
+    {
+      "name": "EssayGrader",
+      "desc": "Provide feedback on essays using NLP scoring models.",
+      "difficulty": "Intermediate",
+      "tools": ["BERT", "Flask", "PostgreSQL"]
+    },
+    {
+      "name": "FlashcardGenerator",
+      "desc": "Auto-generate flashcards from textbook chapters.",
+      "difficulty": "Beginner",
+      "tools": ["GPT-3.5", "LangChain", "Next.js"]
+    },
+    {
+      "name": "TutorBot",
+      "desc": "AI tutor that adapts to student learning pace and style.",
+      "difficulty": "Advanced",
+      "tools": ["Claude", "LangGraph", "Supabase"]
+    }
+  ]
+}

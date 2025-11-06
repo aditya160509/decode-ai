@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Portfolio Website Starter",
+    "description": "Prompt to build a polished personal portfolio with interactive project highlights.",
+    "stack": ["Lovable", "Vercel"],
+    "prompt": "Build a professional developer portfolio website with a clean and responsive design. Include a fixed top navbar with smooth scroll links to Home, Projects, About, and Contact sections. The hero section should feature the person’s name, title, and short tagline with a background gradient and animated text reveal. The Projects section should display 4–6 interactive cards with project images, GitHub links, and live demo links. The About section should use a two-column layout for profile picture and bio. Add a working contact form and a dark-themed footer with social icons. Optimize for both desktop and mobile. Make the final output deploy-ready for Vercel."
+  },
+  {
+    "name": "Startup Landing Page",
+    "description": "Prompt for a SaaS landing page with pricing, testimonials, and bright gradients.",
+    "stack": ["Webflow", "Vercel"],
+    "prompt": "Create a sleek startup landing page for a SaaS or tech product. Add a hero section with bold headline, subheading, and two CTA buttons (“Get Started” and “Book a Demo”). Below the hero, include: a three-column feature grid with icons and short descriptions, a pricing table with Free / Pro / Enterprise tiers, and a testimonials carousel showing quotes from users. Add a small FAQ accordion and an email signup field above the footer. Use a light theme with accent gradients, rounded cards, and soft drop shadows. The layout should scroll smoothly, animate on scroll, and be fully responsive on mobile, tablet, and desktop."
+  },
+  {
+    "name": "Product Dashboard UI",
+    "description": "Prompt to create an analytics dashboard with charts, tables, and responsive cards.",
+    "stack": ["Bubble", "Supabase"],
+    "prompt": "Design a functional analytics dashboard with a left sidebar navigation, a top bar with search and user avatar, and a main content area that uses responsive cards and charts. Each metric card should display KPIs like total users, revenue, and growth percentage. Add at least two charts: one line chart showing revenue trend over time and one bar chart for active users. Include a simple “Recent Activity” or “Recent Transactions” table under the charts. Add support for dark mode and light mode with a smooth toggle animation. The layout should collapse the sidebar to icons on smaller screens."
+  },
+  {
+    "name": "Blog / Documentation Site",
+    "description": "Prompt for a documentation-style blog with sidebar navigation and markdown styling.",
+    "stack": ["Framer", "Vercel"],
+    "prompt": "Build a documentation-style blog website with a left sidebar for categories/sections and a main content area for the active article. Include a sticky top search bar and breadcrumbs that show where you are in the doc. Every article page should render: title, author, date, and then nicely formatted markdown-style body content with headings, code blocks, and bullet lists. The sidebar should support nested topics and highlight the active topic while scrolling. At the bottom of each article, include links for “Edit on GitHub” and “Back to Top.” Use a calm, minimal visual style with airy spacing and good reading contrast. Must be fully responsive on mobile and desktop."
+  },
+  {
+    "name": "E-commerce Storefront",
+    "description": "Prompt to build an online storefront with filters, product grid, and polished hero.",
+    "stack": ["Webflow", "Airtable"],
+    "prompt": "Build a modern e-commerce storefront landing page with featured products and basic shopping UI. At the top, include a header with brand logo, search bar, and cart icon. Under that, add a hero banner highlighting a featured product or promo. Below that, show a responsive product grid (6–8 items) with product image, product name, price, and a hover state that reveals either “Add to Cart” or “View Details.” Above the grid, include simple category filter buttons. At the bottom, include a footer with quick links, newsletter signup, and social icons. Use a neutral background, rounded product cards, clean typography, and make sure the layout works on mobile. Final output should be deploy-ready on Vercel."
+  }
+]

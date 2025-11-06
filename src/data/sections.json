@@ -1,0 +1,14 @@
+{
+  "sections": [
+    {
+      "slug": "what_are_agents",
+      "title": "What are AI agents",
+      "body": "An agent receives a goal plans steps acts with tools observes outcomes writes to memory and returns a result. The loop repeats until the goal is met. The core cycle is Think Act Observe Reflect."
+    },
+    {
+      "slug": "tool_study_intro",
+      "title": "Tool study",
+      "body": "Tools expand what agents can do. Study each tool purpose strength ideal use type and how to connect. Load a tool into the Composer to try it in a simple chain."
+    }
+  ]
+}

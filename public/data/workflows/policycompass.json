@@ -1,0 +1,20 @@
+{
+  "slug": "policycompass",
+  "title": "PolicyCompass – Government Performance Tracker",
+  "topic": "Civic & Governance Batch",
+  "difficulty": "★★★☆☆ – data alignment + simple ML scoring.",
+  "goal": "Compare promised vs delivered metrics (education spending, roads built).",
+  "why_it_matters": "Measuring progress on government promises promotes accountability.",
+  "users": "NGOs, journalists, citizens.",
+  "data": "Manifestos, budget utilization reports, official statistics.",
+  "ai": [
+    "Semantic similarity (MiniLM) to match statements with outcomes."
+  ],
+  "workflow": [
+    "Parse promises from manifestos.",
+    "Collect achievement reports.",
+    "Score alignment (fulfilled / partial / unmet).",
+    "Display per-sector summaries."
+  ],
+  "outcome": "Creative, accountability-focused AI application."
+}

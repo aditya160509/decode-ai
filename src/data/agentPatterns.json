@@ -1,0 +1,50 @@
+[
+  {
+    "id": "auto_research",
+    "title": "Auto Research",
+    "description": "Plan gather summarize and reflect",
+    "blocks": [
+      {"type": "goal", "config": {"text": "Research the topic"}},
+      {"type": "planner", "config": {"model": "GPT 5 (medium)"}},
+      {"type": "tool", "config": {"id": "web_scraper", "tool_type": "fetch"}},
+      {"type": "memory", "config": {"length": "short"}},
+      {"type": "reflect", "config": {"passes": 1}},
+      {"type": "output", "config": {"format": "bullets"}}
+    ]
+  },
+  {
+    "id": "code_assistant",
+    "title": "Code Assistant",
+    "description": "Plan write run reflect",
+    "blocks": [
+      {"type": "goal", "config": {"text": "Implement a feature"}},
+      {"type": "planner", "config": {"model": "Claude 4.5 Sonnet"}},
+      {"type": "tool", "config": {"id": "codexgpt", "tool_type": "code"}},
+      {"type": "reflect", "config": {"passes": 1}},
+      {"type": "output", "config": {"format": "diff"}}
+    ]
+  },
+  {
+    "id": "doc_answering",
+    "title": "Document Answering",
+    "description": "Retrieve and answer",
+    "blocks": [
+      {"type": "goal", "config": {"text": "Answer questions from docs"}},
+      {"type": "planner", "config": {"model": "Command R Plus"}},
+      {"type": "memory", "config": {"length": "long"}},
+      {"type": "tool", "config": {"id": "notion", "tool_type": "kb"}},
+      {"type": "output", "config": {"format": "qa"}}
+    ]
+  },
+  {
+    "id": "ops_alerts",
+    "title": "Ops Alerts",
+    "description": "Check and notify",
+    "blocks": [
+      {"type": "goal", "config": {"text": "Watch errors and notify"}},
+      {"type": "planner", "config": {"model": "GPT 5 (fast)"}},
+      {"type": "tool", "config": {"id": "n8n", "tool_type": "webhook"}},
+      {"type": "output", "config": {"format": "json"}}
+    ]
+  }
+]

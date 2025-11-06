@@ -1,0 +1,21 @@
+{
+  "git init": "Initialize a new Git repository in the current directory.",
+  "git clone": "Copy an existing repository from a remote URL into a new folder.",
+  "git status": "Show which files are staged, unstaged, or untracked.",
+  "git add": "Stage a specific file for the next commit.",
+  "git add .": "Stage all modified and untracked files in the current directory.",
+  "git commit": "Record staged changes as a new snapshot in history.",
+  "git commit -m": "Commit staged changes and set the message inline.",
+  "git log --oneline": "View commit history as a concise list.",
+  "git branch": "List, create, or delete branches.",
+  "git checkout": "Switch to another branch or restore files.",
+  "git checkout -b": "Create a new branch and switch to it.",
+  "git merge": "Combine another branch into the current branch.",
+  "git rebase": "Replay commits on top of another base branch.",
+  "git stash": "Temporarily store uncommitted changes.",
+  "git stash pop": "Apply and remove the last stash.",
+  "git tag": "Mark a specific commit with a tag.",
+  "git tag -a": "Create an annotated tag with author and message.",
+  "git reset --soft": "Move HEAD back but keep changes staged.",
+  "git revert": "Create a commit that undoes a previous commit."
+}

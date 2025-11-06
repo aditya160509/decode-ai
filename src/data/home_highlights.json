@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Stock Whisperer",
+    "desc": "Track market sentiment trends using FinBERT for real-time analysis."
+  },
+  {
+    "title": "HealthNarrate",
+    "desc": "Simplify medical reports for patients with AI-powered text transformation."
+  },
+  {
+    "title": "AgriForecast",
+    "desc": "Predict crop price changes using historical data and ML models."
+  }
+]

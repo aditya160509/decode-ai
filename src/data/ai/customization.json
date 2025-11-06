@@ -1,0 +1,26 @@
+{
+  "definitions": [
+    "Fine-tuning: further train a model on task-specific data.",
+    "Prompt-tuning: steer behavior via prompts, not weights.",
+    "Parameter control: temperature etc. to control style/creativity."
+  ],
+  "applications": [
+    "Customer support chatbots",
+    "Tone-specific writing assistants",
+    "Internal knowledge bots",
+    "Medical triage helpers",
+    "Legal analyzers",
+    "Education tutors",
+    "Brand-tailored sentiment analysis",
+    "Recommendations",
+    "Domain-specific code generation",
+    "Multilingual agents",
+    "Creative writing",
+    "Compliance checkers"
+  ],
+  "method_table": [
+    {"method":"Fine-Tuning","data":"High","cost":"High","flexibility":"High","example":"Custom medical chatbot"},
+    {"method":"RAG (Retrieval)","data":"Medium","cost":"Medium","flexibility":"High","example":"Internal knowledge search"},
+    {"method":"Prompt Engineering","data":"Low","cost":"Low","flexibility":"Medium","example":"Formatting outputs"}
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "jobpulse",
+  "title": "JobPulse – Labor Market Analytics",
+  "topic": "Finance, Economics & Employment",
+  "difficulty": "★★★★☆ – web scraping + NLP.",
+  "goal": "Aggregate job postings and analyze skills, roles, and salary changes.",
+  "why_it_matters": "Students need clarity on skills demand and job trends.",
+  "users": "Students, career centers, policy analysts.",
+  "data": "Job listings APIs (LinkedIn, Indeed datasets).",
+  "ai": [
+    "Skill extraction (NER via spaCy or BERT).",
+    "Topic modeling (LDA) for emerging fields."
+  ],
+  "workflow": [
+    "Scrape job data.",
+    "Extract skills and roles.",
+    "Cluster by industry and region.",
+    "Display heatmaps of demand."
+  ],
+  "outcome": "NLP + market intelligence project with clear impact."
+}

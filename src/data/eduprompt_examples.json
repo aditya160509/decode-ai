@@ -1,0 +1,32 @@
+[
+  {
+    "pattern": "Role Prompting",
+    "weak": "Tell me about climate change.",
+    "strong": "You are a climate scientist. Explain climate change impacts to a high school student using clear examples.",
+    "why": "Defines expertise and audience, leading to appropriately tailored responses."
+  },
+  {
+    "pattern": "Goal + Constraints",
+    "weak": "Summarize this article.",
+    "strong": "Summarize this article in 3 bullet points, focusing only on actionable insights. Avoid jargon.",
+    "why": "Specific constraints eliminate ambiguity and ensure useful outputs."
+  },
+  {
+    "pattern": "Stepwise",
+    "weak": "How do I build an API?",
+    "strong": "Break down building a REST API into 5 clear steps. For each step, explain what to do and why.",
+    "why": "Forces structured thinking and makes complex tasks manageable."
+  },
+  {
+    "pattern": "Example-driven",
+    "weak": "Generate product descriptions.",
+    "strong": "Generate product descriptions. Example: 'Wireless headphones: Immerse yourself in crystal-clear sound with 30-hour battery life.' Now do: running shoes.",
+    "why": "Examples show desired format and style, improving consistency."
+  },
+  {
+    "pattern": "Tool-aware",
+    "weak": "Find research papers on neural networks.",
+    "strong": "Search for recent (2023-2024) research papers on neural network optimization. Include DOI links and summarize key findings.",
+    "why": "Acknowledges what the model can/can't do and asks for verifiable information."
+  }
+]

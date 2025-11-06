@@ -1,0 +1,26 @@
+{
+  "quotes": [
+    "AI is the new electricity. — Andrew Ng",
+    "The pace of AI progress is incredibly fast. — Elon Musk",
+    "AI won’t replace people; people using AI will. — Fei-Fei Li",
+    "The future is already here; it’s just unevenly distributed. — William Gibson",
+    "AI amplifies human creativity. — Demis Hassabis",
+    "With great power comes great responsibility — especially in AI. — Timnit Gebru",
+    "AI augments human intelligence. — Yann LeCun",
+    "Ensure AI is aligned with human values. — Dario Amodei",
+    "Transparency and explainability build trust. — Margaret Mitchell",
+    "AI is only as good as its data. — Kate Crawford"
+  ],
+  "stats": [
+    "GPT-4 context window: up to 128k tokens.",
+    "Claude 3 context window: up to 200k tokens.",
+    "Gemini context window: up to ~1M tokens.",
+    "LLMs power 1B+ daily queries.",
+    "Fortune 500 AI adoption >80%.",
+    "Largest open-source LLMs >70B parameters.",
+    "AI-generated content ~15% of web traffic.",
+    "AI translation covers 100+ languages in real time.",
+    "AI in 60%+ of new healthcare apps.",
+    "Training costs down ~50% since 2023."
+  ]
+}

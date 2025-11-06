@@ -1,0 +1,21 @@
+{
+  "slug": "releaf",
+  "title": "ReLeaf – Urban Tree Canopy Analyzer",
+  "topic": "Environment & Sustainability Batch",
+  "difficulty": "★★★★☆ – computer vision + geo-mapping.",
+  "goal": "Use satellite imagery to estimate and track green cover percentages.",
+  "why_it_matters": "Cities need to know how green cover changes over time to plan better.",
+  "users": "Urban planners, geography students.",
+  "data": "Sentinel or Landsat satellite images, open city shapefiles.",
+  "ai": [
+    "Image segmentation (U-Net / NDVI computation).",
+    "Change detection between two time periods."
+  ],
+  "workflow": [
+    "Fetch imagery for chosen area.",
+    "Process NDVI to detect vegetation.",
+    "Compare time intervals for gain/loss.",
+    "Map citywide tree-cover changes."
+  ],
+  "outcome": "Advanced CV + sustainability analysis blend."
+}

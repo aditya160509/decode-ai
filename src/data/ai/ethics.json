@@ -1,0 +1,32 @@
+{
+  "bias_definition": "Bias is unfair outcomes caused by skewed data or design.",
+  "principles": [
+    "Transparency",
+    "Accountability",
+    "Privacy",
+    "Fairness",
+    "Safety",
+    "Inclusivity",
+    "Human oversight",
+    "Explainability",
+    "Security",
+    "Responsible use"
+  ],
+  "examples": [
+    "Face recognition misidentifies people of color",
+    "Hiring AI favors certain groups",
+    "Chatbot repeats stereotypes",
+    "Loan approvals biased by history",
+    "Predictive policing reinforces bias",
+    "Gendered mistranslation",
+    "Biased image search results",
+    "Underdiagnosis for rare conditions"
+  ],
+  "safety_rules": [
+    "Review outputs before acting",
+    "Use diverse, quality data",
+    "Monitor bias/errors",
+    "Protect user privacy",
+    "Explain decisions when possible"
+  ]
+}

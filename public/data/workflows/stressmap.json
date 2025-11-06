@@ -1,0 +1,20 @@
+{
+  "slug": "stressmap",
+  "title": "StressMap – Trigger Heatmap",
+  "topic": "Mental Health Batch",
+  "difficulty": "★★★☆ – requires time-series smoothing + visualization.",
+  "goal": "Generate a heatmap showing stress intensity over days or locations.",
+  "why_it_matters": "Visualizing stress helps learners connect causes with time or place.",
+  "users": "Students managing academic pressure.",
+  "data": "Daily stress rating, optional location tag.",
+  "ai": [
+    "Time-series smoothing; correlation between context and stress."
+  ],
+  "workflow": [
+    "Collect stress logs via simple scale.",
+    "Smooth data with moving averages.",
+    "Identify recurring high-stress slots.",
+    "Display calendar heatmap and contextual suggestions."
+  ],
+  "outcome": "Strong data-viz + mental-health analytics showcase."
+}

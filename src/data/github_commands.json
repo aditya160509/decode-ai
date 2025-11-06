@@ -1,0 +1,177 @@
+[
+  {
+    "command": "git init",
+    "description": "Initializes a new Git repository.",
+    "category": "Setup",
+    "badge": "Beginner",
+    "example_output": "Initialized empty Git repository in /project/.git/"
+  },
+  {
+    "command": "git clone <url>",
+    "description": "Copies a remote repository to your local machine.",
+    "category": "Setup",
+    "badge": "Beginner",
+    "example_output": "Cloning into 'repo'...\nremote: Counting objects..."
+  },
+  {
+    "command": "git status",
+    "description": "Shows changed files and current branch.",
+    "category": "Commit Flow",
+    "badge": "Common",
+    "example_output": "On branch main\nnothing to commit, working tree clean"
+  },
+  {
+    "command": "git add <file>",
+    "description": "Stages changes for the next commit.",
+    "category": "Commit Flow",
+    "badge": "Common",
+    "example_output": "Changes to be committed:\nmodified: README.md"
+  },
+  {
+    "command": "git commit -m \"message\"",
+    "description": "Records staged changes with a message.",
+    "category": "Commit Flow",
+    "badge": "Common",
+    "example_output": "[main 1a2b3c4] Update README\n1 file changed, 2 insertions(+), 1 deletion(-)"
+  },
+  {
+    "command": "git log",
+    "description": "Shows commit history.",
+    "category": "Commit Flow",
+    "badge": "Common",
+    "example_output": "commit 1a2b3c4\nAuthor: user\nDate: ...\nMessage: Update README"
+  },
+  {
+    "command": "git diff",
+    "description": "Displays changes not yet staged.",
+    "category": "Commit Flow",
+    "badge": "Common",
+    "example_output": "diff --git a/README.md b/README.md\n--- a/README.md\n+++ b/README.md"
+  },
+  {
+    "command": "git branch",
+    "description": "Lists all branches in the repository.",
+    "category": "Branching",
+    "badge": "Common",
+    "example_output": "* main\n feature-login"
+  },
+  {
+    "command": "git checkout <branch>",
+    "description": "Switches to the specified branch.",
+    "category": "Branching",
+    "badge": "Common",
+    "example_output": "Switched to branch 'feature-login'"
+  },
+  {
+    "command": "git checkout -b <branch>",
+    "description": "Creates and switches to a new branch.",
+    "category": "Branching",
+    "badge": "Beginner",
+    "example_output": "Switched to a new branch 'feature-x'"
+  },
+  {
+    "command": "git merge <branch>",
+    "description": "Merges another branch into the current branch.",
+    "category": "Branching",
+    "badge": "Safety",
+    "example_output": "Updating 1a2b3c4..5d6e7f8\nFast-forward\nREADME.md | 2 ++"
+  },
+  {
+    "command": "git pull",
+    "description": "Fetches and merges changes from the remote repository.",
+    "category": "Remote",
+    "badge": "Common",
+    "example_output": "Updating 1a2b3c4..5d6e7f8\nFast-forward"
+  },
+  {
+    "command": "git push",
+    "description": "Uploads local commits to the remote repository.",
+    "category": "Remote",
+    "badge": "Common",
+    "example_output": "Counting objects: 5, done.\nWriting objects: 100%"
+  },
+  {
+    "command": "git remote -v",
+    "description": "Shows remote repository URLs.",
+    "category": "Remote",
+    "badge": "Beginner",
+    "example_output": "origin [https://github.com/user/repo.git](https://github.com/user/repo.git) (fetch)\norigin [https://github.com/user/repo.git](https://github.com/user/repo.git) (push)"
+  },
+  {
+    "command": "git reset --soft HEAD~1",
+    "description": "Undoes the last commit, keeping changes staged.",
+    "category": "Commit Flow",
+    "badge": "Safety",
+    "example_output": "Uncommitted changes remain in the working directory."
+  },
+  {
+    "command": "git stash",
+    "description": "Temporarily saves changes not yet committed.",
+    "category": "Commit Flow",
+    "badge": "Safety",
+    "example_output": "Saved working directory and index state WIP on main: 1a2b3c4 Update README"
+  },
+  {
+    "command": "git stash pop",
+    "description": "Restores stashed changes.",
+    "category": "Commit Flow",
+    "badge": "Safety",
+    "example_output": "On branch main\nChanges applied"
+  },
+  {
+    "command": "git tag <name>",
+    "description": "Creates a tag at the current commit.",
+    "category": "Commit Flow",
+    "badge": "Beginner",
+    "example_output": ""
+  },
+  {
+    "command": "git fetch",
+    "description": "Downloads changes from the remote without merging.",
+    "category": "Remote",
+    "badge": "Common",
+    "example_output": "From github.com:user/repo\n* [new branch] feature-x -> origin/feature-x"
+  },
+  {
+    "command": "git rm <file>",
+    "description": "Removes a file from the repository.",
+    "category": "Commit Flow",
+    "badge": "Common",
+    "example_output": "rm 'oldfile.txt'"
+  },
+  {
+    "command": "git revert <commit>",
+    "description": "Creates a new commit that undoes changes from a previous commit.",
+    "category": "Commit Flow",
+    "badge": "Safety",
+    "example_output": "[main 9f8e7d6] Revert 'Update README'"
+  },
+  {
+    "command": "git cherry-pick <commit>",
+    "description": "Applies changes from a specific commit to the current branch.",
+    "category": "Branching",
+    "badge": "Advanced",
+    "example_output": "[feature-x 2b3c4d5] Cherry-picked commit"
+  },
+  {
+    "command": "git show <commit>",
+    "description": "Displays details about a specific commit.",
+    "category": "Commit Flow",
+    "badge": "Common",
+    "example_output": "commit 1a2b3c4\nAuthor: user\nDate: ...\nMessage: Update README"
+  },
+  {
+    "command": "git config --global user.name \"Name\"",
+    "description": "Sets your global Git username.",
+    "category": "Setup",
+    "badge": "Beginner",
+    "example_output": ""
+  },
+  {
+    "command": "git config --global user.email \"[email@example.com](mailto:email@example.com)\"",
+    "description": "Sets your global Git email.",
+    "category": "Setup",
+    "badge": "Beginner",
+    "example_output": ""
+  }
+]

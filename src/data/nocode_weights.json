@@ -1,0 +1,14 @@
+{
+"weights": { "require": 1000, "prefer": 8, "adds": 5, "avoid": -6 },
+"penalties": {
+"needs_free_gpu_but_tool_has_none": -25,
+"needs_custom_domain_but_tool_lacks": -20,
+"private_required_but_only_public": -30,
+"mobile_required_but_tool_is_web_only": -25
+},
+"combo_rules": [
+{ "if": ["builder:Lovable"], "then_add": ["hosting:Vercel","hosting:Netlify"] },
+{ "if": ["python_app:Streamlit","hosting:Vercel"], "then_penalize": ["python_on_vercel_is_complex"] },
+{ "if": ["database:Supabase"], "then_add": ["hosting:Vercel"] }
+]
+}

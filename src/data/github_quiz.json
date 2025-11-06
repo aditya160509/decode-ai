@@ -1,0 +1,92 @@
+[
+  {
+    "question": "What command initializes a new Git repository?",
+    "options": ["git start", "git init", "git new", "git create"],
+    "correct": "git init",
+    "explanation": "git init sets up a new repository in the current directory."
+  },
+  {
+    "question": "Which command stages changes for commit?",
+    "options": ["git add", "git push", "git log", "git branch"],
+    "correct": "git add",
+    "explanation": "git add moves changes to the staging area."
+  },
+  {
+    "question": "What is a branch in Git?",
+    "options": ["A backup copy", "A separate line of development", "A commit message", "A remote repository"],
+    "correct": "A separate line of development",
+    "explanation": "Branches allow parallel work on different features."
+  },
+  {
+    "question": "How do you view commit history?",
+    "options": ["git log", "git status", "git show", "git branch"],
+    "correct": "git log",
+    "explanation": "git log lists all previous commits."
+  },
+  {
+    "question": "Which command merges another branch into the current branch?",
+    "options": ["git merge", "git pull", "git add", "git clone"],
+    "correct": "git merge",
+    "explanation": "git merge combines changes from two branches."
+  },
+  {
+    "question": "What does git clone do?",
+    "options": ["Deletes a repo", "Copies a remote repo locally", "Creates a branch", "Shows commit history"],
+    "correct": "Copies a remote repo locally",
+    "explanation": "git clone downloads a repository to your computer."
+  },
+  {
+    "question": "How do you switch to a different branch?",
+    "options": ["git switch", "git checkout", "git branch", "git push"],
+    "correct": "git checkout",
+    "explanation": "git checkout <branch> changes your working branch."
+  },
+  {
+    "question": "What is a pull request?",
+    "options": ["A request to delete a branch", "A proposal to merge changes", "A way to clone a repo", "A commit message"],
+    "correct": "A proposal to merge changes",
+    "explanation": "Pull requests let others review your changes before merging."
+  },
+  {
+    "question": "How do you resolve a merge conflict?",
+    "options": ["Ignore it", "Edit files manually", "Delete the repo", "Push again"],
+    "correct": "Edit files manually",
+    "explanation": "Conflicts require manual editing and committing."
+  },
+  {
+    "question": "Which command uploads local commits to GitHub?",
+    "options": ["git push", "git pull", "git add", "git commit"],
+    "correct": "git push",
+    "explanation": "git push sends your commits to the remote repository."
+  },
+  {
+    "question": "What does git status show?",
+    "options": ["Current branch and file changes", "Commit history", "Remote URLs", "Tags"],
+    "correct": "Current branch and file changes",
+    "explanation": "git status displays your working directory status."
+  },
+  {
+    "question": "How do you temporarily save changes not yet committed?",
+    "options": ["git stash", "git reset", "git tag", "git show"],
+    "correct": "git stash",
+    "explanation": "git stash stores your changes for later."
+  },
+  {
+    "question": "What is the staging area?",
+    "options": ["Where files are deleted", "Where changes are prepared for commit", "A remote repository", "A branch"],
+    "correct": "Where changes are prepared for commit",
+    "explanation": "The staging area holds files before committing."
+  },
+  {
+    "question": "How do you create a new branch and switch to it?",
+    "options": ["git branch <name>", "git checkout -b <name>", "git merge <name>", "git clone <name>"],
+    "correct": "git checkout -b <name>",
+    "explanation": "git checkout -b creates and switches to a new branch."
+  },
+  {
+    "question": "What does git remote -v display?",
+    "options": ["Commit history", "Remote repository URLs", "Branch list", "Staged files"],
+    "correct": "Remote repository URLs",
+    "explanation": "git remote -v shows where your repo is hosted."
+  }
+]

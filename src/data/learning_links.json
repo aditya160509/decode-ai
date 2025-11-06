@@ -1,0 +1,106 @@
+{
+  "GitHub": [
+    {
+      "title": "Git & GitHub for Beginners",
+      "type": "Video",
+      "url": "https://www.youtube.com/watch?v=RGOj5yH7evk",
+      "duration": "1h 9m"
+    },
+    {
+      "title": "GitHub Docs - Quickstart",
+      "type": "Documentation",
+      "url": "https://docs.github.com/en/get-started/quickstart",
+      "duration": "15m read"
+    },
+    {
+      "title": "Advanced Git Tutorial",
+      "type": "Video",
+      "url": "https://www.youtube.com/watch?v=qsTthZi23VE",
+      "duration": "52m"
+    },
+    {
+      "title": "GitHub Skills - Interactive Learning",
+      "type": "Interactive",
+      "url": "https://skills.github.com/",
+      "duration": "Self-paced"
+    }
+  ],
+  "AI": [
+    {
+      "title": "Neural Networks Explained",
+      "type": "Video",
+      "url": "https://www.youtube.com/watch?v=aircAruvnKk",
+      "duration": "19m"
+    },
+    {
+      "title": "Hugging Face Course",
+      "type": "Course",
+      "url": "https://huggingface.co/learn/nlp-course",
+      "duration": "10 hours"
+    },
+    {
+      "title": "LLM Fundamentals",
+      "type": "Video",
+      "url": "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+      "duration": "1h 15m"
+    },
+    {
+      "title": "Fast.ai Practical Deep Learning",
+      "type": "Course",
+      "url": "https://course.fast.ai/",
+      "duration": "7 weeks"
+    }
+  ],
+  "Prompting": [
+    {
+      "title": "Prompt Engineering Guide",
+      "type": "Documentation",
+      "url": "https://www.promptingguide.ai/",
+      "duration": "2h read"
+    },
+    {
+      "title": "OpenAI Best Practices",
+      "type": "Documentation",
+      "url": "https://platform.openai.com/docs/guides/prompt-engineering",
+      "duration": "30m read"
+    },
+    {
+      "title": "Advanced Prompting Techniques",
+      "type": "Video",
+      "url": "https://www.youtube.com/watch?v=T9aRN5JkmL8",
+      "duration": "45m"
+    },
+    {
+      "title": "Anthropic Prompt Engineering",
+      "type": "Documentation",
+      "url": "https://docs.anthropic.com/claude/docs/prompt-engineering",
+      "duration": "45m read"
+    }
+  ],
+  "No-Code": [
+    {
+      "title": "Building with Lovable",
+      "type": "Tutorial",
+      "url": "https://lovable.dev/docs",
+      "duration": "1h"
+    },
+    {
+      "title": "Vercel Deployment Guide",
+      "type": "Documentation",
+      "url": "https://vercel.com/docs",
+      "duration": "20m read"
+    },
+    {
+      "title": "Hugging Face Spaces Tutorial",
+      "type": "Video",
+      "url": "https://www.youtube.com/watch?v=3bSVKNKb_PY",
+      "duration": "12m"
+    },
+    {
+      "title": "Google Colab Tips & Tricks",
+      "type": "Tutorial",
+      "url": "https://colab.research.google.com/",
+      "duration": "30m"
+    }
+  ]
+}

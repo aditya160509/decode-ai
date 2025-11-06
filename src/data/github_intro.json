@@ -1,0 +1,21 @@
+{
+  "intro_text": "GitHub is essential for students, developers, and beginners because it enables collaborative coding, tracks every change, and builds skills valued by employers. Mastering GitHub means you can work on real projects, contribute to open source, and manage your code with confidence.",
+  "quick_start": [
+    {
+      "title": "Set up GitHub Desktop",
+      "url": "[https://desktop.github.com/](https://desktop.github.com/)"
+    },
+    {
+      "title": "Create First Repo",
+      "url": "[https://docs.github.com/en/get-started/quickstart/create-a-repo](https://docs.github.com/en/get-started/quickstart/create-a-repo)"
+    },
+    {
+      "title": "Learn Git in 10 Minutes",
+      "url": "[https://www.youtube.com/watch?v=USjZcfj8yxE](https://www.youtube.com/watch?v=USjZcfj8yxE)"
+    },
+    {
+      "title": "Understand Pull Requests",
+      "url": "[https://www.youtube.com/watch?v=rgbCcBNZcdQ](https://www.youtube.com/watch?v=rgbCcBNZcdQ)"
+    }
+  ]
+}

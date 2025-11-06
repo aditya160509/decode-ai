@@ -1,0 +1,40 @@
+{
+  "merge_conflict": {
+    "expected": [
+      "git merge feature/conflict",
+      "git status",
+      "git add src/App.tsx",
+      "git commit -m \"fix conflict\""
+    ],
+    "commonMistakes": [
+      { "wrong": "git merge", "hint": "Specify the branch. Try git merge feature/conflict" },
+      { "wrong": "git add .", "hint": "Stage only the resolved file. Try git add src/App.tsx" }
+    ]
+  },
+  "stash_work": {
+    "expected": ["git stash", "git checkout main", "git stash pop"],
+    "commonMistakes": [
+      { "wrong": "git stash save", "hint": "Use git stash directly" },
+      { "wrong": "git stash apply", "hint": "Use git stash pop to apply and remove it" }
+    ]
+  },
+  "rebase_practice": {
+    "expected": ["git rebase main", "git rebase --continue"],
+    "commonMistakes": [
+      { "wrong": "git merge main", "hint": "Use git rebase main for a clean history" },
+      { "wrong": "git rebase", "hint": "Specify the branch. Try git rebase main" }
+    ]
+  },
+  "tag_release": {
+    "expected": ["git tag -a v1.0 -m \"release\"", "git show v1.0"],
+    "commonMistakes": [
+      { "wrong": "git tag v1.0", "hint": "Create an annotated tag with -a and a message" }
+    ]
+  },
+  "undo_commit": {
+    "expected": ["git reset --soft HEAD~1", "git commit -m \"fix\""],
+    "commonMistakes": [
+      { "wrong": "git reset HEAD~1", "hint": "Use --soft to keep changes staged" }
+    ]
+  }
+}

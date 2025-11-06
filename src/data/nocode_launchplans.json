@@ -1,0 +1,14 @@
+{
+"templates": [
+  { "id": "prototype_7days", "title": "7-day Prototype", "horizon_days": 7, "task_scale": 0.8 },
+  { "id": "pilot_30days", "title": "30-day Pilot", "horizon_days": 30, "task_scale": 1.0 },
+  { "id": "production_90days", "title": "90-day Production", "horizon_days": 90, "task_scale": 1.4 }
+],
+"role_presets": [
+  { "size": 1, "roles": ["Owner"] },
+  { "size": 2, "roles": ["Owner","Dev"] },
+  { "size": 3, "roles": ["Owner","Dev","Designer"] },
+  { "size": 4, "roles": ["Owner","Dev","Designer","QA"] },
+  { "size": 5, "roles": ["Owner","Dev","Designer","QA","PM"] }
+]
+}

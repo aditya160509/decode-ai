@@ -1,0 +1,21 @@
+{
+  "slug": "druglens",
+  "title": "DrugLens – Medicine Side-Effect Finder",
+  "topic": "Health & Medicine Batch",
+  "difficulty": "★★★☆☆ – relational data + NER.",
+  "goal": "Identify and explain possible drug conflicts or side effects.",
+  "why_it_matters": "Patients mix medications unaware of interactions.",
+  "users": "Pharmacists, medical students, patients.",
+  "data": "DrugBank / openFDA API (free).",
+  "ai": [
+    "Entity matching for drug names.",
+    "Rule-based conflict detection."
+  ],
+  "workflow": [
+    "User inputs drug list.",
+    "Match against known contraindications.",
+    "Show risk categories and safer alternatives.",
+    "Provide side-effect summaries."
+  ],
+  "outcome": "Demonstrates safety-critical data logic and health tech integration."
+}

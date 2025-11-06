@@ -1,0 +1,21 @@
+{
+  "slug": "agropredict",
+  "title": "AgroPredict – Smart Crop Advisor",
+  "topic": "Environment & Sustainability Batch",
+  "difficulty": "★★★★☆ – machine learning regression/classification.",
+  "goal": "Predict optimal crop and fertilizer based on soil and weather conditions.",
+  "why_it_matters": "Farmers lose yield due to unpredictable weather and poor input choices.",
+  "users": "Agriculture departments, students.",
+  "data": "Soil data (NPK, pH), rainfall, temperature, crop yield datasets.",
+  "ai": [
+    "RandomForest classifier for best crop.",
+    "Regression for yield prediction."
+  ],
+  "workflow": [
+    "Input soil + region details.",
+    "Fetch the weather forecast.",
+    "Predict best crop options and fertilizer suggestions.",
+    "Display yield expectations."
+  ],
+  "outcome": "Applied ML + agri-data fusion; highly demonstrable project."
+}

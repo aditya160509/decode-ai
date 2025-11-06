@@ -1,0 +1,21 @@
+{
+  "slug": "smartgridmap",
+  "title": "SmartGridMap – Renewable Energy Planner",
+  "topic": "Energy & Infrastructure Batch",
+  "difficulty": "★★★★☆ – geospatial + regression.",
+  "goal": "Identify optimal renewable energy installation spots.",
+  "why_it_matters": "Urban areas need localized solar/wind feasibility mapping.",
+  "users": "Planners, sustainability NGOs.",
+  "data": "Solar irradiation, wind speed, land-use maps.",
+  "ai": [
+    "Regression to compute site suitability.",
+    "Clustering for high-potential zones."
+  ],
+  "workflow": [
+    "Merge satellite and weather data.",
+    "Score zones by sunlight, wind, land type.",
+    "Visualize feasibility map.",
+    "Suggest top 5 installation sites."
+  ],
+  "outcome": "Geo-AI + sustainability synergy."
+}

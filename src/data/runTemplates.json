@@ -1,0 +1,22 @@
+{
+  "teacher": [
+    "This configuration runs smoothly for classroom agents.",
+    "Latency is predictable which is good for student demos.",
+    "This setup keeps memory modest so costs remain low."
+  ],
+  "engineer": [
+    "This setup balances depth and cost for development.",
+    "Tool calls add overhead so keep tool count controlled.",
+    "This is a good base for code related agents."
+  ],
+  "ops": [
+    "High concurrency increases latency.",
+    "Use a lower cost model for automation to control monthly spend.",
+    "Consider smaller prompt sizes for frequent runs."
+  ],
+  "student": [
+    "This setup is affordable for learning.",
+    "Short memory is enough for basic practice.",
+    "You can switch to a bigger model only when needed."
+  ]
+}

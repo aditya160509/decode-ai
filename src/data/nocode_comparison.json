@@ -1,0 +1,12 @@
+[
+{ "feature": "Drag-and-drop UI", "Lovable": "✅", "Hugging Face Spaces": "❌", "Google Colab": "❌", "Vercel": "❌", "Bubble": "✅", "Glide": "✅", "Zapier": "✅", "Peltarion": "✅", "Appgyver": "✅", "Power Apps": "✅" },
+{ "feature": "Free GPU access", "Lovable": "⚠️", "Hugging Face Spaces": "✅", "Google Colab": "✅", "Vercel": "❌", "Bubble": "❌", "Glide": "❌", "Zapier": "❌", "Peltarion": "✅", "Appgyver": "❌", "Power Apps": "❌" },
+{ "feature": "Custom domains", "Lovable": "❌", "Hugging Face Spaces": "❌", "Google Colab": "❌", "Vercel": "✅", "Bubble": "✅", "Glide": "✅", "Zapier": "❌", "Peltarion": "❌", "Appgyver": "✅", "Power Apps": "✅" },
+{ "feature": "One-click deploy", "Lovable": "✅", "Hugging Face Spaces": "✅", "Google Colab": "❌", "Vercel": "✅", "Bubble": "✅", "Glide": "✅", "Zapier": "✅", "Peltarion": "✅", "Appgyver": "✅", "Power Apps": "✅" },
+{ "feature": "Python support", "Lovable": "❌", "Hugging Face Spaces": "✅", "Google Colab": "✅", "Vercel": "✅", "Bubble": "❌", "Glide": "❌", "Zapier": "❌", "Peltarion": "✅", "Appgyver": "❌", "Power Apps": "❌" },
+{ "feature": "Public sharing", "Lovable": "✅", "Hugging Face Spaces": "✅", "Google Colab": "✅", "Vercel": "✅", "Bubble": "✅", "Glide": "✅", "Zapier": "✅", "Peltarion": "✅", "Appgyver": "✅", "Power Apps": "✅" },
+{ "feature": "Private projects", "Lovable": "⚠️", "Hugging Face Spaces": "⚠️", "Google Colab": "✅", "Vercel": "✅", "Bubble": "✅", "Glide": "✅", "Zapier": "✅", "Peltarion": "✅", "Appgyver": "✅", "Power Apps": "✅" },
+{ "feature": "App templates", "Lovable": "✅", "Hugging Face Spaces": "✅", "Google Colab": "❌", "Vercel": "✅", "Bubble": "✅", "Glide": "✅", "Zapier": "✅", "Peltarion": "✅", "Appgyver": "✅", "Power Apps": "✅" },
+{ "feature": "Team collaboration", "Lovable": "✅", "Hugging Face Spaces": "✅", "Google Colab": "✅", "Vercel": "✅", "Bubble": "✅", "Glide": "✅", "Zapier": "✅", "Peltarion": "✅", "Appgyver": "✅", "Power Apps": "✅" },
+{ "feature": "API integration", "Lovable": "✅", "Hugging Face Spaces": "✅", "Google Colab": "✅", "Vercel": "✅", "Bubble": "✅", "Glide": "✅", "Zapier": "✅", "Peltarion": "✅", "Appgyver": "✅", "Power Apps": "✅" }
+]

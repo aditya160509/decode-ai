@@ -1,0 +1,27 @@
+{
+  "strengths": [
+    "Processes huge datasets quickly",
+    "Learns complex patterns",
+    "Automates repetitive work",
+    "Available 24/7",
+    "Generates creative outputs"
+  ],
+  "limitations": [
+    "Can be incorrect/biased",
+    "Needs quality data",
+    "Lacks true understanding",
+    "Compute/costly to run",
+    "Struggles with ambiguity"
+  ],
+  "scenarios_strong": [
+    "Spam filtering at scale",
+    "Instant translation",
+    "Generative art/music"
+  ],
+  "scenarios_limit": [
+    "Rare medical cases misclassified",
+    "Outdated/wrong advice",
+    "Fails at sarcasm/nuance"
+  ],
+  "quote": "AI is a powerful tool, not a perfect oracle. Double-check critical outputs."
+}

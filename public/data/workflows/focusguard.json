@@ -1,0 +1,20 @@
+{
+  "slug": "focusguard",
+  "title": "FocusGuard – Distraction Log",
+  "topic": "Mental Health Batch",
+  "difficulty": "★★★☆ – introduces clustering and text analysis.",
+  "goal": "Identify top 3 distraction triggers and propose realistic counter-measures.",
+  "why_it_matters": "Productivity drops when students don’t know what distracts them most.",
+  "users": "Students, focus-training communities.",
+  "data": "Short notes on distractions, optional tags (“phone”, “noise”).",
+  "ai": [
+    "TF-IDF / spaCy keyword clustering.",
+    "Pareto ranking to show top 20% triggers causing 80% loss."
+  ],
+  "workflow": [
+    "One-click “Log distraction” widget collects short notes.",
+    "Texts clustered and visualized as a Pareto chart.",
+    "App suggests targeted fixes (e.g., silent hours, focus playlist)."
+  ],
+  "outcome": "Combines NLP + visualization + behavioral insights elegantly."
+}

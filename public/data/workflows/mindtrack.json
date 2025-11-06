@@ -1,0 +1,22 @@
+{
+  "slug": "mindtrack",
+  "title": "MindTrack – Mood & Habit Journal",
+  "topic": "Mental Health Batch",
+  "difficulty": "★★☆☆ – requires data cleaning, trend logic, and simple visualization.",
+  "goal": "Let students log mood, sleep, and study habits, then visualize correlations between lifestyle and productivity.",
+  "why_it_matters": "Many students burn out silently; daily reflection helps them notice patterns before stress escalates.",
+  "users": "Students, peer mentors, counselors.",
+  "data": "Mood (1–5 scale), hours slept, study duration, brief notes.",
+  "ai": [
+    "Rolling average + z-score spike detection to highlight anomalies.",
+    "Keyword extraction (spaCy small) to tag recurring stressors."
+  ],
+  "workflow": [
+    "Daily input form captures mood, hours, notes.",
+    "Normalization and plotting engine builds weekly graphs.",
+    "AI module detects mood dips or repeated stress words.",
+    "Insight cards explain trends in friendly language.",
+    "Student receives a reflection summary at week’s end."
+  ],
+  "outcome": "Demonstrates applied analytics + lightweight NLP with clean UI storytelling."
+}

@@ -1,0 +1,48 @@
+{
+  "scoring": {
+    "global": {
+      "startScore": 100,
+      "emptyAnswerScore": 0,
+      "copyIdealCap": 85,
+      "lengthTooShortRatio": 0.3,
+      "lengthTooShortPenalty": 25,
+      "lengthTooLongRatio": 2.5,
+      "lengthTooLongPenalty": 10,
+      "clampMin": 0,
+      "clampMax": 100
+    },
+    "summarize": {
+      "mustMentionMainSubjectPenalty": 20,
+      "mustKeepKeyConstraintPenalty": 15,
+      "noNewFactsPenalty": 10,
+      "clarityPenalty": 10
+    },
+    "rewrite": {
+      "keepTargetTonePenalty": 20,
+      "keepSpellingPenalty": 10,
+      "meaningChangedPenalty": 15,
+      "rudeTonePenalty": 10
+    },
+    "proofread": {
+      "perErrorPenalty": 5,
+      "maxErrorPenalty": 25,
+      "overRewriteMin": 5,
+      "overRewriteMax": 10,
+      "noCapitalizationPenalty": 5
+    },
+    "explain_code": {
+      "purposeBonus": 10,
+      "inputsOutputsBonus": 10,
+      "lineByLineBonus": 10,
+      "tooVaguePenalty": 25,
+      "inventedBehaviorPenalty": 15
+    },
+    "labels": [
+      { "min": 90, "max": 100, "label": "Excellent" },
+      { "min": 75, "max": 89, "label": "Strong" },
+      { "min": 60, "max": 74, "label": "Decent" },
+      { "min": 0,  "max": 59, "label": "Needs work" }
+    ],
+    "pseudo": "score = startScore - globalPenalties - taskPenalties + taskBonuses; clamp 0..100; map to label"
+  }
+}

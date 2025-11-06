@@ -1,0 +1,21 @@
+{
+  "slug": "opentender",
+  "title": "OpenTender – Procurement Transparency Tool",
+  "topic": "Civic & Governance Batch",
+  "difficulty": "★★★★☆ – advanced anomaly detection.",
+  "goal": "Detect anomalies in government procurement data.",
+  "why_it_matters": "Public contracts often lack scrutiny; this project exposes bidding fairness.",
+  "users": "Watchdogs, NGOs, civic technologists.",
+  "data": "Tender announcements, bids, contractor records (World Bank, Open Contracting Data Standard).",
+  "ai": [
+    "Outlier detection in bid amounts and timelines.",
+    "Entity resolution for contractor tracking."
+  ],
+  "workflow": [
+    "Collect procurement CSVs.",
+    "Detect duplicate or suspicious entries.",
+    "Visualize anomalies with explanations.",
+    "Summarize top risk projects per region."
+  ],
+  "outcome": "High-impact data ethics + ML governance case."
+}

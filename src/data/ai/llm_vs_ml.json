@@ -1,0 +1,34 @@
+{
+  "definitions": {
+    "llm": "Large Language Model: trained on vast text data to understand and generate human-like language.",
+    "ml": "Traditional Machine Learning: algorithms that learn from structured data for specific tasks."
+  },
+  "differences": [
+    "LLMs use massive unstructured datasets; traditional ML uses structured, labeled data.",
+    "LLMs adapt to many tasks with prompts; traditional ML is often single-task.",
+    "LLMs use deep nets with billions of parameters; ML models are smaller (trees, SVMs).",
+    "LLMs excel at language/generation; ML is best for well-defined prediction problems."
+  ],
+  "comparisons": [
+    "LLM: chatbot that answers any question; ML: spam filter for emails.",
+    "LLM: summarizes articles; ML: predicts house prices.",
+    "LLM: writes code from a prompt; ML: classifies handwritten digits.",
+    "LLM: translates languages; ML: detects credit card fraud.",
+    "LLM: generates creative stories; ML: recommends products.",
+    "LLM: answers medical questions; ML: diagnoses from X-rays.",
+    "LLM: analyzes contracts; ML: segments customers.",
+    "LLM: tutors students; ML: predicts stock prices.",
+    "LLM: extracts insights from text; ML: recognizes faces.",
+    "LLM: composes emails; ML: detects anomalies in sensors."
+  ],
+  "llm_outperform": [
+    "Open-ended Q&A",
+    "Multi-tasking",
+    "Text/code generation",
+    "Rapid domain adaptation"
+  ],
+  "visual_ideas": [
+    "Table comparing data, adaptability, scope.",
+    "Diagram: LLM (big, flexible) vs ML (small, task-specific)."
+  ]
+}

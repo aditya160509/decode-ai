@@ -1,0 +1,155 @@
+{
+  "header": "Your quick reference for mastering Git commands grouped by purpose and difficulty.",
+  "clusters": [
+    {
+      "title": "Initialization & Setup",
+      "commands": [
+        "git init",
+        "git clone",
+        "git config --global user.name",
+        "git config --global user.email",
+        "git help",
+        "git config --list",
+        "git config --global core.editor",
+        "git config --global color.ui auto",
+        "git version",
+        "git config --global alias.co checkout"
+      ]
+    },
+    {
+      "title": "Staging & Committing",
+      "commands": [
+        "git add",
+        "git commit -m",
+        "git status",
+        "git diff",
+        "git reset --soft HEAD~1",
+        "git rm",
+        "git add -A",
+        "git commit --amend",
+        "git reset HEAD <file>",
+        "git mv"
+      ]
+    },
+    {
+      "title": "Branching & Navigation",
+      "commands": [
+        "git branch",
+        "git checkout",
+        "git checkout -b",
+        "git switch",
+        "git merge",
+        "git log --oneline",
+        "git branch -d",
+        "git branch -m",
+        "git show-branch",
+        "git reflog"
+      ]
+    },
+    {
+      "title": "Remote Repositories",
+      "commands": [
+        "git remote -v",
+        "git fetch",
+        "git pull",
+        "git push",
+        "git push --set-upstream origin <branch>",
+        "git remote add origin <url>",
+        "git remote remove origin",
+        "git remote rename",
+        "git remote show origin",
+        "git push origin --delete <branch>"
+      ]
+    },
+    {
+      "title": "Undoing & Fixing Mistakes",
+      "commands": [
+        "git revert",
+        "git reset --hard",
+        "git restore",
+        "git stash",
+        "git stash pop",
+        "git clean -fd",
+        "git reset --mixed",
+        "git checkout -- <file>",
+        "git reflog",
+        "git cherry-pick --abort"
+      ]
+    },
+    {
+      "title": "Merging & Conflicts",
+      "commands": [
+        "git merge --no-ff",
+        "git mergetool",
+        "git diff --merge",
+        "git rebase",
+        "git rebase --continue",
+        "git rebase --abort",
+        "git merge --abort",
+        "git log --graph",
+        "git diff <branch1>..<branch2>",
+        "git rerere"
+      ]
+    },
+    {
+      "title": "Tagging & Releases",
+      "commands": [
+        "git tag",
+        "git tag -a v1.0 -m 'release'",
+        "git show <tag>",
+        "git push origin --tags",
+        "git tag -d <tag>",
+        "git tag -l",
+        "git describe",
+        "git checkout <tag>",
+        "git tag -a",
+        "git tag --delete"
+      ]
+    },
+    {
+      "title": "Inspection & Logs",
+      "commands": [
+        "git show",
+        "git log",
+        "git blame",
+        "git shortlog",
+        "git reflog",
+        "git log --stat",
+        "git log --patch",
+        "git log --author",
+        "git log --since=1.week",
+        "git log --grep"
+      ]
+    },
+    {
+      "title": "Collaboration & PR Support",
+      "commands": [
+        "git fetch origin",
+        "git merge origin/main",
+        "git pull request",
+        "git push origin feature-x",
+        "git diff HEAD~1 HEAD",
+        "git cherry-pick",
+        "git push --force",
+        "git pull --rebase",
+        "git fetch --prune",
+        "git push --tags"
+      ]
+    },
+    {
+      "title": "Advanced & Safety Tools",
+      "commands": [
+        "git bisect",
+        "git cherry-pick",
+        "git archive",
+        "git submodule update --init",
+        "git gc",
+        "git fsck",
+        "git filter-branch",
+        "git notes",
+        "git worktree",
+        "git bundle"
+      ]
+    }
+  ]
+}

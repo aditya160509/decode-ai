@@ -1,0 +1,12 @@
+[
+{ "title": "Test before deploying", "tip": "Always run your app with sample data to catch errors early." },
+{ "title": "Document your workflow", "tip": "Add clear instructions and comments for future users." },
+{ "title": "Keep projects organized", "tip": "Use folders and naming conventions for easy management." },
+{ "title": "Monitor usage", "tip": "Check app stats to spot issues and plan upgrades." },
+{ "title": "Update regularly", "tip": "Keep dependencies and models up to date." },
+{ "title": "Limit sensitive data", "tip": "Avoid uploading private info to public projects." },
+{ "title": "Use templates", "tip": "Start with proven templates to save time." },
+{ "title": "Check platform limits", "tip": "Know free tier restrictions before scaling up." },
+{ "title": "Collaborate smartly", "tip": "Assign roles and use team features for group projects." },
+{ "title": "Backup your work", "tip": "Export projects or code regularly to avoid data loss." }
+]

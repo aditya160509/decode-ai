@@ -1,0 +1,21 @@
+{
+  "slug": "microinvest",
+  "title": "MicroInvest – Community Investment Simulator",
+  "topic": "Finance, Economics & Employment",
+  "difficulty": "★★★☆☆ – simulation logic.",
+  "goal": "Gamify micro-investment learning with realistic returns and risk scenarios.",
+  "why_it_matters": "Many communities lack accessible tools for impact investing education.",
+  "users": "Students, non-profits, finance clubs.",
+  "data": "Market indices, bond and ETF returns.",
+  "ai": [
+    "Monte Carlo simulation for portfolio returns.",
+    "Reinforcement logic for learning risk trade-offs."
+  ],
+  "workflow": [
+    "Initialize virtual capital.",
+    "Choose assets and simulate returns.",
+    "Adjust risk levels dynamically.",
+    "Show impact vs profit metrics."
+  ],
+  "outcome": "Engaging financial literacy + AI simulation project."
+}

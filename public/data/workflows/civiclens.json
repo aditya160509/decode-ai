@@ -1,0 +1,22 @@
+{
+  "slug": "civiclens",
+  "title": "CivicLens – Local Policy Transparency Dashboard",
+  "topic": "Civic & Governance Batch",
+  "difficulty": "★★★★☆ – involves large datasets, APIs, and visual mapping.",
+  "goal": "Aggregate city-level open data (budgets, votes, public works) into one interactive, readable dashboard.",
+  "why_it_matters": "Most citizens have no simple way to understand how local budgets and laws affect them. CivicLens brings transparency through accessible visualization.",
+  "users": "Citizens, students, journalists.",
+  "data": "City budget CSVs, council meeting transcripts, civic API feeds (OpenGov, Data.gov).",
+  "ai": [
+    "Named entity recognition (NER) to extract project names and costs.",
+    "Summarization (T5-small) to generate plain-language “policy briefs.”"
+  ],
+  "workflow": [
+    "Collect & clean datasets from civic portals.",
+    "Extract entities (projects, departments, funds).",
+    "Link related items (budget vs outcome).",
+    "Generate short summaries and charts.",
+    "Display interactive filters by department or city zone."
+  ],
+  "outcome": "Real-world civic data integration + NLP explanation engine."
+}

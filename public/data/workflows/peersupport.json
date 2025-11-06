@@ -1,0 +1,21 @@
+{
+  "slug": "peersupport",
+  "title": "PeerSupport – Weekly Check-in Bot",
+  "topic": "Mental Health Batch",
+  "difficulty": "★★★☆ – sentiment detection + cohort aggregation.",
+  "goal": "Enable anonymous weekly mood check-ins with automatic summaries.",
+  "why_it_matters": "Early peer support reduces isolation and burnout in group projects.",
+  "users": "Student cohorts, mentors, RAs.",
+  "data": "Emoji mood scale, 1-line optional note.",
+  "ai": [
+    "Sentiment scoring (VADER).",
+    "Keyword detection for high-risk terms (“hopeless”, “fail”)."
+  ],
+  "workflow": [
+    "Weekly link sent to group.",
+    "Students submit quick mood check.",
+    "System aggregates averages and flags concerns.",
+    "Dashboard displays cohort pulse and resource links."
+  ],
+  "outcome": "Perfect for showing social impact design + responsible AI ethics."
+}

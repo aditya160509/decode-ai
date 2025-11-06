@@ -1,0 +1,21 @@
+{
+  "slug": "nutriai",
+  "title": "NutriAI – Food Ingredient Analyzer",
+  "topic": "Health & Medicine Batch",
+  "difficulty": "★★☆☆☆ – text extraction + rule-based NLP.",
+  "goal": "Decode ingredients, highlight allergens, and provide healthier alternatives.",
+  "why_it_matters": "Packaged foods hide complex ingredients; people need clarity.",
+  "users": "Consumers, nutrition clubs, product reviewers.",
+  "data": "Nutrition facts datasets (USDA, Open Food Facts).",
+  "ai": [
+    "Entity recognition (ingredients → allergens).",
+    "Keyword-based health scoring."
+  ],
+  "workflow": [
+    "Paste or scan ingredient list.",
+    "Extract keywords (sugar, sodium, etc.).",
+    "Calculate 'health index' score.",
+    "Recommend cleaner options."
+  ],
+  "outcome": "Smart yet simple NLP + public health design."
+}

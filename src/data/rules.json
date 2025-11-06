@@ -1,0 +1,21 @@
+{
+  "tokens_per_char": 0.25,
+  "reasoning_multiplier": { "Shallow": 1.0, "Balanced": 1.2, "Reflective": 1.4 },
+  "memory_tokens": { "Off": 0, "Short": 200, "Long": 1000 },
+  "tool_overhead_default": 50,
+  "tool_overhead_heavy": 120,
+  "heavy_tool_kinds": ["Code", "Vision"],
+  "complexity_overhead_per_level": 25,
+  "output_tokens_min": 256,
+  "recall_age_half_life_days": 365,
+  "recall_threshold_moderate": 0.4,
+  "recall_threshold_strong": 0.7,
+  "scaling_penalty_map": { "low": 0.10, "medium": 0.20, "high": 0.35 },
+  "latency_add_long_memory_seconds": 0.2,
+  "monthly_hours_assumption": 720,
+  "color_thresholds": {
+    "latency_warn_seconds": 3,
+    "monthly_cost_high_usd": 500,
+    "monthly_cost_mid_usd": 100
+  }
+}

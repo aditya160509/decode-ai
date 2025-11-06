@@ -1,0 +1,135 @@
+[
+{
+"question": "What type of project are you building?",
+"options": [
+{ "text": "Image recognition", "adds": ["Lovable", "Hugging Face Spaces", "Peltarion"] },
+{ "text": "Text analysis", "adds": ["Hugging Face Spaces", "Google Colab", "Zapier"] },
+{ "text": "Web app", "adds": ["Vercel", "Bubble", "Appgyver"] },
+{ "text": "Mobile app", "adds": ["Glide", "Appgyver", "Power Apps"] },
+{ "text": "Automation workflow", "adds": ["Zapier", "Power Apps"] },
+{ "text": "Data visualization", "adds": ["Google Colab", "Lovable", "Bubble"] },
+{ "text": "CRM system", "adds": ["Bubble", "Power Apps"] },
+{ "text": "Expense tracker", "adds": ["Appgyver", "Glide"] },
+{ "text": "Voice analysis", "adds": ["Lovable", "Hugging Face Spaces", "Peltarion"] },
+{ "text": "Employee directory", "adds": ["Power Apps", "Bubble"] }
+]
+},
+{
+"question": "How much coding do you want to do?",
+"options": [
+{ "text": "None", "adds": ["Lovable", "Bubble", "Glide", "Appgyver", "Power Apps"] },
+{ "text": "Some Python", "adds": ["Google Colab", "Hugging Face Spaces", "Peltarion"] },
+{ "text": "Full-stack", "adds": ["Vercel", "Bubble"] },
+{ "text": "Just drag-and-drop", "adds": ["Lovable", "Bubble", "Glide", "Appgyver"] },
+{ "text": "Mix of code and UI", "adds": ["Hugging Face Spaces", "Power Apps"] }
+]
+},
+{
+"question": "What is your main goal?",
+"options": [
+{ "text": "Prototype fast", "adds": ["Lovable", "Bubble", "Glide"] },
+{ "text": "Share with others", "adds": ["Vercel", "Hugging Face Spaces", "Glide"] },
+{ "text": "Learn AI basics", "adds": ["Google Colab", "Peltarion"] },
+{ "text": "Deploy to production", "adds": ["Vercel", "Bubble", "Power Apps"] },
+{ "text": "Automate tasks", "adds": ["Zapier", "Power Apps"] },
+{ "text": "Classroom demo", "adds": ["Lovable", "Hugging Face Spaces", "Glide"] },
+{ "text": "Business workflow", "adds": ["Bubble", "Power Apps", "Zapier"] },
+{ "text": "Mobile-first", "adds": ["Glide", "Appgyver"] },
+{ "text": "Data analysis", "adds": ["Google Colab", "Lovable"] },
+{ "text": "HR solution", "adds": ["Power Apps", "Bubble"] }
+]
+},
+{
+"question": "What device are you using?",
+"options": [
+{ "text": "Laptop/PC", "adds": ["All"] },
+{ "text": "Tablet", "adds": ["Lovable", "Google Colab", "Glide", "Appgyver"] },
+{ "text": "Mobile", "adds": ["Lovable", "Glide", "Appgyver"] },
+{ "text": "Cloud only", "adds": ["Hugging Face Spaces", "Vercel", "Peltarion"] },
+{ "text": "Enterprise desktop", "adds": ["Power Apps", "Bubble"] }
+]
+},
+{
+"question": "Do you need free GPU?",
+"options": [
+{ "text": "Yes", "adds": ["Google Colab", "Hugging Face Spaces", "Peltarion"] },
+{ "text": "No", "adds": ["Lovable", "Vercel", "Bubble", "Glide", "Zapier", "Appgyver", "Power Apps"] },
+{ "text": "Not sure", "adds": ["Google Colab", "Hugging Face Spaces"] }
+]
+},
+{
+"question": "How will you share your project?",
+"options": [
+{ "text": "Public link", "adds": ["Vercel", "Hugging Face Spaces", "Glide", "Bubble"] },
+{ "text": "Private invite", "adds": ["Google Colab", "Power Apps"] },
+{ "text": "Embed in website", "adds": ["Vercel", "Bubble"] },
+{ "text": "Download results", "adds": ["Lovable", "Google Colab", "Peltarion"] },
+{ "text": "Mobile app store", "adds": ["Glide", "Appgyver"] }
+]
+},
+{
+"question": "What is your experience level?",
+"options": [
+{ "text": "Beginner", "adds": ["Lovable", "Glide", "Appgyver"] },
+{ "text": "Intermediate", "adds": ["Hugging Face Spaces", "Google Colab", "Bubble"] },
+{ "text": "Advanced", "adds": ["Vercel", "Peltarion", "Power Apps"] }
+]
+},
+{
+"question": "Do you want to collaborate with others?",
+"options": [
+{ "text": "Yes, real-time", "adds": ["Hugging Face Spaces", "Vercel", "Bubble", "Power Apps"] },
+{ "text": "No, solo", "adds": ["Lovable", "Google Colab", "Glide", "Appgyver", "Zapier"] }
+]
+},
+{
+"question": "What kind of data will you use?",
+"options": [
+{ "text": "Images", "adds": ["Lovable", "Hugging Face Spaces", "Peltarion"] },
+{ "text": "Text", "adds": ["Hugging Face Spaces", "Google Colab", "Zapier"] },
+{ "text": "Audio", "adds": ["Lovable", "Hugging Face Spaces", "Peltarion"] },
+{ "text": "Tabular", "adds": ["Google Colab", "Lovable", "Bubble"] },
+{ "text": "Spreadsheet", "adds": ["Glide", "Appgyver"] }
+]
+},
+{
+"question": "How important is speed?",
+"options": [
+{ "text": "Very important", "adds": ["Lovable", "Vercel", "Glide"] },
+{ "text": "Somewhat", "adds": ["Hugging Face Spaces", "Bubble", "Appgyver"] },
+{ "text": "Not a priority", "adds": ["Google Colab", "Zapier", "Peltarion", "Power Apps"] }
+]
+},
+{
+"question": "What about authentication?",
+"options": [
+{ "text": "Built-in login required", "require": ["auth_built_in"] },
+{ "text": "Enterprise SSO (Azure/Google)", "require": ["enterprise_auth"] },
+{ "text": "No login needed", "prefer": ["public_share"] }
+]
+},
+{
+"question": "Do you need a database?",
+"options": [
+{ "text": "Yes, built-in DB", "require": ["db_builtin"] },
+{ "text": "External (Supabase/Firebase)", "prefer": ["api_integrations"] },
+{ "text": "No database", "avoid": ["db_builtin"] }
+]
+},
+{
+"question": "Privacy & access",
+"options": [
+{ "text": "Public demo", "prefer": ["public_share"] },
+{ "text": "Private/internal", "require": ["private_projects"] },
+{ "text": "Custom domain", "prefer": ["custom_domain"] }
+]
+},
+{
+"question": "Maintenance style",
+"options": [
+{ "text": "Hands-off (hosted)", "prefer": ["drag_drop", "templates"] },
+{ "text": "Some devops", "prefer": ["python", "edge_functions"] },
+{ "text": "Self-host OK", "prefer": ["self_host"] }
+]
+}
+]

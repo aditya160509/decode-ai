@@ -1,0 +1,62 @@
+[
+  {
+    "term": "Token",
+    "desc": "A chunk of text (like a word or part of a word) that language models use for processing. GPT-4 uses ~4 characters per token."
+  },
+  {
+    "term": "Embedding",
+    "desc": "Vector representation of meaning. Converts words into numbers that capture semantic relationships."
+  },
+  {
+    "term": "Context Window",
+    "desc": "How much text a model can remember at once. GPT-4 Turbo has a 128K token context window."
+  },
+  {
+    "term": "RAG",
+    "desc": "Retrieval-Augmented Generation combines search with generation. Fetch relevant docs, then generate an answer."
+  },
+  {
+    "term": "Fine-tuning",
+    "desc": "Training a pre-trained model on specific data to specialize it for your use case."
+  },
+  {
+    "term": "Prompt Engineering",
+    "desc": "Crafting input text to get better outputs from language models. It's both art and science."
+  },
+  {
+    "term": "Temperature",
+    "desc": "Controls randomness in model outputs. Higher = creative, lower = focused and deterministic."
+  },
+  {
+    "term": "Hallucination",
+    "desc": "When AI confidently generates false information. Always verify critical facts."
+  },
+  {
+    "term": "Few-shot Learning",
+    "desc": "Providing examples in your prompt to guide the model's behavior and output format."
+  },
+  {
+    "term": "Tokenization",
+    "desc": "Breaking text into tokens. Different models use different tokenization strategies."
+  },
+  {
+    "term": "Perplexity",
+    "desc": "Measure of how well a model predicts text. Lower perplexity = better performance."
+  },
+  {
+    "term": "Latency",
+    "desc": "Time delay between sending a prompt and receiving a response. Critical for user experience."
+  },
+  {
+    "term": "Bias",
+    "desc": "Systematic errors in AI outputs, often reflecting biases in training data. Always monitor for fairness."
+  },
+  {
+    "term": "Vector Database",
+    "desc": "Specialized database for storing and searching embeddings. Essential for RAG pipelines."
+  },
+  {
+    "term": "Chain of Thought",
+    "desc": "Prompting technique where you ask the model to explain its reasoning step by step."
+  }
+]

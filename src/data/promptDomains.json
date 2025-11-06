@@ -1,0 +1,44 @@
+{
+  "domains": [
+    {
+      "id": "coding",
+      "label": "Coding",
+      "default_tools": ["claude_code", "cursor"],
+      "output_factor": 1.0,
+      "memory_policy": "short",
+      "tone": "technical"
+    },
+    {
+      "id": "research",
+      "label": "Research",
+      "default_tools": ["web_scraper", "langchain"],
+      "output_factor": 1.3,
+      "memory_policy": "long",
+      "tone": "analytical"
+    },
+    {
+      "id": "creative",
+      "label": "Creative",
+      "default_tools": ["none"],
+      "output_factor": 1.4,
+      "memory_policy": "off",
+      "tone": "playful"
+    },
+    {
+      "id": "classroom",
+      "label": "Classroom",
+      "default_tools": ["notion", "drive"],
+      "output_factor": 1.1,
+      "memory_policy": "short",
+      "tone": "mentor"
+    },
+    {
+      "id": "ops",
+      "label": "Automation",
+      "default_tools": ["n8n", "zapier"],
+      "output_factor": 1.0,
+      "memory_policy": "short",
+      "tone": "technical"
+    }
+  ]
+}

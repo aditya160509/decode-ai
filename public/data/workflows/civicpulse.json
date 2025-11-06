@@ -1,0 +1,21 @@
+{
+  "slug": "civicpulse",
+  "title": "CivicPulse – Social Feedback Analyzer",
+  "topic": "Civic & Governance Batch",
+  "difficulty": "★★★☆☆ – sentiment + topic modeling.",
+  "goal": "Aggregate public feedback (tweets, forums) into issue-based dashboards.",
+  "why_it_matters": "City governments often ignore sentiment from citizens due to scattered feedback channels.",
+  "users": "Local administrators, NGOs.",
+  "data": "Twitter API (local hashtags), Reddit civic threads, survey forms.",
+  "ai": [
+    "Sentiment classification (DistilBERT).",
+    "Topic modeling via LDA."
+  ],
+  "workflow": [
+    "Gather feedback data streams.",
+    "Preprocess (tokenize, clean).",
+    "Detect emerging issues per week.",
+    "Show positive/negative trends by topic."
+  ],
+  "outcome": "Practical NLP application for community governance."
+}

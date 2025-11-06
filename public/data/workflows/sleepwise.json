@@ -1,0 +1,21 @@
+{
+  "slug": "sleepwise",
+  "title": "SleepWise – Study & Sleep Planner",
+  "topic": "Mental Health Batch",
+  "difficulty": "★★☆☆ – mainly time allocation logic.",
+  "goal": "Auto-build weekly study plans that respect sleep preferences.",
+  "why_it_matters": "Sleep deprivation directly lowers grades; scheduling rest improves retention.",
+  "users": "College students.",
+  "data": "Study hours, preferred sleep windows, task list, deadlines.",
+  "ai": [
+    "Rule engine for optimal slot allocation.",
+    "Conflict detection for overlapping sessions."
+  ],
+  "workflow": [
+    "User inputs sleep hours and available time.",
+    "Algorithm generates balanced study blocks.",
+    "Detects over-commitment and suggests rest slots.",
+    "Outputs visual timetable and optional ICS calendar."
+  ],
+  "outcome": "Demonstrates constraint solving and human-centered productivity design."
+}

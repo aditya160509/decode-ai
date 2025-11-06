@@ -1,0 +1,21 @@
+{
+  "slug": "reflectcards",
+  "title": "ReflectCards – Cognitive Reframing Helper",
+  "topic": "Mental Health Batch",
+  "difficulty": "★★★☆ – pattern recognition + template mapping.",
+  "goal": "Turn negative thoughts into constructive statements using guided templates.",
+  "why_it_matters": "Thought reframing teaches emotional regulation — a proven CBT tool.",
+  "users": "Students facing stress or perfectionism.",
+  "data": "User’s negative thought statements.",
+  "ai": [
+    "Pattern matching on cognitive distortions (“all-or-nothing”, “overgeneralizing”).",
+    "Rule-based reframing using pre-authored positive alternatives."
+  ],
+  "workflow": [
+    "User inputs troubling thought.",
+    "System detects distortion type.",
+    "Shows 2–3 reframed perspectives with brief rationale.",
+    "Saves progress as personalized “reframe deck.”"
+  ],
+  "outcome": "Beautiful ethical AI example — empathy, psychology, NLP combined."
+}

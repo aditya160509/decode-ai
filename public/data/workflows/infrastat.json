@@ -1,0 +1,21 @@
+{
+  "slug": "infrastat",
+  "title": "InfraStat – Construction Progress Tracker",
+  "topic": "Energy & Infrastructure Batch",
+  "difficulty": "★★★★☆ – vision + analytics.",
+  "goal": "Monitor construction progress via image comparison and schedule analysis.",
+  "why_it_matters": "Public projects overrun budgets due to poor tracking.",
+  "users": "Municipal agencies, project managers.",
+  "data": "Site photos over time, project milestones CSV.",
+  "ai": [
+    "Image similarity to detect stage change.",
+    "Linear regression for completion estimation."
+  ],
+  "workflow": [
+    "Input time-stamped project images.",
+    "Compare and quantify visual progress.",
+    "Estimate % completion.",
+    "Show deviation from planned timeline."
+  ],
+  "outcome": "Strong applied AI for project monitoring."
+}

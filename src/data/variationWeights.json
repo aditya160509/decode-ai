@@ -1,0 +1,14 @@
+{
+  "speed": {
+    "label": "Speed",
+    "weight": 0.4
+  },
+  "cost": {
+    "label": "Cost",
+    "weight": 0.35
+  },
+  "context": {
+    "label": "Context",
+    "weight": 0.25
+  }
+}

@@ -1,0 +1,98 @@
+[
+{
+"title": "Connect Colab to Hugging Face Spaces",
+"tools_involved": ["Google Colab", "Hugging Face Spaces"],
+"steps": [
+"Export your trained model from Colab as a .pkl file.",
+"Upload the model to Hugging Face Spaces.",
+"Configure the app interface in Spaces.",
+"Test the deployment and share the link."
+],
+"pitfalls": "Model file size limits may apply.",
+"diagram_placeholder": "integration_colab_spaces.png"
+},
+{
+"title": "Deploy Lovable App on Vercel",
+"tools_involved": ["Lovable", "Vercel"],
+"steps": [
+"Export your Lovable project as a static site.",
+"Connect your GitHub repo to Vercel.",
+"Import the project in Vercel dashboard.",
+"Click deploy and get your live link."
+],
+"pitfalls": "Static export may not support all Lovable features.",
+"diagram_placeholder": "lovable_vercel.png"
+},
+{
+"title": "Automate Bubble CRM with Zapier",
+"tools_involved": ["Bubble", "Zapier"],
+"steps": [
+"Set up Bubble CRM app.",
+"Create Zapier workflow for new contacts.",
+"Sync data between Bubble and other services."
+],
+"pitfalls": "API limits may affect sync speed."
+},
+{
+"title": "Send Glide App Data to Google Colab",
+"tools_involved": ["Glide", "Google Colab"],
+"steps": [
+"Export Glide app data as CSV.",
+"Upload CSV to Colab for analysis.",
+"Visualize results in Colab notebook."
+]
+},
+{
+"title": "Integrate Power Apps with Zapier",
+"tools_involved": ["Power Apps", "Zapier"],
+"steps": [
+"Create Power Apps form.",
+"Set up Zapier to trigger on new submissions.",
+"Automate notifications or data entry."
+]
+},
+{
+"title": "Embed Spaces App in Bubble Site",
+"tools_involved": ["Hugging Face Spaces", "Bubble"],
+"steps": [
+"Copy Spaces app embed code.",
+"Paste into Bubble site HTML.",
+"Deploy and view embedded app."
+]
+},
+{
+"title": "Sync Lovable Data to Peltarion",
+"tools_involved": ["Lovable", "Peltarion"],
+"steps": [
+"Export Lovable data as JSON.",
+"Upload to Peltarion for model training.",
+"Deploy results in Peltarion pipeline."
+]
+},
+{
+"title": "Deploy Appgyver App to Vercel",
+"tools_involved": ["Appgyver", "Vercel"],
+"steps": [
+"Export Appgyver app as web build.",
+"Upload to Vercel for hosting.",
+"Share public link."
+]
+},
+{
+"title": "Automate Model Retraining with Colab and Spaces",
+"tools_involved": ["Google Colab", "Hugging Face Spaces"],
+"steps": [
+"Schedule Colab notebook to retrain model.",
+"Push updated model to Spaces."
+]
+},
+{
+"title": "Connect Power Apps to Bubble for HR",
+"tools_involved": ["Power Apps", "Bubble"],
+"steps": [
+"Create employee form in Power Apps.",
+"Sync data to Bubble directory.",
+"Enable search and updates in Bubble."
+]
+}
+]

@@ -1,0 +1,21 @@
+{
+  "slug": "econoscope",
+  "title": "EconoScope – Macro Indicator Dashboard",
+  "topic": "Finance, Economics & Employment",
+  "difficulty": "★★★☆☆ – data ETL + visualization.",
+  "goal": "Visualize GDP, inflation, unemployment, and trade data with AI summaries.",
+  "why_it_matters": "Economic trends are hard to grasp without visual context.",
+  "users": "Students, analysts, educators.",
+  "data": "World Bank / IMF indicators.",
+  "ai": [
+    "Regression models for trend forecasting.",
+    "Text summarizer for 'economic insight of the week.'"
+  ],
+  "workflow": [
+    "Fetch indicator data.",
+    "Normalize and visualize.",
+    "Predict next quarter’s movement.",
+    "Generate natural-language summary."
+  ],
+  "outcome": "Strong for data-viz + economic storytelling."
+}

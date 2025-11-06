@@ -1,0 +1,22 @@
+{
+  "definition": "Prompt engineering designs inputs that steer models toward accurate/controlled outputs.",
+  "styles": [
+    "Instructional",
+    "Role",
+    "Few-shot",
+    "Chain-of-Thought",
+    "Persona",
+    "Zero-shot",
+    "Contextual",
+    "Constraint-based",
+    "Output format",
+    "Multimodal",
+    "System prompt",
+    "Interactive"
+  ],
+  "bad_better": {
+    "bad": "Write about dogs.",
+    "better": "Write a 3-sentence summary about the history of dogs as pets."
+  },
+  "principles": ["Be specific","Provide structure/examples","Set constraints and output formats"]
+}

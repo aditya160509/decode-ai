@@ -1,0 +1,21 @@
+{
+  "slug": "marketmind",
+  "title": "MarketMind – Stock Sentiment Analyzer",
+  "topic": "Finance, Economics & Employment",
+  "difficulty": "★★★★☆ – NLP + time series.",
+  "goal": "Analyze financial sentiment and predict short-term volatility.",
+  "why_it_matters": "Investor behavior is shaped by news and social media tone.",
+  "users": "Investors, students, fintech clubs.",
+  "data": "Tweets, Reddit finance posts, news headlines.",
+  "ai": [
+    "FinBERT for sentiment scoring.",
+    "Volatility regression with lag features."
+  ],
+  "workflow": [
+    "Scrape financial texts.",
+    "Compute sentiment index.",
+    "Correlate with stock movement.",
+    "Visualize attention vs volatility."
+  ],
+  "outcome": "Behavioral finance meets NLP innovation."
+}

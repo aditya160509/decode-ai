@@ -1,0 +1,12 @@
+{
+  "definitions": [
+    "Embeddings are numeric vectors for text/images that capture meaning.",
+    "Semantic similarity measures how close two items are in meaning."
+  ],
+  "word_pairs": {
+    "high_similarity": ["cat–kitten","car–automobile","happy–joyful","doctor–nurse","dog–puppy"],
+    "low_similarity": ["cat–car","apple–universe","run–banana","music–table","doctor–mountain"]
+  },
+  "use_cases": ["Semantic search","Recommendations","Clustering"],
+  "visual": "2D scatter plot with similar words close together"
+}

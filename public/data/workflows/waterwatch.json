@@ -1,0 +1,21 @@
+{
+  "slug": "waterwatch",
+  "title": "WaterWatch – River & Groundwater Monitor",
+  "topic": "Environment & Sustainability Batch",
+  "difficulty": "★★★☆☆ – moderate data cleaning and mapping.",
+  "goal": "Visualize changes in river levels and water quality across regions.",
+  "why_it_matters": "Groundwater depletion and contamination data are underused for prevention.",
+  "users": "Environmental NGOs, policymakers.",
+  "data": "Central Water Commission API, rainfall data, pH & TDS datasets.",
+  "ai": [
+    "Regression for correlation between rainfall and water table depth.",
+    "Clustering for quality classification (clean / moderate / polluted)."
+  ],
+  "workflow": [
+    "Aggregate and clean water level records.",
+    "Correlate rainfall trends and detect anomalies.",
+    "Cluster water quality by parameters.",
+    "Show maps with safe-usage recommendations."
+  ],
+  "outcome": "Strong data engineering + spatial analytics demonstration."
+}

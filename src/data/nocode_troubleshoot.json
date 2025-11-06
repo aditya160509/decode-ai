@@ -1,0 +1,12 @@
+[
+{ "issue": "App won’t deploy", "cause": "Missing required files or incorrect config.", "fix": "Check for README.md and valid requirements.txt." },
+{ "issue": "Model too large for upload", "cause": "Free tier file size limits.", "fix": "Compress or split the model, or upgrade your plan." },
+{ "issue": "App sleeps after inactivity", "cause": "Free tier sleep policy.", "fix": "Upgrade or keep app active with pings." },
+{ "issue": "Slow app loading", "cause": "Large model or data files.", "fix": "Optimize files and use smaller models." },
+{ "issue": "API key not working", "cause": "Invalid or expired key.", "fix": "Regenerate and update your API key." },
+{ "issue": "Deployment fails on Vercel", "cause": "Build errors or missing environment variables.", "fix": "Check logs and set required variables." },
+{ "issue": "Colab disconnects frequently", "cause": "Session inactivity or resource limits.", "fix": "Interact regularly or upgrade to Pro." },
+{ "issue": "Bubble app not saving", "cause": "Storage limit reached.", "fix": "Delete old apps or upgrade storage." },
+{ "issue": "Zapier workflow not triggering", "cause": "Zap turned off or quota reached.", "fix": "Check Zap status and limits." },
+{ "issue": "Power Apps form not syncing", "cause": "Connector misconfigured.", "fix": "Review connector setup and permissions." }
+]

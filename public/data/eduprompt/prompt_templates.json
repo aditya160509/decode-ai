@@ -1,0 +1,144 @@
+{
+  "promptTemplates": [
+    {
+      "id": "tmpl_explain_like_5",
+      "name": "Explain Like I’m 5",
+      "description": "Simplifies a hard topic so a beginner can understand.",
+      "basePrompt": "Explain this concept like I am 5 years old.",
+      "taskType": "summarize"
+    },
+    {
+      "id": "tmpl_academic_summary",
+      "name": "Academic Summary",
+      "description": "Makes long academic or research text short and formal.",
+      "basePrompt": "Summarize this research article in three sentences focusing on the main findings and conclusions.",
+      "taskType": "summarize"
+    },
+    {
+      "id": "tmpl_professional_rewrite",
+      "name": "Professional Rewrite",
+      "description": "Polishes a rough draft into a clean, professional version.",
+      "basePrompt": "Rewrite this text in a professional, concise tone suitable for email or a report.",
+      "taskType": "rewrite"
+    },
+    {
+      "id": "tmpl_friendly_rewrite",
+      "name": "Friendly Rewrite",
+      "description": "Makes stiff text sound warm and human but still clear.",
+      "basePrompt": "Rewrite this text in a friendly and approachable tone without changing the meaning.",
+      "taskType": "rewrite"
+    },
+    {
+      "id": "tmpl_formal_proofreader",
+      "name": "Formal Proofreader",
+      "description": "Fixes grammar, casing, punctuation for reports.",
+      "basePrompt": "Proofread this text for grammar, punctuation, and formal academic style.",
+      "taskType": "proofread"
+    },
+    {
+      "id": "tmpl_short_explainer",
+      "name": "Short Explainer",
+      "description": "Turns a long passage into two clear sentences.",
+      "basePrompt": "Explain this topic briefly in two sentences for a beginner.",
+      "taskType": "summarize"
+    },
+    {
+      "id": "tmpl_summarize_key_points",
+      "name": "Summarize Key Points",
+      "description": "Pulls out only the main takeaways.",
+      "basePrompt": "Summarize only the key takeaways from this passage. Do not add extra facts.",
+      "taskType": "summarize"
+    },
+    {
+      "id": "tmpl_feedback_assistant",
+      "name": "Feedback Assistant",
+      "description": "Gives polite suggestions to improve writing.",
+      "basePrompt": "Give polite, constructive feedback to improve the following paragraph.",
+      "taskType": "rewrite"
+    },
+    {
+      "id": "tmpl_code_commenter",
+      "name": "Code Commenter",
+      "description": "Adds clear comments to code.",
+      "basePrompt": "Add clear, beginner friendly comments to this code so a student can understand it.",
+      "taskType": "explain_code"
+    },
+    {
+      "id": "tmpl_explain_code_simply",
+      "name": "Explain Code Simply",
+      "description": "Describes what the code is doing in plain language.",
+      "basePrompt": "Explain what this code does in simple language for a beginner.",
+      "taskType": "explain_code"
+    },
+    {
+      "id": "tmpl_error_message_clarifier",
+      "name": "Error Message Clarifier",
+      "description": "Turns an error or stack trace into human explanation.",
+      "basePrompt": "Read this error message and explain what it means and how I can fix it.",
+      "taskType": "explain_code"
+    },
+    {
+      "id": "tmpl_email_tone_fixer",
+      "name": "Email Tone Fixer",
+      "description": "Makes an email sound polite and clear.",
+      "basePrompt": "Rewrite this email so it is polite, clear, and to the point.",
+      "taskType": "rewrite"
+    },
+    {
+      "id": "tmpl_classroom_summary",
+      "name": "Classroom Summary",
+      "description": "Makes teacher notes short for students.",
+      "basePrompt": "Summarize these notes for a student who missed class.",
+      "taskType": "summarize"
+    },
+    {
+      "id": "tmpl_expand_with_examples",
+      "name": "Expand With Examples",
+      "description": "Adds 2 to 3 relevant examples to a short idea.",
+      "basePrompt": "Expand this idea and add two relevant examples to make it easier to understand.",
+      "taskType": "rewrite"
+    },
+    {
+      "id": "tmpl_compare_and_contrast",
+      "name": "Compare And Contrast",
+      "description": "Makes a short compare or contrast paragraph.",
+      "basePrompt": "Compare and contrast these two items in 4 to 6 sentences.",
+      "taskType": "summarize"
+    },
+    {
+      "id": "tmpl_rewrite_for_younger",
+      "name": "Rewrite For Younger Audience",
+      "description": "Makes text simpler for school students.",
+      "basePrompt": "Rewrite this text so a middle school student can understand it.",
+      "taskType": "rewrite"
+    },
+    {
+      "id": "tmpl_proofread_mistakes_only",
+      "name": "Proofread For Mistakes Only",
+      "description": "Fixes only mistakes, keeps tone.",
+      "basePrompt": "Proofread this text and fix only grammar, punctuation, and spelling. Do not change the tone.",
+      "taskType": "proofread"
+    },
+    {
+      "id": "tmpl_summarize_for_slide",
+      "name": "Summarize For Slide",
+      "description": "Makes 3 bullet style points.",
+      "basePrompt": "Summarize this text into 3 bullet style points for a presentation.",
+      "taskType": "summarize"
+    },
+    {
+      "id": "tmpl_turn_to_steps",
+      "name": "Turn To Steps",
+      "description": "Converts a messy paragraph into step by step.",
+      "basePrompt": "Convert this paragraph into a numbered step by step set of instructions.",
+      "taskType": "rewrite"
+    },
+    {
+      "id": "tmpl_rewrite_for_clarity",
+      "name": "Rewrite For Clarity",
+      "description": "Removes repetition, keeps meaning.",
+      "basePrompt": "Rewrite this to make it clearer and remove repetition without changing the meaning.",
+      "taskType": "rewrite"
+    }
+  ]
+}

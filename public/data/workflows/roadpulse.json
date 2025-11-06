@@ -1,0 +1,21 @@
+{
+  "slug": "roadpulse",
+  "title": "RoadPulse – Infrastructure Condition Monitor",
+  "topic": "Energy & Infrastructure Batch",
+  "difficulty": "★★★★☆ – computer vision.",
+  "goal": "Detect road damage from images and classify severity.",
+  "why_it_matters": "Poor road maintenance leads to accidents and inefficiency.",
+  "users": "City councils, civic reporters.",
+  "data": "Road surface images (Kaggle Road Damage dataset).",
+  "ai": [
+    "CNN model to detect cracks/potholes.",
+    "Geo-tagging for map overlay."
+  ],
+  "workflow": [
+    "Upload or capture road image.",
+    "Detect and classify damage.",
+    "Mark affected zones on map.",
+    "Generate repair priority report."
+  ],
+  "outcome": "Vision + civic engagement; looks great in demos."
+}

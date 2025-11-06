@@ -1,0 +1,67 @@
+[
+{
+"stack": ["Lovable", "Vercel"],
+"summary": "Lovable lets you build visually; Vercel deploys to the web instantly.",
+"buttons": [
+{ "label": "Start with Lovable", "url": "[https://lovable.ai/](https://lovable.ai/)" },
+{ "label": "Deploy on Vercel", "url": "[https://vercel.com/](https://vercel.com/)" }
+]
+},
+{
+"stack": ["Google Colab", "Hugging Face Spaces"],
+"summary": "Prototype in Python on Colab; share as a live app on Spaces.",
+"buttons": [
+{ "label": "Open Colab", "url": "[https://colab.research.google.com/](https://colab.research.google.com/)" },
+{ "label": "Try Spaces", "url": "[https://huggingface.co/spaces](https://huggingface.co/spaces)" }
+]
+},
+{
+"stack": ["Bubble", "Power Apps"],
+"summary": "Business apps with built-in auth, data, and enterprise connectors.",
+"buttons": [
+{ "label": "Build with Bubble", "url": "[https://bubble.io/](https://bubble.io/)" },
+{ "label": "Try Power Apps", "url": "[https://powerapps.microsoft.com/](https://powerapps.microsoft.com/)" }
+]
+},
+{
+"stack": ["Glide", "Appgyver"],
+"summary": "Mobile apps from spreadsheets with drag-and-drop.",
+"buttons": [
+{ "label": "Start with Glide", "url": "[https://www.glideapps.com/](https://www.glideapps.com/)" },
+{ "label": "Try Appgyver", "url": "[https://www.appgyver.com/](https://www.appgyver.com/)" }
+]
+},
+{
+"stack": ["Zapier", "Power Apps"],
+"summary": "Automate workflows across tools and internal systems.",
+"buttons": [
+{ "label": "Automate with Zapier", "url": "[https://zapier.com/](https://zapier.com/)" },
+{ "label": "Try Power Apps", "url": "[https://powerapps.microsoft.com/](https://powerapps.microsoft.com/)" }
+]
+},
+{
+"stack": ["Peltarion", "Hugging Face Spaces"],
+"summary": "Train models in Peltarion; demo them in Spaces.",
+"buttons": [
+{ "label": "AI with Peltarion", "url": "[https://peltarion.com/](https://peltarion.com/)" },
+{ "label": "Try Spaces", "url": "[https://huggingface.co/spaces](https://huggingface.co/spaces)" }
+]
+},
+{
+"stack": ["Webflow", "Airtable", "Make"],
+"summary": "Marketing site + database + automations without code.",
+"buttons": [
+{ "label": "Webflow", "url": "[https://webflow.com/](https://webflow.com/)" },
+{ "label": "Airtable", "url": "[https://airtable.com/](https://airtable.com/)" },
+{ "label": "Make", "url": "[https://www.make.com/](https://www.make.com/)" }
+]
+},
+{
+"stack": ["Streamlit", "Hugging Face Spaces"],
+"summary": "Python data apps with one-click hosting.",
+"buttons": [
+{ "label": "Streamlit", "url": "[https://streamlit.io/](https://streamlit.io/)" },
+{ "label": "Spaces", "url": "[https://huggingface.co/spaces](https://huggingface.co/spaces)" }
+]
+}
+]

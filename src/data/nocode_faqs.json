@@ -1,0 +1,12 @@
+[
+{ "q": "Can I use these tools for free?", "a": "Yes, all offer free tiers with some limits.", "link": "[https://huggingface.co/spaces/pricing](https://huggingface.co/spaces/pricing)" },
+{ "q": "How do I share my AI app?", "a": "Deploy and share the public link provided by the platform." },
+{ "q": "Do I need to know Python?", "a": "No-code tools like Lovable, Bubble, and Glide require no coding. Colab and Spaces support Python for advanced users." },
+{ "q": "Can I deploy to my own domain?", "a": "Yes, Vercel, Bubble, and Glide support custom domains for deployed apps." },
+{ "q": "How do I get free GPU?", "a": "Google Colab, Hugging Face Spaces, and Peltarion offer free GPU for eligible projects." },
+{ "q": "What if my app goes to sleep?", "a": "Upgrade your plan or use keep-alive services to prevent sleep." },
+{ "q": "Can I collaborate with others?", "a": "Yes, most platforms support sharing and team features." },
+{ "q": "How do I troubleshoot deployment errors?", "a": "Check platform logs and documentation for error details." },
+{ "q": "Is my data private?", "a": "Free tiers are often public. Use paid plans for private projects." },
+{ "q": "Where can I find more templates?", "a": "Visit each platform’s template gallery for ready-to-use projects." }
+]

@@ -1,0 +1,24 @@
+{
+  "steps": [
+    "Fork the repository on GitHub",
+    "Clone your fork using git clone",
+    "Create a new branch for your feature or fix",
+    "Commit small, descriptive changes",
+    "Push the branch to your GitHub remote",
+    "Open a Pull Request (PR) and add a clear title and description",
+    "Request a code review from a teammate",
+    "Resolve review comments and push fixes",
+    "Rebase or merge main before final approval",
+    "Merge into main and delete old branches"
+  ],
+  "mistakes": [
+    "Not syncing your fork before branching",
+    "Pushing directly to the main branch",
+    "Skipping code reviews",
+    "Not linking the PR to an issue",
+    "Writing vague commit messages",
+    "Merging with unresolved conflicts",
+    "Creating PRs with unrelated changes",
+    "Ignoring reviewer feedback"
+  ]
+}

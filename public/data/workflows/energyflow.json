@@ -1,0 +1,21 @@
+{
+  "slug": "energyflow",
+  "title": "EnergyFlow – Household Energy Analyzer",
+  "topic": "Energy & Infrastructure Batch",
+  "difficulty": "★★★☆☆ – data aggregation + analytics.",
+  "goal": "Visualize device-level consumption and suggest optimizations.",
+  "why_it_matters": "Households waste energy due to unmonitored consumption.",
+  "users": "Residents, students, smart-home builders.",
+  "data": "Smart-meter CSV (Appliances Energy dataset).",
+  "ai": [
+    "Anomaly detection for high-usage spikes.",
+    "Regression for consumption forecasting."
+  ],
+  "workflow": [
+    "Load hourly household usage.",
+    "Identify peak devices/time.",
+    "Suggest energy-saving tips.",
+    "Display savings potential charts."
+  ],
+  "outcome": "Accessible energy data + sustainability insights."
+}

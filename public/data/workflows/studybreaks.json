@@ -1,0 +1,20 @@
+{
+  "slug": "studybreaks",
+  "title": "StudyBreaks – Pomodoro & Rest Coach",
+  "topic": "Mental Health Batch",
+  "difficulty": "★★☆☆ – logic-driven frontend.",
+  "goal": "Enforce balanced work-break cycles using adaptive timers.",
+  "why_it_matters": "Over-studying reduces focus; structured breaks sustain energy.",
+  "users": "Students, productivity enthusiasts.",
+  "data": "Study durations, break ratings, completion logs.",
+  "ai": [
+    "Heuristic timer adaptation (longer breaks after low completion)."
+  ],
+  "workflow": [
+    "Start 25-minute focus session.",
+    "Log success/failure.",
+    "AI adjusts next block and recommends rest duration.",
+    "Show progress streak and focus statistics."
+  ],
+  "outcome": "Clean, gamified productivity UX + behavior loop design."
+}

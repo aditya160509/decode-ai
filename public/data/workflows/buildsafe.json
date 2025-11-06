@@ -1,0 +1,21 @@
+{
+  "slug": "buildsafe",
+  "title": "BuildSafe – Structural Risk Evaluator",
+  "topic": "Energy & Infrastructure Batch",
+  "difficulty": "★★★★☆ – regression + anomaly detection.",
+  "goal": "Assess building safety using material data and environmental stress.",
+  "why_it_matters": "Detecting structural risk early saves lives.",
+  "users": "Civil engineers, inspection teams.",
+  "data": "Building material properties, stress tests, local hazard data.",
+  "ai": [
+    "Regression for stress-limit prediction.",
+    "Isolation Forest for outlier detection."
+  ],
+  "workflow": [
+    "Collect property and environment inputs.",
+    "Compute risk score per structure.",
+    "Visualize red-flagged buildings.",
+    "Recommend inspection frequency."
+  ],
+  "outcome": "Real engineering AI use case with civic safety focus."
+}

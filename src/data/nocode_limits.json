@@ -1,0 +1,12 @@
+[
+{ "tool": "Lovable", "free_tier": "Yes", "limit": "3 projects", "build_time": "30 min/session", "sleep": "Apps sleep after 1 hour", "notes": "Upgrade for more projects." },
+{ "tool": "Hugging Face Spaces", "free_tier": "Yes", "limit": "Unlimited public spaces", "build_time": "No hard limit", "sleep": "Apps sleep after 30 min idle", "notes": "Private spaces require paid plan." },
+{ "tool": "Google Colab", "free_tier": "Yes", "limit": "12 hours/session", "build_time": "Up to 12 hours", "sleep": "Disconnects after inactivity", "notes": "Pro plan for longer sessions." },
+{ "tool": "Vercel", "free_tier": "Yes", "limit": "100 deployments/month", "build_time": "45 min/deploy", "sleep": "None for static sites", "notes": "Serverless functions may sleep." },
+{ "tool": "Bubble", "free_tier": "Yes", "limit": "1 app", "build_time": "No hard limit", "sleep": "None", "notes": "Paid plans for more apps." },
+{ "tool": "Glide", "free_tier": "Yes", "limit": "3 apps", "build_time": "No hard limit", "sleep": "Apps sleep after 30 min idle", "notes": "Upgrade for more apps." },
+{ "tool": "Zapier", "free_tier": "Yes", "limit": "5 Zaps", "build_time": "No hard limit", "sleep": "None", "notes": "Paid plans for more Zaps." },
+{ "tool": "Peltarion", "free_tier": "Yes", "limit": "2 projects", "build_time": "No hard limit", "sleep": "None", "notes": "Upgrade for more projects." },
+{ "tool": "Appgyver", "free_tier": "Yes", "limit": "Unlimited apps", "build_time": "No hard limit", "sleep": "None", "notes": "Enterprise features require paid plan." },
+{ "tool": "Power Apps", "free_tier": "Yes", "limit": "1 app", "build_time": "No hard limit", "sleep": "None", "notes": "Paid plans for more apps and features." }
+]

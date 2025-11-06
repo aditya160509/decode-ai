@@ -1,0 +1,21 @@
+{
+  "slug": "smartsort",
+  "title": "SmartSort – Recycling Bin Optimizer",
+  "topic": "Environment & Sustainability Batch",
+  "difficulty": "★★★☆☆ – spatial analytics.",
+  "goal": "Recommend optimal bin placement density based on population and litter data.",
+  "why_it_matters": "Incorrect waste segregation increases landfill load.",
+  "users": "Urban planners, local governments.",
+  "data": "Population density maps, waste collection records.",
+  "ai": [
+    "K-Means clustering for bin placement.",
+    "Demand prediction using linear models."
+  ],
+  "workflow": [
+    "Load city grid and population map.",
+    "Compute average waste per area.",
+    "Suggest bin density zones.",
+    "Simulate collection efficiency improvement."
+  ],
+  "outcome": "Demonstrates geospatial analytics with civic design thinking."
+}

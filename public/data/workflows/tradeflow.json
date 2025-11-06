@@ -1,0 +1,21 @@
+{
+  "slug": "tradeflow",
+  "title": "TradeFlow – Import-Export Forecast Tool",
+  "topic": "Finance, Economics & Employment",
+  "difficulty": "★★★☆☆ – time-series ML.",
+  "goal": "Predict import/export trends for key commodities using historical data.",
+  "why_it_matters": "Small businesses struggle to predict trade volume fluctuations.",
+  "users": "Analysts, supply-chain teams, SMEs.",
+  "data": "UN Comtrade / World Trade data.",
+  "ai": [
+    "LSTM for trade volume prediction.",
+    "Correlation analysis with currency and oil prices."
+  ],
+  "workflow": [
+    "Load historical trade data.",
+    "Clean and resample monthly.",
+    "Train forecasting model.",
+    "Display interactive charts + alerts."
+  ],
+  "outcome": "Forecasting + global economics blend."
+}

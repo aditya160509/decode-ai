@@ -1,0 +1,21 @@
+{
+  "slug": "payfair",
+  "title": "PayFair – Wage Equity Analyzer",
+  "topic": "Finance, Economics & Employment",
+  "difficulty": "★★★☆☆ – data processing + regression.",
+  "goal": "Analyze salary data and detect inequities across roles and demographics.",
+  "why_it_matters": "Gender and region-based wage disparities persist in the job market.",
+  "users": "HR departments, researchers.",
+  "data": "Public salary surveys (Glassdoor / Kaggle).",
+  "ai": [
+    "Linear regression for pay gap estimation.",
+    "Clustering for role comparison."
+  ],
+  "workflow": [
+    "Import salary data.",
+    "Clean and normalize features.",
+    "Compute equity metrics.",
+    "Generate dashboard and summary insights."
+  ],
+  "outcome": "Data ethics + economic fairness use case."
+}

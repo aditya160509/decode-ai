@@ -1,0 +1,14 @@
+[
+  {"term":"Token","definition":"A small text unit the model processes.","why":"Limits input size and cost"},
+  {"term":"Embedding","definition":"Numeric vector capturing meaning.","why":"Enables similarity and search"},
+  {"term":"Context Window","definition":"Max tokens model considers at once.","why":"Controls how much info fits"},
+  {"term":"Fine-Tuning","definition":"Further training on task data.","why":"Boosts task performance"},
+  {"term":"Prompt Engineering","definition":"Design inputs to steer outputs.","why":"Improves control/accuracy"},
+  {"term":"Inference","definition":"Model generating an answer.","why":"Determines latency/cost"},
+  {"term":"RAG","definition":"Retrieve then generate with sources.","why":"Improves factuality/recency"},
+  {"term":"Temperature","definition":"Randomness in generation.","why":"Style: precise vs creative"},
+  {"term":"Bias","definition":"Systematic unfair outputs.","why":"Harms users; must be mitigated"},
+  {"term":"Parameters","definition":"Learned weights in a model.","why":"Capacity scales with count"},
+  {"term":"Zero-shot","definition":"Do tasks without examples.","why":"Shows generalization"},
+  {"term":"Chain-of-Thought","definition":"Stepwise reasoning traces.","why":"Transparency & accuracy"}
+]

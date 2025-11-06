@@ -1,0 +1,21 @@
+{
+  "slug": "climateview",
+  "title": "ClimateView – Emission Tracker by Sector",
+  "topic": "Environment & Sustainability Batch",
+  "difficulty": "★★★★☆ – multi-source aggregation + regression.",
+  "goal": "Track CO₂ emissions by sector (transport, industry, energy) and show comparative insights.",
+  "why_it_matters": "Governments report emissions, but the data lacks public clarity.",
+  "users": "Policy analysts, NGOs, climate students.",
+  "data": "World Bank, UNFCCC, IPCC emission tables.",
+  "ai": [
+    "Linear regression for year-over-year change.",
+    "Text summarizer to generate 'Impact Notes'."
+  ],
+  "workflow": [
+    "Import emission datasets.",
+    "Clean and normalize per sector.",
+    "Analyze top contributors + reduction progress.",
+    "Auto-generate insights and visual dashboards."
+  ],
+  "outcome": "Excellent applied data-science project with policy linkage."
+}

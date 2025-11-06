@@ -1,0 +1,20 @@
+{
+  "slug": "plasticfree",
+  "title": "PlasticFree – Waste Detection from Images",
+  "topic": "Environment & Sustainability Batch",
+  "difficulty": "★★★★☆ – image classification.",
+  "goal": "Detect plastic waste from uploaded images and categorize by type.",
+  "why_it_matters": "Identifying litter types helps improve recycling logistics.",
+  "users": "Waste-management startups, citizen scientists.",
+  "data": "TrashNet dataset or community photos.",
+  "ai": [
+    "CNN / MobileNet model to classify waste type (plastic, metal, glass)."
+  ],
+  "workflow": [
+    "Upload waste image.",
+    "Preprocess and run through trained model.",
+    "Display classification result + recycling tips.",
+    "Optional leaderboard for cleanup volunteers."
+  ],
+  "outcome": "Great hands-on vision project with environmental relevance."
+}

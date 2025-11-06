@@ -1,0 +1,20 @@
+{
+  "slug": "civicatlas",
+  "title": "CivicAtlas – Public Infrastructure Map",
+  "topic": "Civic & Governance Batch",
+  "difficulty": "★★★★☆ – heavy geospatial layer + API integration.",
+  "goal": "Visualize all public projects on an interactive map with cost and stage info.",
+  "why_it_matters": "Citizens rarely know how infrastructure funds are distributed spatially.",
+  "users": "City planners, journalists, students.",
+  "data": "Infrastructure project datasets, budgets, GPS coordinates.",
+  "ai": [
+    "Geospatial clustering; optional anomaly detection (budget per capita)."
+  ],
+  "workflow": [
+    "Merge project CSVs and coordinates.",
+    "Geocode locations; compute cost-per-zone metrics.",
+    "Cluster and render interactive map.",
+    "Filter by department, cost, or progress."
+  ],
+  "outcome": "Perfect for front-end + data-engineering synergy demo."
+}

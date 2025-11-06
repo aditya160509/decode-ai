@@ -1,0 +1,12 @@
+[
+  {"q":"What is a token in LLMs?","options":["A full sentence","A small chunk of text","A full paragraph","A dataset"],"answer":"A small chunk of text","why":"Tokens determine input size/cost."},
+  {"q":"Embeddings are…","options":["Images only","Vectors capturing meaning","Training logs","CPU metrics"],"answer":"Vectors capturing meaning","why":"They power semantic search/similarity."},
+  {"q":"Context window refers to…","options":["GPU memory","Tokens model considers","API rate limit","Disk space"],"answer":"Tokens model considers","why":"It bounds how much text fits at once."},
+  {"q":"Prompt engineering helps…","options":["Collect data","Steer outputs","Compile code","Resize images"],"answer":"Steer outputs","why":"Good prompts improve accuracy/control."},
+  {"q":"When to use RAG?","options":["Synthesizing new art","Real-time factual answers","Compressing images","Sorting arrays"],"answer":"Real-time factual answers","why":"Retrieve sources before generating."},
+  {"q":"Fine-tuning typically needs…","options":["No data","Lots of task data","Only images","Only labels"],"answer":"Lots of task data","why":"To specialize behavior reliably."},
+  {"q":"Cosine similarity measures…","options":["Speed","Angle between vectors","File size","API latency"],"answer":"Angle between vectors","why":"Captures closeness of meanings."},
+  {"q":"Higher temperature usually means…","options":["More creative outputs","Fewer tokens","Lower latency","Less variation"],"answer":"More creative outputs","why":"It increases randomness."},
+  {"q":"A key AI limitation is…","options":["Perfect factuality","Zero cost","Potential bias/errors","Infinite context"],"answer":"Potential bias/errors","why":"Always review important outputs."},
+  {"q":"Best first step for privacy?","options":["Ignore it","Log everything","Minimize sensitive data","Publicly share data"],"answer":"Minimize sensitive data","why":"Reduce exposure by default."}
+]

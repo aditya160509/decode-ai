@@ -1,0 +1,95 @@
+{
+  "title": "About DecodeAI",
+  "description": "DecodeAI is a student-built, hands-on learning space where students explore AI, GitHub, and prompt engineering through clear lessons, practical demos, and meaningful projects. It emphasizes collaboration and interactive learning so you can build, test, and learn together.",
+  "hero": {
+    "heading": "About DecodeAI",
+    "subheading": "Learn AI, GitHub, and prompt engineering the student way.",
+    "body": "DecodeAI is a student-built space designed to make learning AI, GitHub, and prompt engineering feel simple, connected, and real. When I first started exploring AI, everything was scattered across random tutorials and videos, and piecing it together was frustrating. I built DecodeAI to give students one clear place to begin. The goal is to help early learners understand AI by doing, not memorizing. Here you can learn core ideas, try interactive demos, and build meaningful projects that add real value to your portfolio, with peers learning alongside you.",
+    "image": "/images/about-hero.png"
+  },
+  "builder": {
+    "name": "Aditya Balaji",
+    "role": "A-Level Student and Builder",
+    "text": "I am Aditya Balaji, an A-Level student and builder who enjoys creating tools that make learning easier. DecodeAI grew from my need for structured, beginner-friendly resources that still felt practical. I realized many students like me want to start early. They want to build, explore, and experiment but often do not know where to begin. DecodeAI became a launchpad for students to explore AI and no-code tools, understand how prompt engineering works, and see real projects in action. It is simple by design, personal in tone, and keeps improving with feedback from other student builders.",
+    "socials": [
+      {
+        "platform": "GitHub",
+        "label": "View on GitHub",
+        "url": "https://github.com/aditya160509/aditya160509"
+      },
+      {
+        "platform": "LinkedIn",
+        "label": "Connect on LinkedIn",
+        "url": "https://www.linkedin.com/in/aditya-balaji-50375237a/"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "title": "What DecodeAI Offers",
+      "items": [
+        {
+          "heading": "Learning Paths",
+          "text": "Guided modules that explain GitHub, AI, EduPrompt, and no-code creation with clear structure and practical steps."
+        },
+        {
+          "heading": "Prompt Lab",
+          "text": "A creative space to practice real prompts, compare outputs, and iterate through experimentation."
+        },
+        {
+          "heading": "Demos",
+          "text": "Working projects that connect AI to real use cases, showing how ideas become tools."
+        },
+        {
+          "heading": "Resources",
+          "text": "A curated library of tools, examples, and references to support ongoing learning and creativity."
+        }
+      ]
+    },
+    {
+      "title": "Why It Was Built",
+      "text": "When I was new to AI, I wanted a single place to learn in a way that made sense. DecodeAI was built to turn complex ideas into clear practice and to show how AI and no-code tools can help you build projects that stand out. It exists for students who want to start early, learn by doing, and create something meaningful. DecodeAI also encourages collaboration so learners can grow together."
+    },
+    {
+      "title": "Behind the Name",
+      "text": "The name DecodeAI means turning complexity into clarity and making it usable. Every page is designed to make AI concepts approachable and actionable, because AI should feel like a skill you can practice, not a mystery you only read about."
+    },
+    {
+      "title": "What Is Next",
+      "text": "I will continue improving the platform with new demos, better logic for prompts, and a cleaner, more interactive interface. DecodeAI will keep expanding with new sections and topics that help students learn and build confidently. Look out for more interactive demos and AI tools that invite you to test ideas in real time."
+    },
+    {
+      "title": "Feedback",
+      "text": "DecodeAI is shaped by the students who use it. If you have ideas, suggestions, or thoughts on how it can get better, I would love to hear from you. Your feedback is welcome and helps make the platform more useful, more inclusive, and more inspiring for future learners.",
+      "links": [
+        {
+          "label": "Share on LinkedIn",
+          "url": "https://www.linkedin.com/in/aditya-balaji-50375237a/"
+        },
+        {
+          "label": "Open on GitHub",
+          "url": "https://github.com/aditya160509/aditya160509"
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "title": "Join the Mission",
+    "text": "DecodeAI is growing, built for students who love to explore. If you want to learn, build, or contribute, come be part of it and help shape what comes next.",
+    "buttons": [
+      {
+        "label": "View on GitHub",
+        "url": "https://github.com/aditya160509/aditya160509"
+      },
+      {
+        "label": "Explore EduPrompt",
+        "url": "/ai/eduprompt"
+      },
+      {
+        "label": "Connect on LinkedIn",
+        "url": "https://www.linkedin.com/in/aditya-balaji-50375237a/"
+      }
+    ]
+  },
+  "note": "All content on DecodeAI is created for educational use by students who want to learn, build, and share knowledge in AI and technology."
+}

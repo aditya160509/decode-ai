@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "too_many_tools",
+    "title": "Too many tools",
+    "why": "Every tool adds overhead and failure modes",
+    "fix": "Start with one planner one action and one memory"
+  },
+  {
+    "slug": "no_memory",
+    "title": "No memory",
+    "why": "The agent repeats context and costs rise",
+    "fix": "Use short memory for cross turn recall"
+  },
+  {
+    "slug": "overlong_prompt",
+    "title": "Prompt is too long",
+    "why": "Context window is limited",
+    "fix": "Summarize inputs and reuse context"
+  },
+  {
+    "slug": "high_latency",
+    "title": "Latency is high",
+    "why": "Model and concurrency add delay",
+    "fix": "Pick a faster model or reduce active users"
+  }
+]

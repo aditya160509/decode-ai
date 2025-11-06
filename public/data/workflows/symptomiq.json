@@ -1,0 +1,20 @@
+{
+  "slug": "symptomiq",
+  "title": "SymptomIQ – Smart Symptom Checker",
+  "topic": "Health & Medicine Batch",
+  "difficulty": "★★★☆☆ – logic-heavy, moderate ML.",
+  "goal": "Predict possible conditions based on symptoms using evidence-weighted rules.",
+  "why_it_matters": "People often self-diagnose inaccurately; guided triage prevents misinformation.",
+  "users": "Students, clinics, health chatbots.",
+  "data": "Public symptom-condition mapping datasets (openWHO, Symptoma).",
+  "ai": [
+    "Rule-based Bayesian inference or RandomForest on symptom vectors.",
+    "Confidence scoring + next-step suggestion."
+  ],
+  "workflow": [
+    "User selects or types symptoms.",
+    "Model matches top 3 possible causes.",
+    "Outputs next steps (“See GP”, “Hydration first”)."
+  ],
+  "outcome": "Great showcase of rule-based AI + responsible decision logic."
+}

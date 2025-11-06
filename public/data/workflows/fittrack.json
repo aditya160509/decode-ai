@@ -1,0 +1,21 @@
+{
+  "slug": "fittrack",
+  "title": "FitTrack – Personalized Fitness & Nutrition Planner",
+  "topic": "Health & Medicine Batch",
+  "difficulty": "★★☆☆☆ – lightweight logic, UX-rich.",
+  "goal": "Build a habit-based planner using goals, BMI, and calorie targets.",
+  "why_it_matters": "One-size-fits-all plans fail; people need adaptive routines.",
+  "users": "Students, athletes, wellness communities.",
+  "data": "Calorie datasets, exercise lookup tables, sample user logs.",
+  "ai": [
+    "Simple recommendation engine (linear regression or rule-based).",
+    "Optionally use embeddings for food-exercise similarity."
+  ],
+  "workflow": [
+    "Input body metrics + goals.",
+    "Suggest daily plan of meals + exercises.",
+    "Track adherence and adjust goals.",
+    "Visualize progress graphs."
+  ],
+  "outcome": "Health + personalization + behavioral AI showcase."
+}

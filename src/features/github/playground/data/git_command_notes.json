@@ -1,0 +1,9 @@
+{
+  "git status": "Safe to run often to verify your state",
+  "git add .": "Stages everything; use carefully",
+  "git commit": "Think of it as a checkpoint",
+  "git merge": "Resolve conflicts then commit",
+  "git rebase": "Avoid on public branches",
+  "git stash": "Hide work quickly to switch tasks",
+  "git tag": "Mark milestones"
+}

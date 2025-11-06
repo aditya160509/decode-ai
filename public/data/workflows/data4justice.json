@@ -1,0 +1,21 @@
+{
+  "slug": "data4justice",
+  "title": "Data4Justice – Crime & Law Visualization Portal",
+  "topic": "Civic & Governance Batch",
+  "difficulty": "★★★★☆ – involves multiple datasets and normalization.",
+  "goal": "Compare crime rates, case resolutions, and response times across regions.",
+  "why_it_matters": "Citizens deserve data-driven clarity on local law enforcement outcomes.",
+  "users": "Journalists, legal researchers.",
+  "data": "Police crime records, court case metadata, open law datasets.",
+  "ai": [
+    "Classification to tag crime categories.",
+    "Forecasting model for crime trends."
+  ],
+  "workflow": [
+    "Aggregate multi-source datasets.",
+    "Clean and unify attributes.",
+    "Visualize in map + time-series dashboard.",
+    "Highlight areas needing attention."
+  ],
+  "outcome": "Strong for data fusion, ethics, and interpretability."
+}

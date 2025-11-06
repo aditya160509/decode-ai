@@ -1,0 +1,36 @@
+{
+  "builder": {
+    "goals": [
+      "Summarize text clearly",
+      "Summarize text for students",
+      "Rewrite to professional tone",
+      "Rewrite to friendly tone",
+      "Proofread for grammar and punctuation",
+      "Proofread but keep same tone",
+      "Explain code to a beginner",
+      "Explain code line by line",
+      "Turn text into steps",
+      "Expand an idea with examples",
+      "Convert notes to email",
+      "Create classroom summary",
+      "Create feedback for student work",
+      "Turn messy paragraph into clean version",
+      "Explain an error and fix",
+      "Make output suitable for presentation",
+      "Make output suitable for report",
+      "Summarize without adding facts",
+      "Rewrite for non native speaker clarity",
+      "Rewrite long sentence into short sentences"
+    ],
+    "levels": {
+      "1": "Make it short, friendly, low instructions.",
+      "2": "Add tone or audience.",
+      "3": "Add structure like number of points or step by step.",
+      "4": "Add constraints like do not invent facts, keep terminology, keep code blocks.",
+      "5": "Full explicit instruction, output format, audience, and quality checks."
+    },
+    "toneOptions": ["student","friendly","professional","executive","teacher","beginner"],
+    "outputFormats": ["paragraph","bullets","steps","json","table"],
+    "extraFlags": ["doNotInvent","keepTone","keepCodeBlocks"]
+  }
+}

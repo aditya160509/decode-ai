@@ -1,0 +1,21 @@
+{
+  "slug": "solarlink",
+  "title": "SolarLink – Community Solar Dashboard",
+  "topic": "Energy & Infrastructure Batch",
+  "difficulty": "★★★☆☆ – ETL + visualization.",
+  "goal": "Build an open dashboard showing local solar adoption and output.",
+  "why_it_matters": "People rarely know their neighborhood’s renewable potential.",
+  "users": "Residents, green NGOs.",
+  "data": "Rooftop solar datasets, public power output stats.",
+  "ai": [
+    "Simple regression for generation prediction.",
+    "Keyword-based insights from adoption reports."
+  ],
+  "workflow": [
+    "Aggregate rooftop installations.",
+    "Compute energy output estimates.",
+    "Visualize city map with adoption trends.",
+    "Auto-generate 'community impact' text."
+  ],
+  "outcome": "Great sustainability data visualization portfolio piece."
+}

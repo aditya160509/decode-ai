@@ -1,0 +1,46 @@
+[
+{
+"id": "demo_image_quick",
+"title": "Quick Image Classifier Demo",
+"description": "Upload an image and see a tiny on-device classifier give a label. Demonstrates a Lovable-like builder flow mapped to static hosting.",
+"demo_type": "interactive_client",
+"inputs": [
+{ "name": "image", "type": "file", "placeholder": "Choose an image", "example": "cat.jpg" },
+{ "name": "confidenceThreshold", "type": "number", "placeholder": "0.5", "example": 0.5 }
+],
+"runtime": "client-only with bundled TFJS model",
+"stack_mapping": ["Lovable", "Vercel"],
+"demo_url": "",
+"preview_image": "image_classifier_preview.png",
+"instructions": "This demo runs entirely in your browser and never sends images to any server.",
+"estimated_time": "1 min"
+},
+{
+"id": "demo_text_sentiment_small",
+"title": "Text Sentiment Mini",
+"description": "Type or paste text and get a sentiment score using a small client-side model or a public hosted API. Shows how Colab/Spaces pipelines look in practice.",
+"demo_type": "static_preview",
+"inputs": [
+{ "name": "text", "type": "textarea", "placeholder": "Type sentence...", "example": "I love Open Source" }
+],
+"runtime": "client-first; falls back to hosted example if available",
+"stack_mapping": ["Google Colab", "Hugging Face Spaces"],
+"demo_url": "",
+"preview_image": "sentiment_preview.png",
+"instructions": "Try a sample sentence or paste your own. Seed controls available for deterministic outputs.",
+"estimated_time": "2 min"
+},
+{
+"id": "demo_embed_vercel",
+"title": "Vercel Deploy Preview",
+"description": "An embedded example of a static AI web app deployed on Vercel.",
+"demo_type": "hosted_embed",
+"inputs": [],
+"runtime": "hosted_embed",
+"stack_mapping": ["Vercel"],
+"demo_url": "[https://vercel.com/templates/ai-app](https://vercel.com/templates/ai-app)",
+"preview_image": "vercel_preview.png",
+"instructions": "This loads the Vercel template in an iframe for quick exploration.",
+"estimated_time": "30 sec"
+}
+]

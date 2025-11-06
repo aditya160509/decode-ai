@@ -1,0 +1,49 @@
+[{
+  "q": "How do I undo my last commit?",
+  "cli": ["git reset --soft HEAD~1", "edit files", "git commit -m 'fix'"],
+  "gui": "In VS Code → Source Control → Undo Last Commit",
+  "link": "[https://docs.github.com/en/pull-requests/committing-changes-to-your-project/undoing-changes](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/undoing-changes)",
+  "tags": ["Troubleshooting", "Beginner"]
+}, {
+  "q": "How do I resolve a merge conflict?",
+  "cli": ["git status", "edit conflicted files", "git add .", "git commit"],
+  "gui": "In VS Code → Source Control → Resolve Conflicts → Accept changes",
+  "link": "[https://docs.github.com/en/pull-requests/collaborating-with-issues-and-pull-requests/about-merge-conflicts](https://docs.github.com/en/pull-requests/collaborating-with-issues-and-pull-requests/about-merge-conflicts)",
+  "tags": ["Troubleshooting", "Beginner"]
+}, {
+  "q": "How do I clone a repository?",
+  "cli": ["git clone <url>"],
+  "gui": "In GitHub Desktop → File → Clone Repository",
+  "link": "[https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)",
+  "tags": ["Beginner"]
+}, {
+  "q": "How do I create a new branch?",
+  "cli": ["git checkout -b <branch>"],
+  "gui": "In VS Code → Source Control → Branches → Create New Branch",
+  "link": "[https://docs.github.com/en/pull-requests/branches/creating-and-deleting-branches](https://docs.github.com/en/pull-requests/branches/creating-and-deleting-branches)",
+  "tags": ["Beginner"]
+}, {
+  "q": "How do I push changes to GitHub?",
+  "cli": ["git add .", "git commit -m 'message'", "git push"],
+  "gui": "In VS Code → Source Control → Push",
+  "link": "[https://docs.github.com/en/pull-requests/pushing-commits-to-a-remote-repository](https://docs.github.com/en/pull-requests/pushing-commits-to-a-remote-repository)",
+  "tags": ["Beginner"]
+}, {
+  "q": "How do I pull the latest changes from remote?",
+  "cli": ["git pull"],
+  "gui": "In VS Code → Source Control → Pull",
+  "link": "[https://docs.github.com/en/pull-requests/pulling-changes-from-a-remote-repository](https://docs.github.com/en/pull-requests/pulling-changes-from-a-remote-repository)",
+  "tags": ["Beginner"]
+}, {
+  "q": "How do I delete a branch?",
+  "cli": ["git branch -d <branch>"],
+  "gui": "In VS Code → Source Control → Branches → Delete Branch",
+  "link": "[https://docs.github.com/en/pull-requests/branches/deleting-branches](https://docs.github.com/en/pull-requests/branches/deleting-branches)",
+  "tags": ["Advanced"]
+}, {
+  "q": "How do I see my commit history?",
+  "cli": ["git log"],
+  "gui": "In VS Code → Source Control → View History",
+  "link": "[https://docs.github.com/en/pull-requests/committing-changes-to-your-project/viewing-commit-history](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/viewing-commit-history)",
+  "tags": ["Beginner"]
+}]

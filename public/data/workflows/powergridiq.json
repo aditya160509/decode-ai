@@ -1,0 +1,21 @@
+{
+  "slug": "powergridiq",
+  "title": "PowerGridIQ – Energy Demand Forecast Dashboard",
+  "topic": "Energy & Infrastructure Batch",
+  "difficulty": "★★★★☆ – time-series forecasting + visualization.",
+  "goal": "Forecast city-level electricity demand using weather and usage data.",
+  "why_it_matters": "Predicting demand helps reduce blackouts and optimize energy distribution.",
+  "users": "Utility boards, students, data analysts.",
+  "data": "Hourly consumption data (UCI Electricity dataset), temperature, humidity.",
+  "ai": [
+    "Prophet / LSTM for load forecasting.",
+    "Correlation analysis between temperature and load."
+  ],
+  "workflow": [
+    "Aggregate daily/hourly usage.",
+    "Train forecasting model.",
+    "Visualize predicted vs actual demand.",
+    "Display peak-hour alerts and usage summaries."
+  ],
+  "outcome": "High-impact predictive analytics; shows practical modeling and dashboard design."
+}

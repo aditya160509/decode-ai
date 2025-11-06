@@ -1,0 +1,164 @@
+[
+{
+"tool": "Lovable",
+"category": "builder",
+"capabilities": {
+"webapp": true, "mobile": false, "automation": true,
+"templates": true, "drag_drop": true, "python": false,
+"realtime_collab": true, "free_gpu": "limited",
+"auth_built_in": true, "enterprise_auth": false,
+"db_builtin": true, "custom_domain": false,
+"public_share": true, "private_projects": "limited",
+"export_static": true, "api_integrations": true
+},
+"limits": { "free_tier": true, "sleep": "1h idle", "filesize_mb": 200 }
+},
+{
+"tool": "Hugging Face Spaces",
+"category": "hosting",
+"capabilities": {
+"webapp": true, "mobile": false, "automation": false,
+"templates": true, "drag_drop": false, "python": true,
+"realtime_collab": false, "free_gpu": true,
+"auth_built_in": false, "enterprise_auth": false,
+"db_builtin": false, "custom_domain": false,
+"public_share": true, "private_projects": "paid",
+"export_static": false, "api_integrations": true
+},
+"limits": { "free_tier": true, "sleep": "30m idle", "filesize_mb": 1000 }
+},
+{
+"tool": "Google Colab",
+"category": "python_app",
+"capabilities": {
+"webapp": false, "python": true, "free_gpu": true,
+"public_share": true, "private_projects": true,
+"api_integrations": true
+},
+"limits": { "free_tier": true, "session_hours": 12 }
+},
+{
+"tool": "Vercel",
+"category": "hosting",
+"capabilities": {
+"webapp": true, "custom_domain": true, "public_share": true,
+"python": true, "api_integrations": true, "edge_functions": true
+},
+"limits": { "free_tier": true, "sleep": "none for static" }
+},
+{
+"tool": "Netlify",
+"category": "hosting",
+"capabilities": { "webapp": true, "custom_domain": true, "public_share": true, "api_integrations": true },
+"limits": { "free_tier": true }
+},
+{
+"tool": "Render",
+"category": "hosting",
+"capabilities": { "webapp": true, "python": true, "background_jobs": true, "api_integrations": true },
+"limits": { "free_tier": true }
+},
+{
+"tool": "Railway",
+"category": "hosting",
+"capabilities": { "webapp": true, "python": true, "api_integrations": true },
+"limits": { "free_tier": true }
+},
+{
+"tool": "Cloudflare Pages",
+"category": "hosting",
+"capabilities": { "webapp": true, "custom_domain": true, "edge_functions": true, "public_share": true },
+"limits": { "free_tier": true }
+},
+{
+"tool": "Bubble",
+"category": "builder",
+"capabilities": {
+"webapp": true, "drag_drop": true, "templates": true,
+"auth_built_in": true, "enterprise_auth": true, "db_builtin": true,
+"custom_domain": true, "private_projects": true, "public_share": true
+},
+"limits": { "free_tier": true }
+},
+{
+"tool": "Glide",
+"category": "builder",
+"capabilities": {
+"mobile": true, "webapp": true, "drag_drop": true, "templates": true,
+"db_builtin": true, "public_share": true
+},
+"limits": { "free_tier": true }
+},
+{
+"tool": "Appgyver",
+"category": "builder",
+"capabilities": { "mobile": true, "webapp": true, "drag_drop": true, "templates": true },
+"limits": { "free_tier": true }
+},
+{
+"tool": "Power Apps",
+"category": "builder",
+"capabilities": { "webapp": true, "enterprise_auth": true, "db_builtin": true, "private_projects": true },
+"limits": { "free_tier": true }
+},
+{
+"tool": "Zapier",
+"category": "automation",
+"capabilities": { "automation": true, "scheduling": true, "webhooks": true },
+"limits": { "free_tier": true }
+},
+{
+"tool": "Make",
+"category": "automation",
+"capabilities": { "automation": true, "scheduling": true, "routers": true },
+"limits": { "free_tier": true }
+},
+{
+"tool": "n8n",
+"category": "automation",
+"capabilities": { "automation": true, "self_host": true, "webhooks": true },
+"limits": { "free_tier": true }
+},
+{
+"tool": "Airtable",
+"category": "database",
+"capabilities": { "db_builtin": true, "views": true, "api_integrations": true, "public_share": true },
+"limits": { "free_tier": true }
+},
+{
+"tool": "Supabase",
+"category": "database",
+"capabilities": { "db_builtin": true, "auth_built_in": true, "realtime": true, "edge_functions": true, "custom_domain": true },
+"limits": { "free_tier": true }
+},
+{
+"tool": "Firebase",
+"category": "database",
+"capabilities": { "db_builtin": true, "auth_built_in": true, "realtime": true, "hosting": true },
+"limits": { "free_tier": true }
+},
+{
+"tool": "Webflow",
+"category": "site_builder",
+"capabilities": { "webapp": "static", "drag_drop": true, "cms": true, "custom_domain": true, "public_share": true },
+"limits": { "free_tier": true }
+},
+{
+"tool": "Framer",
+"category": "site_builder",
+"capabilities": { "webapp": "static", "drag_drop": true, "custom_domain": true, "public_share": true },
+"limits": { "free_tier": true }
+},
+{
+"tool": "Streamlit",
+"category": "python_app",
+"capabilities": { "webapp": true, "python": true, "data_viz": true, "public_share": true },
+"limits": { "free_tier": true }
+},
+{
+"tool": "Gradio",
+"category": "python_app",
+"capabilities": { "webapp": true, "python": true, "ml_ui": true, "public_share": true },
+"limits": { "free_tier": true }
+}
+]

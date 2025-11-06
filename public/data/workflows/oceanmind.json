@@ -1,0 +1,21 @@
+{
+  "slug": "oceanmind",
+  "title": "OceanMind – Coastal Pollution Tracker",
+  "topic": "Environment & Sustainability Batch",
+  "difficulty": "★★★★☆ – remote sensing + image processing.",
+  "goal": "Detect pollution intensity and map risk zones using satellite data.",
+  "why_it_matters": "Coastal pollution impacts fisheries and tourism, but monitoring is weak.",
+  "users": "Environmental agencies, marine researchers.",
+  "data": "Sentinel-2 or MODIS satellite imagery, ocean turbidity datasets.",
+  "ai": [
+    "Image segmentation to detect high turbidity zones.",
+    "Correlation with weather and ship-route data."
+  ],
+  "workflow": [
+    "Process satellite imagery for coastal regions.",
+    "Identify pollution anomalies.",
+    "Overlay with weather and shipping data.",
+    "Highlight risk zones in heatmap."
+  ],
+  "outcome": "Advanced geospatial ML project with sustainability impact."
+}

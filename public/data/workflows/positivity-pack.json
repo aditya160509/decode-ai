@@ -1,0 +1,19 @@
+{
+  "slug": "positivity-pack",
+  "title": "Positivity Pack – Gratitude & Wins Log",
+  "topic": "Mental Health Batch",
+  "difficulty": "★☆☆☆ – straightforward CRUD + summarization.",
+  "goal": "Encourage short daily reflections to build positive thinking habits.",
+  "why_it_matters": "Gratitude journaling increases resilience and overall mood.",
+  "users": "Students, educators promoting well-being.",
+  "data": "Daily 1–2 sentence gratitude notes.",
+  "ai": [
+    "Keyword extraction + rotating theme prompts."
+  ],
+  "workflow": [
+    "Student adds short “Today I’m grateful for…” entry.",
+    "AI groups entries into weekly themes (“Support”, “Progress”).",
+    "Weekly reflection summary highlights top 3 mood drivers."
+  ],
+  "outcome": "Elegant UX project showing emotional-design principles."
+}

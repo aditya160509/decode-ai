@@ -1,0 +1,191 @@
+{
+  "scenarios": [
+    {
+      "id": "merge_conflict",
+      "title": "Resolve Merge Conflicts",
+      "goal": "Practice resolving a manual conflict and committing the fix",
+      "sandbox": false,
+      "initialRepo": {
+        "branches": ["main", "feature/conflict"],
+        "currentBranch": "main",
+        "files": {
+          "README.md": "Welcome\n",
+          "src/App.tsx": "export const App = () => 'A'\n"
+        },
+        "staged": [],
+        "commits": []
+      },
+      "objectives": [
+        "Merge feature/conflict into main",
+        "See conflict in src/App.tsx",
+        "Stage resolved file",
+        "Commit the conflict resolution"
+      ],
+      "solution": [
+        "git merge feature/conflict",
+        "git status",
+        "git add src/App.tsx",
+        "git commit -m \"fix conflict\"",
+        "git log --oneline"
+      ],
+      "hints": [
+        "Start by merging the branch into main",
+        "Use git status to see unmerged paths",
+        "Stage only the resolved file",
+        "Create a commit to mark the resolution"
+      ]
+    },
+    {
+      "id": "undo_commit",
+      "title": "Undo Bad Commit",
+      "goal": "Learn to adjust the last commit using reset and amend",
+      "sandbox": false,
+      "initialRepo": {
+        "branches": ["main"],
+        "currentBranch": "main",
+        "files": {
+          "README.md": "Start\n",
+          "src/utils.ts": "export const sum = (a,b) => a+b\n"
+        },
+        "staged": [],
+        "commits": [
+          { "id": "a1", "msg": "init", "branch": "main" },
+          { "id": "b2", "msg": "add utils", "branch": "main" }
+        ]
+      },
+      "objectives": [
+        "Soften the last commit",
+        "Amend message to fix",
+        "Confirm history looks right"
+      ],
+      "solution": [
+        "git reset --soft HEAD~1",
+        "git commit --amend -m \"fix\"",
+        "git log --oneline"
+      ],
+      "hints": [
+        "Use a soft reset to keep your changes staged",
+        "Amend the last commit with an updated message",
+        "Review simplified log to confirm"
+      ]
+    },
+    {
+      "id": "stash_work",
+      "title": "Stash Temporary Work",
+      "goal": "Safely shelve changes and restore them later",
+      "sandbox": false,
+      "initialRepo": {
+        "branches": ["main", "feature/demo"],
+        "currentBranch": "feature/demo",
+        "files": {
+          "README.md": "Guide\n",
+          "src/demo.ts": "console.log('demo')\n"
+        },
+        "staged": [],
+        "commits": [
+          { "id": "c3", "msg": "demo setup", "branch": "feature/demo" }
+        ]
+      },
+      "objectives": [
+        "Make a change",
+        "Stash it",
+        "Switch to main",
+        "Pop the stash"
+      ],
+      "solution": [
+        "nano src/demo.ts",
+        "git status",
+        "git stash",
+        "git checkout main",
+        "git stash pop",
+        "git status"
+      ],
+      "hints": [
+        "Edit a file first to create a change",
+        "Use git stash to save your work",
+        "Switch branches to simulate context switch",
+        "Pop to restore and remove the stash"
+      ]
+    },
+    {
+      "id": "tag_release",
+      "title": "Tag a Release",
+      "goal": "Create an annotated tag and inspect it",
+      "sandbox": false,
+      "initialRepo": {
+        "branches": ["main"],
+        "currentBranch": "main",
+        "files": {
+          "CHANGELOG.md": "v0.9 notes\n"
+        },
+        "staged": [],
+        "commits": [
+          { "id": "d4", "msg": "prepare release", "branch": "main" }
+        ],
+        "tags": []
+      },
+      "objectives": [
+        "Create tag v1.0",
+        "Show the tag"
+      ],
+      "solution": [
+        "git tag -a v1.0 -m \"release\"",
+        "git show v1.0"
+      ],
+      "hints": [
+        "Use an annotated tag with a message",
+        "Show to confirm the tag details"
+      ]
+    },
+    {
+      "id": "rebase_practice",
+      "title": "Rebase Practice",
+      "goal": "Reapply your work on top of main",
+      "sandbox": false,
+      "initialRepo": {
+        "branches": ["main", "feature/ui"],
+        "currentBranch": "feature/ui",
+        "files": {
+          "src/App.tsx": "export const App=()=> 'UI'\n"
+        },
+        "staged": [],
+        "commits": [
+          { "id": "e5", "msg": "ui base", "branch": "feature/ui" }
+        ]
+      },
+      "objectives": [
+        "Start rebase onto main",
+        "Continue rebase",
+        "Review concise history"
+      ],
+      "solution": [
+        "git rebase main",
+        "git rebase --continue",
+        "git log --oneline"
+      ],
+      "hints": [
+        "Begin by rebasing on main",
+        "Continue until done",
+        "Use oneline for clarity"
+      ]
+    },
+    {
+      "id": "sandbox_mode",
+      "title": "Free Play Sandbox",
+      "goal": "Experiment freely with commands. No objectives here",
+      "sandbox": true,
+      "initialRepo": {
+        "branches": ["main"],
+        "currentBranch": "main",
+        "files": {
+          "README.md": "Sandbox\n"
+        },
+        "staged": [],
+        "commits": []
+      },
+      "objectives": [],
+      "solution": [],
+      "hints": []
+    }
+  ]
+}

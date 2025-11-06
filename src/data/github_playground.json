@@ -1,0 +1,90 @@
+[
+  {
+    "id": "branch-merge",
+    "title": "Branching & Merging",
+    "goal": "Create a branch, make a change, and merge it into main.",
+    "initial_files": {
+      "README.md": "# Demo\nLine A\n"
+    },
+    "objectives": [
+      "Create branch 'feature-x'",
+      "Edit README.md",
+      "Merge into main"
+    ],
+    "hints": [
+      "Use git checkout -b to create a branch"
+    ],
+    "solution": [
+      "git checkout -b feature-x",
+      "echo 'Feature change' >> README.md",
+      "git add . && git commit -m 'feat: update readme'",
+      "git checkout main",
+      "git merge feature-x"
+    ]
+  },
+  {
+    "id": "undo-commit",
+    "title": "Undo Last Commit",
+    "goal": "Undo your last commit and fix a typo.",
+    "initial_files": {
+      "main.py": "print('Hello Wrold')"
+    },
+    "objectives": [
+      "Undo last commit",
+      "Edit main.py to fix typo",
+      "Commit the fix"
+    ],
+    "hints": [
+      "Use git reset --soft HEAD~1"
+    ],
+    "solution": [
+      "git reset --soft HEAD~1",
+      "nano main.py",
+      "git add main.py",
+      "git commit -m 'fix: correct typo'"
+    ]
+  },
+  {
+    "id": "resolve-conflict",
+    "title": "Resolve Merge Conflict",
+    "goal": "Resolve a conflict in README.md after merging two branches.",
+    "initial_files": {
+      "README.md": "Line from main\nLine from feature"
+    },
+    "objectives": [
+      "Merge feature into main",
+      "Resolve conflict",
+      "Commit resolved file"
+    ],
+    "hints": [
+      "Edit README.md to keep both changes"
+    ],
+    "solution": [
+      "git merge feature",
+      "nano README.md",
+      "git add README.md",
+      "git commit -m 'resolve: merge conflict'"
+    ]
+  },
+  {
+    "id": "stash-changes",
+    "title": "Stash & Restore Changes",
+    "goal": "Stash your work, switch branches, and restore changes.",
+    "initial_files": {
+      "app.js": "console.log('Start')"
+    },
+    "objectives": [
+      "Stash changes",
+      "Switch to another branch",
+      "Restore stashed changes"
+    ],
+    "hints": [
+      "Use git stash and git stash pop"
+    ],
+    "solution": [
+      "git stash",
+      "git checkout develop",
+      "git stash pop"
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "slug": "medibot",
+  "title": "MediBot – Virtual Health Assistant",
+  "topic": "Health & Medicine Batch",
+  "difficulty": "★★★☆☆ – chatbot + NLP integration.",
+  "goal": "Create a conversational assistant for simple medical queries and reminders.",
+  "why_it_matters": "Students and elderly need quick, friendly answers for minor issues.",
+  "users": "Students, clinics, families.",
+  "data": "Health Q&A dataset (Symptom→Advice pairs).",
+  "ai": [
+    "Intent classification (DistilBERT).",
+    "Response retrieval from FAQ bank."
+  ],
+  "workflow": [
+    "Input natural query ('I have a cold').",
+    "Classify intent and fetch relevant tip.",
+    "Respond conversationally with empathy.",
+    "Optionally set reminder or follow-up."
+  ],
+  "outcome": "Conversational AI with ethical health application."
+}

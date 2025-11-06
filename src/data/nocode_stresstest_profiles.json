@@ -1,0 +1,5 @@
+[
+{ "profile": "student-demo", "DAU": 10, "requests_per_user": 3, "avg_model_mb": 20, "inference_per_hour": 5 },
+{ "profile": "classroom", "DAU": 100, "requests_per_user": 5, "avg_model_mb": 50, "inference_per_hour": 20 },
+{ "profile": "pilot", "DAU": 1000, "requests_per_user": 10, "avg_model_mb": 100, "inference_per_hour": 200 }
+]

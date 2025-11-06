@@ -1,0 +1,21 @@
+{
+  "slug": "finsight",
+  "title": "FinSight – Personal Finance Coach",
+  "topic": "Finance, Economics & Employment",
+  "difficulty": "★★★☆☆ – data analysis + forecasting.",
+  "goal": "Offer budgeting, expense tracking, and savings predictions with behavioral nudges.",
+  "why_it_matters": "Most students manage money reactively instead of planning proactively.",
+  "users": "Students, young professionals.",
+  "data": "User transaction CSV or mock spending data.",
+  "ai": [
+    "Time-series forecasting (Prophet) to predict monthly balances.",
+    "Clustering to classify spending habits."
+  ],
+  "workflow": [
+    "Import or log transactions.",
+    "Classify expenses by category.",
+    "Predict future spending and saving potential.",
+    "Suggest personalized financial tips."
+  ],
+  "outcome": "Applied forecasting + UX-first financial AI example."
+}

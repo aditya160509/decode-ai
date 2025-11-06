@@ -1,0 +1,20 @@
+{
+  "slug": "vitalsight",
+  "title": "VitalSight – Health Vitals Dashboard",
+  "topic": "Health & Medicine Batch",
+  "difficulty": "★★☆☆☆ – data visualization and trend logic.",
+  "goal": "Track and visualize health vitals (heart rate, sleep, steps) with insights.",
+  "why_it_matters": "Students and professionals rarely monitor vitals consistently.",
+  "users": "General audience, wearable users.",
+  "data": "Fitbit or mock wearable datasets.",
+  "ai": [
+    "Regression or z-score alerts for unusual readings."
+  ],
+  "workflow": [
+    "Import daily vitals.",
+    "Compute weekly averages.",
+    "Highlight anomalies with suggestions.",
+    "Display dashboard of health progress."
+  ],
+  "outcome": "Great data-viz + UX project with wellness analytics."
+}

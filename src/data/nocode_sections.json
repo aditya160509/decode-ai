@@ -1,0 +1,19 @@
+{
+"hero_subheader": "Pick the right no-code stack, deploy fast, and share your AI app without touching a server.",
+"section_descriptions": {
+"recommender": "Answer a few questions and get a stack with clear reasons and trade-offs.",
+"deploy": "Follow a 10-step checklist to launch your app, copyable and trackable.",
+"integrations": "Connect tools (Colab ↔️ Spaces, Lovable ↔️ Vercel, Bubble ↔️ Zapier) with pitfalls to avoid.",
+"limits": "Know free-tier limits before you hit them.",
+"troubleshoot": "Common errors, likely causes, and quick fixes.",
+"showcases": "Live examples to copy and learn from.",
+"live-demos": "Interactive demos you can run in the browser to preview behavior and data flows.",
+"starter-kits": "Jumpstart templates by goal.",
+"comparison": "Feature grid across platforms.",
+"launch-plan": "Generate a shareable timeline and checklist for your specific project.",
+"free-tier-stress": "Quick simulation of limits to predict where you’ll hit quotas.",
+"best-practices": "Simple rules to build reliably.",
+"faqs": "The answers most people need on day one.",
+"takeaways": "Three reminders before you ship."
+}
+}

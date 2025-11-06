@@ -1,0 +1,21 @@
+{
+  "slug": "creditmind",
+  "title": "CreditMind – Loan Risk Predictor",
+  "topic": "Finance, Economics & Employment",
+  "difficulty": "★★★★☆ – classification + explainability.",
+  "goal": "Predict loan approval probability and explain risk factors.",
+  "why_it_matters": "Microfinance institutions need transparent risk models.",
+  "users": "Banks, fintech startups.",
+  "data": "Open credit datasets (e.g., German Credit Data).",
+  "ai": [
+    "Random Forest / XGBoost classifier.",
+    "SHAP values for explainable AI."
+  ],
+  "workflow": [
+    "Preprocess applicant data.",
+    "Train risk model.",
+    "Predict and visualize risk score.",
+    "Show human-readable explanations."
+  ],
+  "outcome": "Ethical AI in finance + model interpretability."
+}

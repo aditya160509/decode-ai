@@ -1,0 +1,20 @@
+{
+  "slug": "calmpace",
+  "title": "CalmPace – Guided Breathing Coach",
+  "topic": "Mental Health Batch",
+  "difficulty": "★☆☆☆ – logic-based, minimal backend.",
+  "goal": "Deliver 3-minute adaptive breathing sessions with instant feedback.",
+  "why_it_matters": "Even short, paced-breathing sessions lower anxiety and restore focus before exams.",
+  "users": "Students, exam takers, anxious speakers.",
+  "data": "Session duration, breaths per minute, self-rated calmness pre/post.",
+  "ai": [
+    "Heuristic adherence model adjusting pace next time (e.g., slower if early termination)."
+  ],
+  "workflow": [
+    "Student starts animated breathing timer.",
+    "Session data logged locally.",
+    "System computes adherence score.",
+    "Generates next session recommendation and tracks streak."
+  ],
+  "outcome": "Great mini-project for behavioral feedback design and user retention metrics."
+}

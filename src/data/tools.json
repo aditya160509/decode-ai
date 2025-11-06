@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Lovable",
+    "use": "Quickly prototype AI sites with no-code tools and beautiful components.",
+    "link": "https://lovable.dev"
+  },
+  {
+    "name": "Hugging Face Spaces",
+    "use": "Host machine learning models and interactive demos in the cloud.",
+    "link": "https://huggingface.co/spaces"
+  },
+  {
+    "name": "Google Colab",
+    "use": "Run Python notebooks in your browser with free GPU access.",
+    "link": "https://colab.research.google.com"
+  },
+  {
+    "name": "Vercel",
+    "use": "Deploy frontend projects instantly with automatic SSL and global CDN.",
+    "link": "https://vercel.com"
+  }
+]

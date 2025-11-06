@@ -1,0 +1,21 @@
+{
+  "slug": "gridguard",
+  "title": "GridGuard – Power Outage Predictor",
+  "topic": "Energy & Infrastructure Batch",
+  "difficulty": "★★★★☆ – ML classification.",
+  "goal": "Predict outages based on weather, fault logs, and infrastructure age.",
+  "why_it_matters": "Anticipating outages allows pre-emptive maintenance.",
+  "users": "Smart city teams, utility maintenance staff.",
+  "data": "Utility fault history, storm data, equipment details.",
+  "ai": [
+    "RandomForest / GradientBoosting for outage prediction.",
+    "SHAP for feature importance."
+  ],
+  "workflow": [
+    "Merge fault & weather data.",
+    "Train binary outage predictor.",
+    "Display risk map for upcoming days.",
+    "Generate maintenance recommendations."
+  ],
+  "outcome": "Perfect AI-for-infrastructure project — interpretable, preventive, and civic."
+}

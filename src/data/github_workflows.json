@@ -1,0 +1,28 @@
+{
+  "workflows": [
+    {
+      "name": "Solo Developer Flow",
+      "description": "Ideal for students or freelancers. You commit directly to main, use branches for experiments, and merge after testing."
+    },
+    {
+      "name": "Small-Team Feature Branching",
+      "description": "Each developer works on a dedicated branch. Merges are done via reviewed pull requests to maintain clean history."
+    },
+    {
+      "name": "Open-Source Contribution Flow",
+      "description": "Contributors fork public repositories, create a branch for their change, and open a pull request for maintainers to review."
+    },
+    {
+      "name": "Company Gitflow Model",
+      "description": "Used in medium-to-large organizations. Includes 'develop', 'release', and 'hotfix' branches for stable deployment pipelines."
+    },
+    {
+      "name": "Continuous Integration (CI/CD) Workflow",
+      "description": "Every merge triggers automated builds, tests, and deployments ensuring code stays production-ready."
+    },
+    {
+      "name": "Documentation-First Workflow",
+      "description": "Writers and developers collaborate through docs branches and PRs merging updates after technical reviews."
+    }
+  ]
+}

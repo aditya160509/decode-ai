@@ -1,0 +1,31 @@
+{
+  "definitions": [
+    "AI is the science of making machines perform tasks that require human intelligence, such as understanding language or recognizing images.",
+    "Artificial Intelligence (AI) refers to computer systems that can learn, reason, and solve problems like humans.",
+    "AI is technology that enables computers to analyze data, make decisions, and improve over time without explicit programming.",
+    "AI means building software that can adapt to new information and perform complex tasks automatically.",
+    "AI is the field focused on creating algorithms that mimic cognitive functions such as learning and perception.",
+    "AI is the use of computers to simulate intelligent behavior, including planning, language, and vision.",
+    "AI systems can process large amounts of data to find patterns and make predictions.",
+    "AI is about teaching machines to understand, interpret, and interact with the world.",
+    "AI enables automation of tasks that previously required human expertise.",
+    "AI is the development of smart agents that can act autonomously in dynamic environments."
+  ],
+  "examples": [
+    "ChatGPT answering questions in natural language.",
+    "Image tagging on social media platforms.",
+    "Code completion tools like GitHub Copilot.",
+    "Voice assistants (Siri, Alexa) understanding commands.",
+    "Email spam filters sorting messages.",
+    "Self-driving cars recognizing traffic signs.",
+    "Recommendation systems on Netflix or YouTube.",
+    "Fraud detection in banking.",
+    "Real-time language translation apps.",
+    "Smart home devices adjusting temperature or lighting."
+  ],
+  "visual_ideas": [
+    "Data -> Model -> Prediction loop diagram.",
+    "Flowchart showing user input -> AI processing -> output."
+  ],
+  "quote": "AI is the new electricity. It will transform every industry and create huge economic value. — Andrew Ng"
+}

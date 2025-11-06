@@ -1,0 +1,21 @@
+{
+  "slug": "wagewise",
+  "title": "WageWise – Career Growth Forecaster",
+  "topic": "Finance, Economics & Employment",
+  "difficulty": "★★★☆☆ – regression + visualization.",
+  "goal": "Predict career progression and salary growth based on skills and education.",
+  "why_it_matters": "Students rarely see how skills translate into long-term earnings.",
+  "users": "Students, career counselors.",
+  "data": "Salary survey data, education datasets.",
+  "ai": [
+    "Polynomial regression for growth prediction.",
+    "Feature importance ranking (skills vs education)."
+  ],
+  "workflow": [
+    "Input skills and education.",
+    "Predict future salary curve.",
+    "Visualize career path timeline.",
+    "Offer skill upskilling suggestions."
+  ],
+  "outcome": "Perfect blend of career advice + predictive analytics."
+}

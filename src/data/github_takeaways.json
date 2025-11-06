@@ -1,0 +1,7 @@
+{
+  "takeaways": [
+    "Commit small and often. History is your best teacher.",
+    "Branches protect main. Always test before merging.",
+    "Sync before pushing to avoid conflicts early."
+  ]
+}

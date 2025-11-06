@@ -1,0 +1,15 @@
+{
+"intro_text": "No-code AI and app builders let anyone create, test, and launch smart solutions no programming required. They help students, teams, and businesses innovate faster and lower the barrier to entry for AI and automation.",
+"quick_start": [
+{ "title": "Explore Lovable", "url": "[https://lovable.ai/](https://lovable.ai/)" },
+{ "title": "Try Hugging Face Spaces", "url": "[https://huggingface.co/spaces](https://huggingface.co/spaces)" },
+{ "title": "Launch Google Colab", "url": "[https://colab.research.google.com/](https://colab.research.google.com/)" },
+{ "title": "Deploy on Vercel", "url": "[https://vercel.com/](https://vercel.com/)" },
+{ "title": "Build with Bubble", "url": "[https://bubble.io/](https://bubble.io/)" },
+{ "title": "Create Apps with Glide", "url": "[https://www.glideapps.com/](https://www.glideapps.com/)" },
+{ "title": "Automate with Zapier", "url": "[https://zapier.com/](https://zapier.com/)" },
+{ "title": "AI with Peltarion", "url": "[https://peltarion.com/](https://peltarion.com/)" },
+{ "title": "Appgyver Platform", "url": "[https://www.appgyver.com/](https://www.appgyver.com/)" },
+{ "title": "Microsoft Power Apps", "url": "[https://powerapps.microsoft.com/](https://powerapps.microsoft.com/)" }
+]
+}

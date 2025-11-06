@@ -1,0 +1,21 @@
+{
+  "slug": "urbanlight",
+  "title": "UrbanLight – Smart Streetlight Optimizer",
+  "topic": "Energy & Infrastructure Batch",
+  "difficulty": "★★★★☆ – IoT + prediction.",
+  "goal": "Predict lighting needs by time, weather, and foot traffic.",
+  "why_it_matters": "Public lighting wastes energy without adaptive control.",
+  "users": "City municipalities, IoT labs.",
+  "data": "Sensor logs, traffic counts, weather.",
+  "ai": [
+    "Regression for brightness prediction.",
+    "Clustering for pattern grouping."
+  ],
+  "workflow": [
+    "Merge light sensor and traffic data.",
+    "Build model to predict optimal intensity.",
+    "Visualize savings vs baseline.",
+    "Simulate adaptive lighting schedule."
+  ],
+  "outcome": "Smart-city IoT AI demo; quantifiable energy savings."
+}

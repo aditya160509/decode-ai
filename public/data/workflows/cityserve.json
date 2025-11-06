@@ -1,0 +1,20 @@
+{
+  "slug": "cityserve",
+  "title": "CityServe – Public Grievance Portal",
+  "topic": "Civic & Governance Batch",
+  "difficulty": "★★☆☆☆ – full-stack with text categorization.",
+  "goal": "Build a transparent portal that routes and summarizes citizen service requests.",
+  "why_it_matters": "Simplifies filing, tracking, and analyzing citizen complaints.",
+  "users": "Residents, civic helpdesks.",
+  "data": "Complaint texts, category labels, timestamps.",
+  "ai": [
+    "Text classification to auto-route requests (waste, water, roads)."
+  ],
+  "workflow": [
+    "Submit complaint via form or voice.",
+    "Auto-tag issue category.",
+    "Forward to responsible department.",
+    "Display status + analytics."
+  ],
+  "outcome": "Excellent example of human-in-loop automation + social usability."
+}

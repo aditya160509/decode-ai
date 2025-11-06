@@ -1,0 +1,21 @@
+{
+  "slug": "votewatch",
+  "title": "VoteWatch – Electoral Data Tracker",
+  "topic": "Civic & Governance Batch",
+  "difficulty": "★★☆☆☆ – mostly ETL and visualization.",
+  "goal": "Visualize past election data by region, gender, and age, showing turnout patterns.",
+  "why_it_matters": "Understanding voting turnout and demographic influence builds informed participation.",
+  "users": "Civics teachers, journalists, policymakers.",
+  "data": "Election commission data, voter turnout stats, demographics CSV.",
+  "ai": [
+    "Regression to find correlations (education level ↔ turnout).",
+    "Time-series analysis for turnout trends."
+  ],
+  "workflow": [
+    "Aggregate datasets across years.",
+    "Clean and normalize demographic fields.",
+    "Build comparison charts and correlation maps.",
+    "Offer trend explanations via text generation."
+  ],
+  "outcome": "Policy analytics + quantitative storytelling."
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "uplift-radio",
+  "title": "Uplift Radio – Micro Audio Explainers",
+  "topic": "Mental Health Batch",
+  "difficulty": "★★☆☆ – content curation + light recommender.",
+  "goal": "Curate 60-second explainers on coping strategies tailored to listener interests.",
+  "why_it_matters": "Students prefer quick, relatable mental-wellness content.",
+  "users": "Students, mental-health clubs.",
+  "data": "Chosen topics, listen history.",
+  "ai": [
+    "Simple similarity-based recommendation (TF-IDF or embeddings)."
+  ],
+  "workflow": [
+    "User picks themes like “Exam Anxiety” or “Self-Esteem”.",
+    "Engine matches and queues audio explainers.",
+    "Tracks listens and suggests new ones weekly."
+  ],
+  "outcome": "Demonstrates multimedia personalization with minimal compute cost."
+}

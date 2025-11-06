@@ -1,0 +1,1676 @@
+{
+  "batches": [
+    {
+      "name": "Mental Health Projects",
+      "summary": [
+        "Average Difficulty: Moderate (2.3 / 4)",
+        "Average Build Time: ~4–6 days each",
+        "Skills Covered: NLP, rule-based AI, time-series analysis, visualization, recommendation, adaptive logic",
+        "Ideal Portfolio Tagline: “Applied AI for Human Wellness — from data to empathy.”"
+      ],
+      "projects": [
+        {
+          "slug": "mindtrack-mood-habit-journal",
+          "title": "MindTrack – Mood & Habit Journal",
+          "batch": "Mental Health Projects",
+          "why_it_matters": "Many students burn out silently; daily reflection helps them notice patterns before stress escalates.",
+          "goal": "Let students log mood, sleep, and study habits, then visualize correlations between lifestyle and productivity.",
+          "users": "Students, peer mentors, counselors.",
+          "difficulty": "★★☆☆ – requires data cleaning, trend logic, and simple visualization.",
+          "time": "5–7 days.",
+          "data": {
+            "label": "Data Needed",
+            "items": [
+              "Mood (1–5 scale), hours slept, study duration, brief notes."
+            ]
+          },
+          "ai_use": [
+            "Rolling average + z-score spike detection to highlight anomalies.",
+            "Keyword extraction (spaCy small) to tag recurring stressors."
+          ],
+          "workflow": [
+            "1. Daily input form captures mood, hours, notes.",
+            "2. Normalization and plotting engine builds weekly graphs.",
+            "3. AI module detects mood dips or repeated stress words.",
+            "4. Insight cards explain trends in friendly language.",
+            "5. Student receives a reflection summary at week’s end."
+          ],
+          "portfolio_value": "Demonstrates applied analytics + lightweight NLP with clean UI storytelling."
+        },
+        {
+          "slug": "calmpace-guided-breathing-coach",
+          "title": "CalmPace – Guided Breathing Coach",
+          "batch": "Mental Health Projects",
+          "why_it_matters": "Even short, paced-breathing sessions lower anxiety and restore focus before exams.",
+          "goal": "Deliver 3-minute adaptive breathing sessions with instant feedback.",
+          "users": "Students, exam takers, anxious speakers.",
+          "difficulty": "★☆☆☆ – logic-based, minimal backend.",
+          "time": "2–3 days.",
+          "data": {
+            "label": "Data Needed",
+            "items": [
+              "Session duration, breaths per minute, self-rated calmness pre/post."
+            ]
+          },
+          "ai_use": [
+            "Heuristic adherence model adjusting pace next time (e.g., slower if early termination)."
+          ],
+          "workflow": [
+            "1. Student starts animated breathing timer.",
+            "2. Session data logged locally.",
+            "3. System computes adherence score.",
+            "4. Generates next session recommendation and tracks streak."
+          ],
+          "portfolio_value": "Great mini-project for behavioral feedback design and user retention metrics."
+        },
+        {
+          "slug": "focusguard-distraction-log",
+          "title": "FocusGuard – Distraction Log",
+          "batch": "Mental Health Projects",
+          "why_it_matters": "Productivity drops when students don’t know what distracts them most.",
+          "goal": "Identify top 3 distraction triggers and propose realistic counter-measures.",
+          "users": "Students, focus-training communities.",
+          "difficulty": "★★★☆ – introduces clustering and text analysis.",
+          "time": "5 days.",
+          "data": {
+            "label": "Data Needed",
+            "items": [
+              "Short notes on distractions, optional tags (“phone”, “noise”)."
+            ]
+          },
+          "ai_use": [
+            "TF-IDF / spaCy keyword clustering.",
+            "Pareto ranking to show top 20% triggers causing 80% loss."
+          ],
+          "workflow": [
+            "1. One-click “Log distraction” widget collects short notes.",
+            "2. Texts clustered and visualized as a Pareto chart.",
+            "3. App suggests targeted fixes (e.g., silent hours, focus playlist)."
+          ],
+          "portfolio_value": "Combines NLP + visualization + behavioral insights elegantly."
+        },
+        {
+          "slug": "peersupport-weekly-check-in-bot",
+          "title": "PeerSupport – Weekly Check-in Bot",
+          "batch": "Mental Health Projects",
+          "why_it_matters": "Early peer support reduces isolation and burnout in group projects.",
+          "goal": "Enable anonymous weekly mood check-ins with automatic summaries.",
+          "users": "Student cohorts, mentors, RAs.",
+          "difficulty": "★★★☆ – sentiment detection + cohort aggregation.",
+          "time": "4–6 days.",
+          "data": {
+            "label": "Data Needed",
+            "items": [
+              "Emoji mood scale, 1-line optional note."
+            ]
+          },
+          "ai_use": [
+            "Sentiment scoring (VADER).",
+            "Keyword detection for high-risk terms (“hopeless”, “fail”)."
+          ],
+          "workflow": [
+            "1. Weekly link sent to group.",
+            "2. Students submit quick mood check.",
+            "3. System aggregates averages and flags concerns.",
+            "4. Dashboard displays cohort pulse and resource links."
+          ],
+          "portfolio_value": "Perfect for showing social impact design + responsible AI ethics."
+        },
+        {
+          "slug": "sleepwise-study-sleep-planner",
+          "title": "SleepWise – Study & Sleep Planner",
+          "batch": "Mental Health Projects",
+          "why_it_matters": "Sleep deprivation directly lowers grades; scheduling rest improves retention.",
+          "goal": "Auto-build weekly study plans that respect sleep preferences.",
+          "users": "College students.",
+          "difficulty": "★★☆☆ – mainly time allocation logic.",
+          "time": "4 days.",
+          "data": {
+            "label": "Data Needed",
+            "items": [
+              "Study hours, preferred sleep windows, task list, deadlines."
+            ]
+          },
+          "ai_use": [
+            "Rule engine for optimal slot allocation.",
+            "Conflict detection for overlapping sessions."
+          ],
+          "workflow": [
+            "1. User inputs sleep hours and available time.",
+            "2. Algorithm generates balanced study blocks.",
+            "3. Detects over-commitment and suggests rest slots.",
+            "4. Outputs visual timetable and optional ICS calendar."
+          ],
+          "portfolio_value": "Demonstrates constraint solving and human-centered productivity design."
+        },
+        {
+          "slug": "positivity-pack-gratitude-wins-log",
+          "title": "Positivity Pack – Gratitude & Wins Log",
+          "batch": "Mental Health Projects",
+          "why_it_matters": "Gratitude journaling increases resilience and overall mood.",
+          "goal": "Encourage short daily reflections to build positive thinking habits.",
+          "users": "Students, educators promoting well-being.",
+          "difficulty": "★☆☆☆ – straightforward CRUD + summarization.",
+          "time": "3 days.",
+          "data": {
+            "label": "Data Needed",
+            "items": [
+              "Daily 1–2 sentence gratitude notes."
+            ]
+          },
+          "ai_use": [
+            "Keyword extraction + rotating theme prompts."
+          ],
+          "workflow": [
+            "1. Student adds short “Today I’m grateful for…” entry.",
+            "2. AI groups entries into weekly themes (“Support”, “Progress”).",
+            "3. Weekly reflection summary highlights top 3 mood drivers."
+          ],
+          "portfolio_value": "Elegant UX project showing emotional-design principles."
+        },
+        {
+          "slug": "stressmap-trigger-heatmap",
+          "title": "StressMap – Trigger Heatmap",
+          "batch": "Mental Health Projects",
+          "why_it_matters": "Visualizing stress helps learners connect causes with time or place.",
+          "goal": "Generate a heatmap showing stress intensity over days or locations.",
+          "users": "Students managing academic pressure.",
+          "difficulty": "★★★☆ – requires time-series smoothing + visualization.",
+          "time": "6 days.",
+          "data": {
+            "label": "Data Needed",
+            "items": [
+              "Daily stress rating, optional location tag."
+            ]
+          },
+          "ai_use": [
+            "Time-series smoothing; correlation between context and stress."
+          ],
+          "workflow": [
+            "1. Collect stress logs via simple scale.",
+            "2. Smooth data with moving averages.",
+            "3. Identify recurring high-stress slots.",
+            "4. Display calendar heatmap and contextual suggestions."
+          ],
+          "portfolio_value": "Strong data-viz + mental-health analytics showcase."
+        },
+        {
+          "slug": "studybreaks-pomodoro-rest-coach",
+          "title": "StudyBreaks – Pomodoro & Rest Coach",
+          "batch": "Mental Health Projects",
+          "why_it_matters": "Over-studying reduces focus; structured breaks sustain energy.",
+          "goal": "Enforce balanced work-break cycles using adaptive timers.",
+          "users": "Students, productivity enthusiasts.",
+          "difficulty": "★★☆☆ – logic-driven frontend.",
+          "time": "3–4 days.",
+          "data": {
+            "label": "Data Needed",
+            "items": [
+              "Study durations, break ratings, completion logs."
+            ]
+          },
+          "ai_use": [
+            "Heuristic timer adaptation (longer breaks after low completion)."
+          ],
+          "workflow": [
+            "1. Start 25-minute focus session.",
+            "2. Log success/failure.",
+            "3. AI adjusts next block and recommends rest duration.",
+            "4. Show progress streak and focus statistics."
+          ],
+          "portfolio_value": "Clean, gamified productivity UX + behavior loop design."
+        },
+        {
+          "slug": "uplift-radio-micro-audio-explainers",
+          "title": "Uplift Radio – Micro Audio Explainers",
+          "batch": "Mental Health Projects",
+          "why_it_matters": "Students prefer quick, relatable mental-wellness content.",
+          "goal": "Curate 60-second explainers on coping strategies tailored to listener interests.",
+          "users": "Students, mental-health clubs.",
+          "difficulty": "★★☆☆ – content curation + light recommender.",
+          "time": "4 days.",
+          "data": {
+            "label": "Data Needed",
+            "items": [
+              "Chosen topics, listen history."
+            ]
+          },
+          "ai_use": [
+            "Simple similarity-based recommendation (TF-IDF or embeddings)."
+          ],
+          "workflow": [
+            "1. User picks themes like “Exam Anxiety” or “Self-Esteem”.",
+            "2. Engine matches and queues audio explainers.",
+            "3. Tracks listens and suggests new ones weekly."
+          ],
+          "portfolio_value": "Demonstrates multimedia personalization with minimal compute cost."
+        },
+        {
+          "slug": "reflectcards-cognitive-reframing-helper",
+          "title": "ReflectCards – Cognitive Reframing Helper",
+          "batch": "Mental Health Projects",
+          "why_it_matters": "Thought reframing teaches emotional regulation — a proven CBT tool.",
+          "goal": "Turn negative thoughts into constructive statements using guided templates.",
+          "users": "Students facing stress or perfectionism.",
+          "difficulty": "★★★☆ – pattern recognition + template mapping.",
+          "time": "5 days.",
+          "data": {
+            "label": "Data Needed",
+            "items": [
+              "User’s negative thought statements."
+            ]
+          },
+          "ai_use": [
+            "Pattern matching on cognitive distortions (“all-or-nothing”, “overgeneralizing”).",
+            "Rule-based reframing using pre-authored positive alternatives."
+          ],
+          "workflow": [
+            "1. User inputs troubling thought.",
+            "2. System detects distortion type.",
+            "3. Shows 2–3 reframed perspectives with brief rationale.",
+            "4. Saves progress as personalized “reframe deck.”"
+          ],
+          "portfolio_value": "Beautiful ethical AI example — empathy, psychology, NLP combined."
+        }
+      ]
+    },
+    {
+      "name": "Civic & Governance Projects",
+      "summary": [
+        "Average Difficulty: Moderate-to-High (3.5 / 4)",
+        "Average Duration: 7–10 days",
+        "Skills Shown: NLP, visualization, ETL pipelines, transparency-focused ML",
+        "Ideal Portfolio Tagline: “AI for Accountability — turning civic data into public insight.”"
+      ],
+      "projects": [
+        {
+          "slug": "civiclens-local-policy-transparency-dashboard",
+          "title": "CivicLens – Local Policy Transparency Dashboard",
+          "batch": "Civic & Governance Projects",
+          "why_it_matters": "Most citizens have no simple way to understand how local budgets and laws affect them. CivicLens brings transparency through accessible visualization.",
+          "goal": "Aggregate city-level open data (budgets, votes, public works) into one interactive, readable dashboard.",
+          "users": "Citizens, students, journalists.",
+          "difficulty": "★★★★☆ – involves large datasets, APIs, and visual mapping.",
+          "time": "10–12 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "City budget CSVs, council meeting transcripts, civic API feeds (OpenGov, Data.gov)."
+            ]
+          },
+          "ai_use": [
+            "Named entity recognition (NER) to extract project names and costs.",
+            "Summarization (T5-small) to generate plain-language “policy briefs.”"
+          ],
+          "workflow": [
+            "1. Collect & clean datasets from civic portals.",
+            "2. Extract entities (projects, departments, funds).",
+            "3. Link related items (budget vs outcome).",
+            "4. Generate short summaries and charts.",
+            "5. Display interactive filters by department or city zone."
+          ],
+          "portfolio_value": "Real-world civic data integration + NLP explanation engine."
+        },
+        {
+          "slug": "lawbridge-legal-document-simplifier",
+          "title": "LawBridge – Legal Document Simplifier",
+          "batch": "Civic & Governance Projects",
+          "why_it_matters": "Legal documents are dense and inaccessible to non-lawyers; this tool simplifies them into everyday language.",
+          "goal": "Convert contracts, terms, and bills into easy summaries with structured key points.",
+          "users": "Students, NGOs, legal-aid clinics.",
+          "difficulty": "★★★☆☆ – NLP-heavy but manageable locally.",
+          "time": "7–8 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Sample policy texts, PDFs, open legal datasets (GovInfo, Justice.gov)."
+            ]
+          },
+          "ai_use": [
+            "Rule-based clause extraction.",
+            "Summarization with fine-tuned BART-small or rule templates."
+          ],
+          "workflow": [
+            "1. Upload legal text.",
+            "2. Detect clause structure.",
+            "3. Translate jargon to plain terms.",
+            "4. Output simplified summary + key definitions."
+          ],
+          "portfolio_value": "Clear use of NLP for accessibility and ethics-driven design."
+        },
+        {
+          "slug": "votewatch-electoral-data-tracker",
+          "title": "VoteWatch – Electoral Data Tracker",
+          "batch": "Civic & Governance Projects",
+          "why_it_matters": "Understanding voting turnout and demographic influence builds informed participation.",
+          "goal": "Visualize past election data by region, gender, and age, showing turnout patterns.",
+          "users": "Civics teachers, journalists, policymakers.",
+          "difficulty": "★★☆☆☆ – mostly ETL and visualization.",
+          "time": "5 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Election commission data, voter turnout stats, demographics CSV."
+            ]
+          },
+          "ai_use": [
+            "Regression to find correlations (education level ↔ turnout).",
+            "Time-series analysis for turnout trends."
+          ],
+          "workflow": [
+            "1. Aggregate datasets across years.",
+            "2. Clean and normalize demographic fields.",
+            "3. Build comparison charts and correlation maps.",
+            "4. Offer trend explanations via text generation."
+          ],
+          "portfolio_value": "Policy analytics + quantitative storytelling."
+        },
+        {
+          "slug": "opentender-procurement-transparency-tool",
+          "title": "OpenTender – Procurement Transparency Tool",
+          "batch": "Civic & Governance Projects",
+          "why_it_matters": "Public contracts often lack scrutiny; this project exposes bidding fairness.",
+          "goal": "Detect anomalies in government procurement data.",
+          "users": "Watchdogs, NGOs, civic technologists.",
+          "difficulty": "★★★★☆ – advanced anomaly detection.",
+          "time": "9–10 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Tender announcements, bids, contractor records (World Bank, Open Contracting Data Standard)."
+            ]
+          },
+          "ai_use": [
+            "Outlier detection in bid amounts and timelines.",
+            "Entity resolution for contractor tracking."
+          ],
+          "workflow": [
+            "1. Collect procurement CSVs.",
+            "2. Detect duplicate or suspicious entries.",
+            "3. Visualize anomalies with explanations.",
+            "4. Summarize top risk projects per region."
+          ],
+          "portfolio_value": "High-impact data ethics + ML governance case."
+        },
+        {
+          "slug": "civicpulse-social-feedback-analyzer",
+          "title": "CivicPulse – Social Feedback Analyzer",
+          "batch": "Civic & Governance Projects",
+          "why_it_matters": "City governments often ignore sentiment from citizens due to scattered feedback channels.",
+          "goal": "Aggregate public feedback (tweets, forums) into issue-based dashboards.",
+          "users": "Local administrators, NGOs.",
+          "difficulty": "★★★☆☆ – sentiment + topic modeling.",
+          "time": "7 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Twitter API (local hashtags), Reddit civic threads, survey forms."
+            ]
+          },
+          "ai_use": [
+            "Sentiment classification (DistilBERT).",
+            "Topic modeling via LDA."
+          ],
+          "workflow": [
+            "1. Gather feedback data streams.",
+            "2. Preprocess (tokenize, clean).",
+            "3. Detect emerging issues per week.",
+            "4. Show positive/negative trends by topic."
+          ],
+          "portfolio_value": "Practical NLP application for community governance."
+        },
+        {
+          "slug": "data4justice-crime-law-visualization-portal",
+          "title": "Data4Justice – Crime & Law Visualization Portal",
+          "batch": "Civic & Governance Projects",
+          "why_it_matters": "Citizens deserve data-driven clarity on local law enforcement outcomes.",
+          "goal": "Compare crime rates, case resolutions, and response times across regions.",
+          "users": "Journalists, legal researchers.",
+          "difficulty": "★★★★☆ – involves multiple datasets and normalization.",
+          "time": "8–10 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Police crime records, court case metadata, open law datasets."
+            ]
+          },
+          "ai_use": [
+            "Classification to tag crime categories.",
+            "Forecasting model for crime trends."
+          ],
+          "workflow": [
+            "1. Aggregate multi-source datasets.",
+            "2. Clean and unify attributes.",
+            "3. Visualize in map + time-series dashboard.",
+            "4. Highlight areas needing attention."
+          ],
+          "portfolio_value": "Strong for data fusion, ethics, and interpretability."
+        },
+        {
+          "slug": "policycompass-government-performance-tracker",
+          "title": "PolicyCompass – Government Performance Tracker",
+          "batch": "Civic & Governance Projects",
+          "why_it_matters": "Measuring progress on government promises promotes accountability.",
+          "goal": "Compare promised vs delivered metrics (education spending, roads built).",
+          "users": "NGOs, journalists, citizens.",
+          "difficulty": "★★★☆☆ – data alignment + simple ML scoring.",
+          "time": "6–8 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Manifestos, budget utilization reports, official statistics."
+            ]
+          },
+          "ai_use": [
+            "Semantic similarity (MiniLM) to match statements with outcomes."
+          ],
+          "workflow": [
+            "1. Parse promises from manifestos.",
+            "2. Collect achievement reports.",
+            "3. Score alignment (fulfilled / partial / unmet).",
+            "4. Display per-sector summaries."
+          ],
+          "portfolio_value": "Creative, accountability-focused AI application."
+        },
+        {
+          "slug": "cityserve-public-grievance-portal",
+          "title": "CityServe – Public Grievance Portal",
+          "batch": "Civic & Governance Projects",
+          "why_it_matters": "Simplifies filing, tracking, and analyzing citizen complaints.",
+          "goal": "Build a transparent portal that routes and summarizes citizen service requests.",
+          "users": "Residents, civic helpdesks.",
+          "difficulty": "★★☆☆☆ – full-stack with text categorization.",
+          "time": "6 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Complaint texts, category labels, timestamps."
+            ]
+          },
+          "ai_use": [
+            "Text classification to auto-route requests (waste, water, roads)."
+          ],
+          "workflow": [
+            "1. Submit complaint via form or voice.",
+            "2. Auto-tag issue category.",
+            "3. Forward to responsible department.",
+            "4. Display status + analytics."
+          ],
+          "portfolio_value": "Excellent example of human-in-loop automation + social usability."
+        },
+        {
+          "slug": "climatecivic-sustainable-policy-tracker",
+          "title": "ClimateCivic – Sustainable Policy Tracker",
+          "batch": "Civic & Governance Projects",
+          "why_it_matters": "Links between governance and sustainability are often hidden in reports.",
+          "goal": "Track municipal sustainability targets and visualize impact.",
+          "users": "Students, policy researchers, local bodies.",
+          "difficulty": "★★★☆☆ – text summarization + structured data blend.",
+          "time": "8 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "City climate action plans, energy data, transport stats."
+            ]
+          },
+          "ai_use": [
+            "Keyword extraction for sustainability terms.",
+            "Rule-based scoring for progress evaluation."
+          ],
+          "workflow": [
+            "1. Collect targets and updates.",
+            "2. Extract metrics (emissions, renewable %).",
+            "3. Compute progress scores.",
+            "4. Display traffic-light style dashboards."
+          ],
+          "portfolio_value": "Combines governance + environmental policy analytics beautifully."
+        },
+        {
+          "slug": "civicatlas-public-infrastructure-map",
+          "title": "CivicAtlas – Public Infrastructure Map",
+          "batch": "Civic & Governance Projects",
+          "why_it_matters": "Citizens rarely know how infrastructure funds are distributed spatially.",
+          "goal": "Visualize all public projects on an interactive map with cost and stage info.",
+          "users": "City planners, journalists, students.",
+          "difficulty": "★★★★☆ – heavy geospatial layer + API integration.",
+          "time": "9–10 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Infrastructure project datasets, budgets, GPS coordinates."
+            ]
+          },
+          "ai_use": [
+            "Geospatial clustering; optional anomaly detection (budget per capita)."
+          ],
+          "workflow": [
+            "1. Merge project CSVs and coordinates.",
+            "2. Geocode locations; compute cost-per-zone metrics.",
+            "3. Cluster and render interactive map.",
+            "4. Filter by department, cost, or progress."
+          ],
+          "portfolio_value": "Perfect for front-end + data-engineering synergy demo."
+        }
+      ]
+    },
+    {
+      "name": "Environment & Sustainability Projects",
+      "summary": [
+        "Average Difficulty: 3.6 / 4",
+        "Average Build Time: 7–10 days",
+        "Skill Set Covered: Satellite vision, forecasting, regression, routing optimization, carbon modeling",
+        "Ideal Portfolio Tagline: “AI for a Greener Planet — turning data into sustainable action.”"
+      ],
+      "projects": [
+        {
+          "slug": "greenscope-urban-air-quality-dashboard",
+          "title": "GreenScope – Urban Air Quality Dashboard",
+          "batch": "Environment & Sustainability Projects",
+          "why_it_matters": "Air pollution data exists but isn’t visualized in a way that helps people act on it.",
+          "goal": "Build a live dashboard that tracks AQI trends, visualizes pollutant composition, and predicts next-day air quality.",
+          "users": "Citizens, researchers, environment clubs.",
+          "difficulty": "★★★★☆ – combines real-time API + forecasting.",
+          "time": "8–10 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "OpenAQ API, local weather data, satellite air quality indexes."
+            ]
+          },
+          "ai_use": [
+            "Time-series forecasting (Prophet / LSTM) for next-day AQI prediction.",
+            "Anomaly detection for sudden spikes."
+          ],
+          "workflow": [
+            "1. Collect hourly AQI and weather feeds.",
+            "2. Normalize pollutants (PM2.5, NO2, CO).",
+            "3. Predict upcoming AQI trends.",
+            "4. Display map + chart dashboards with safe-hour highlights."
+          ],
+          "portfolio_value": "Demonstrates ML forecasting + civic visualization; highly relevant sustainability app."
+        },
+        {
+          "slug": "waterwatch-river-groundwater-monitor",
+          "title": "WaterWatch – River & Groundwater Monitor",
+          "batch": "Environment & Sustainability Projects",
+          "why_it_matters": "Groundwater depletion and contamination data are underused for prevention.",
+          "goal": "Visualize changes in river levels and water quality across regions.",
+          "users": "Environmental NGOs, policymakers.",
+          "difficulty": "★★★☆☆ – moderate data cleaning and mapping.",
+          "time": "7 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Central Water Commission API, rainfall data, pH & TDS datasets."
+            ]
+          },
+          "ai_use": [
+            "Regression for correlation between rainfall and water table depth.",
+            "Clustering for quality classification (clean / moderate / polluted)."
+          ],
+          "workflow": [
+            "1. Aggregate and clean water level records.",
+            "2. Correlate rainfall trends and detect anomalies.",
+            "3. Cluster water quality by parameters.",
+            "4. Show maps with safe-usage recommendations."
+          ],
+          "portfolio_value": "Strong data engineering + spatial analytics demonstration."
+        },
+        {
+          "slug": "ecocycle-e-waste-collection-routing-planner",
+          "title": "EcoCycle – E-Waste Collection & Routing Planner",
+          "batch": "Environment & Sustainability Projects",
+          "why_it_matters": "E-waste often ends up in landfills due to inefficient routing and awareness gaps.",
+          "goal": "Plan optimal routes for e-waste pickup from drop-off points to recycling centers.",
+          "users": "Recycling companies, students, sustainability startups.",
+          "difficulty": "★★★★☆ – routing + optimization + maps.",
+          "time": "8 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "City map data, drop-off locations, vehicle capacity."
+            ]
+          },
+          "ai_use": [
+            "Dijkstra or A* path optimization.",
+            "Clustering (K-Means) to assign nearest facility."
+          ],
+          "workflow": [
+            "1. Collect center + pickup data.",
+            "2. Cluster pickups by proximity.",
+            "3. Compute optimal daily route per truck.",
+            "4. Visualize route map and progress metrics."
+          ],
+          "portfolio_value": "Combines optimization algorithms with tangible impact."
+        },
+        {
+          "slug": "climateview-emission-tracker-by-sector",
+          "title": "ClimateView – Emission Tracker by Sector",
+          "batch": "Environment & Sustainability Projects",
+          "why_it_matters": "Governments report emissions, but the data lacks public clarity.",
+          "goal": "Track CO₂ emissions by sector (transport, industry, energy) and show comparative insights.",
+          "users": "Policy analysts, NGOs, climate students.",
+          "difficulty": "★★★★☆ – multi-source aggregation + regression.",
+          "time": "9 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "World Bank, UNFCCC, IPCC emission tables."
+            ]
+          },
+          "ai_use": [
+            "Linear regression for year-over-year change.",
+            "Text summarizer to generate “Impact Notes.”"
+          ],
+          "workflow": [
+            "1. Import emission datasets.",
+            "2. Clean and normalize per sector.",
+            "3. Analyze top contributors + reduction progress.",
+            "4. Auto-generate insights and visual dashboards."
+          ],
+          "portfolio_value": "Excellent applied data-science project with policy linkage."
+        },
+        {
+          "slug": "releaf-urban-tree-canopy-analyzer",
+          "title": "ReLeaf – Urban Tree Canopy Analyzer",
+          "batch": "Environment & Sustainability Projects",
+          "why_it_matters": "Cities need to know how green cover changes over time to plan better.",
+          "goal": "Use satellite imagery to estimate and track green cover percentages.",
+          "users": "Urban planners, geography students.",
+          "difficulty": "★★★★☆ – computer vision + geo-mapping.",
+          "time": "10 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Sentinel or Landsat satellite images, open city shapefiles."
+            ]
+          },
+          "ai_use": [
+            "Image segmentation (U-Net / NDVI computation).",
+            "Change detection between two time periods."
+          ],
+          "workflow": [
+            "1. Fetch imagery for chosen area.",
+            "2. Process NDVI to detect vegetation.",
+            "3. Compare time intervals for gain/loss.",
+            "4. Map citywide tree-cover changes."
+          ],
+          "portfolio_value": "Advanced CV + sustainability analysis blend."
+        },
+        {
+          "slug": "plasticfree-waste-detection-from-images",
+          "title": "PlasticFree – Waste Detection from Images",
+          "batch": "Environment & Sustainability Projects",
+          "why_it_matters": "Identifying litter types helps improve recycling logistics.",
+          "goal": "Detect plastic waste from uploaded images and categorize by type.",
+          "users": "Waste-management startups, citizen scientists.",
+          "difficulty": "★★★★☆ – image classification.",
+          "time": "8–9 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "TrashNet dataset or community photos."
+            ]
+          },
+          "ai_use": [
+            "CNN / MobileNet model to classify waste type (plastic, metal, glass)."
+          ],
+          "workflow": [
+            "1. Upload waste image.",
+            "2. Preprocess and run through trained model.",
+            "3. Display classification result + recycling tips.",
+            "4. Optional leaderboard for cleanup volunteers."
+          ],
+          "portfolio_value": "Great hands-on vision project with environmental relevance."
+        },
+        {
+          "slug": "smartsort-recycling-bin-optimizer",
+          "title": "SmartSort – Recycling Bin Optimizer",
+          "batch": "Environment & Sustainability Projects",
+          "why_it_matters": "Incorrect waste segregation increases landfill load.",
+          "goal": "Recommend optimal bin placement density based on population and litter data.",
+          "users": "Urban planners, local governments.",
+          "difficulty": "★★★☆☆ – spatial analytics.",
+          "time": "6 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Population density maps, waste collection records."
+            ]
+          },
+          "ai_use": [
+            "K-Means clustering for bin placement.",
+            "Demand prediction using linear models."
+          ],
+          "workflow": [
+            "1. Load city grid and population map.",
+            "2. Compute average waste per area.",
+            "3. Suggest bin density zones.",
+            "4. Simulate collection efficiency improvement."
+          ],
+          "portfolio_value": "Demonstrates geospatial analytics with civic design thinking."
+        },
+        {
+          "slug": "carbonsaver-personal-carbon-footprint-calculator",
+          "title": "CarbonSaver – Personal Carbon Footprint Calculator",
+          "batch": "Environment & Sustainability Projects",
+          "why_it_matters": "Individuals rarely know their carbon output from travel, food, and utilities.",
+          "goal": "Provide users with an interactive calculator and personalized reduction plan.",
+          "users": "Students, offices, eco-clubs.",
+          "difficulty": "★★☆☆☆ – mostly logic-based.",
+          "time": "5 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Lifestyle questionnaire responses."
+            ]
+          },
+          "ai_use": [
+            "Simple rule-based scoring; optional regression for target comparison."
+          ],
+          "workflow": [
+            "1. Collect lifestyle data (miles driven, diet, energy use).",
+            "2. Estimate CO₂ equivalent per category.",
+            "3. Compare against the national average.",
+            "4. Suggest daily actions and milestones."
+          ],
+          "portfolio_value": "Engaging UI + data ethics showcase; strong for behavioral-change apps."
+        },
+        {
+          "slug": "agropredict-smart-crop-advisor",
+          "title": "AgroPredict – Smart Crop Advisor",
+          "batch": "Environment & Sustainability Projects",
+          "why_it_matters": "Farmers lose yield due to unpredictable weather and poor input choices.",
+          "goal": "Predict optimal crop and fertilizer based on soil and weather conditions.",
+          "users": "Agriculture departments, students.",
+          "difficulty": "★★★★☆ – machine learning regression/classification.",
+          "time": "9 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Soil data (NPK, pH), rainfall, temperature, crop yield datasets."
+            ]
+          },
+          "ai_use": [
+            "RandomForest classifier for best crop.",
+            "Regression for yield prediction."
+          ],
+          "workflow": [
+            "1. Input soil + region details.",
+            "2. Fetch the weather forecast.",
+            "3. Predict best crop options and fertilizer suggestions.",
+            "4. Display yield expectations."
+          ],
+          "portfolio_value": "Applied ML + agri-data fusion; highly demonstrable project."
+        },
+        {
+          "slug": "oceanmind-coastal-pollution-tracker",
+          "title": "OceanMind – Coastal Pollution Tracker",
+          "batch": "Environment & Sustainability Projects",
+          "why_it_matters": "Coastal pollution impacts fisheries and tourism, but monitoring is weak.",
+          "goal": "Detect pollution intensity and map risk zones using satellite data.",
+          "users": "Environmental agencies, marine researchers.",
+          "difficulty": "★★★★☆ – remote sensing + image processing.",
+          "time": "10 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Sentinel-2 or MODIS satellite imagery, ocean turbidity datasets."
+            ]
+          },
+          "ai_use": [
+            "Image segmentation to detect high turbidity zones.",
+            "Correlation with weather and ship-route data."
+          ],
+          "workflow": [
+            "1. Process satellite imagery for coastal regions.",
+            "2. Identify pollution anomalies.",
+            "3. Overlay with weather and shipping data.",
+            "4. Highlight risk zones in heatmap."
+          ],
+          "portfolio_value": "Advanced geospatial ML project with sustainability impact."
+        }
+      ]
+    },
+    {
+      "name": "Health & Medicine Projects",
+      "summary": [
+        "Average Difficulty: 3.5 / 4",
+        "Average Time: 7–9 days",
+        "Skill Areas: NLP, OCR, simulation, recommendation, conversational AI",
+        "Portfolio Tagline: “AI for Public Health — making medical data understandable, safe, and personal.”"
+      ],
+      "projects": [
+        {
+          "slug": "healthnarrate-ai-medical-report-summarizer",
+          "title": "HealthNarrate – AI Medical Report Summarizer",
+          "batch": "Health & Medicine Projects",
+          "why_it_matters": "Patients struggle to interpret dense lab and imaging reports.",
+          "goal": "Summarize long reports into easy, structured summaries with key terms explained.",
+          "users": "Patients, health tech startups, telemedicine apps.",
+          "difficulty": "★★★★☆ – NLP-heavy, needs accuracy and structure.",
+          "time": "8–10 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Public pathology reports (MIMIC-III subset or synthetic data)."
+            ]
+          },
+          "ai_use": [
+            "Section extraction and summarization (T5-small / BART-base).",
+            "Entity extraction for medical terms (MedNER / scispaCy)."
+          ],
+          "workflow": [
+            "1. Upload or paste report text.",
+            "2. Split by sections (Findings, Impression, Notes).",
+            "3. Summarize each section into 1–2 simple lines.",
+            "4. Add definitions for jargon using a glossary."
+          ],
+          "portfolio_value": "Advanced NLP use with social impact; strong ethical focus."
+        },
+        {
+          "slug": "symptomiq-smart-symptom-checker",
+          "title": "SymptomIQ – Smart Symptom Checker",
+          "batch": "Health & Medicine Projects",
+          "why_it_matters": "People often self-diagnose inaccurately; guided triage prevents misinformation.",
+          "goal": "Predict possible conditions based on symptoms using evidence-weighted rules.",
+          "users": "Students, clinics, health chatbots.",
+          "difficulty": "★★★☆☆ – logic-heavy, moderate ML.",
+          "time": "7–8 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Public symptom-condition mapping datasets (openWHO, Symptoma)."
+            ]
+          },
+          "ai_use": [
+            "Rule-based Bayesian inference or RandomForest on symptom vectors.",
+            "Confidence scoring + next-step suggestion."
+          ],
+          "workflow": [
+            "1. User selects or types symptoms.",
+            "2. Model matches top 3 possible causes.",
+            "3. Outputs next steps (“See GP”, “Hydration first”)."
+          ],
+          "portfolio_value": "Great showcase of rule-based AI + responsible decision logic."
+        },
+        {
+          "slug": "fittrack-personalized-fitness-nutrition-planner",
+          "title": "FitTrack – Personalized Fitness & Nutrition Planner",
+          "batch": "Health & Medicine Projects",
+          "why_it_matters": "One-size-fits-all plans fail; people need adaptive routines.",
+          "goal": "Build a habit-based planner using goals, BMI, and calorie targets.",
+          "users": "Students, athletes, wellness communities.",
+          "difficulty": "★★☆☆☆ – lightweight logic, UX-rich.",
+          "time": "4–5 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Calorie datasets, exercise lookup tables, sample user logs."
+            ]
+          },
+          "ai_use": [
+            "Simple recommendation engine (linear regression or rule-based).",
+            "Optionally use embeddings for food-exercise similarity."
+          ],
+          "workflow": [
+            "1. Input body metrics + goals.",
+            "2. Suggest daily plan of meals + exercises.",
+            "3. Track adherence and adjust goals.",
+            "4. Visualize progress graphs."
+          ],
+          "portfolio_value": "Health + personalization + behavioral AI showcase."
+        },
+        {
+          "slug": "druglens-medicine-side-effect-finder",
+          "title": "DrugLens – Medicine Side-Effect Finder",
+          "batch": "Health & Medicine Projects",
+          "why_it_matters": "Patients mix medications unaware of interactions.",
+          "goal": "Identify and explain possible drug conflicts or side effects.",
+          "users": "Pharmacists, medical students, patients.",
+          "difficulty": "★★★☆☆ – relational data + NER.",
+          "time": "6–7 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "DrugBank / openFDA API (free)."
+            ]
+          },
+          "ai_use": [
+            "Entity matching for drug names.",
+            "Rule-based conflict detection."
+          ],
+          "workflow": [
+            "1. User inputs drug list.",
+            "2. Match against known contraindications.",
+            "3. Show risk categories and safer alternatives.",
+            "4. Provide side-effect summaries."
+          ],
+          "portfolio_value": "Demonstrates safety-critical data logic and health tech integration."
+        },
+        {
+          "slug": "healmap-hospital-availability-service-tracker",
+          "title": "HealMap – Hospital Availability & Service Tracker",
+          "batch": "Health & Medicine Projects",
+          "why_it_matters": "During emergencies, people waste time finding open hospitals or ICU beds.",
+          "goal": "Map hospital availability and specializations in real-time.",
+          "users": "Citizens, emergency networks.",
+          "difficulty": "★★★☆☆ – data integration + mapping.",
+          "time": "7 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Public health directories, API for bed availability (mock if needed)."
+            ]
+          },
+          "ai_use": [
+            "Clustering by distance & specialization.",
+            "Optional predictive model for bed demand (linear regression)."
+          ],
+          "workflow": [
+            "1. Fetch or seed hospital data.",
+            "2. Cluster nearby facilities.",
+            "3. Display availability and ratings.",
+            "4. Predict occupancy trend (optional)."
+          ],
+          "portfolio_value": "Excellent real-time mapping app for civic tech portfolios."
+        },
+        {
+          "slug": "mediscan-prescription-digitizer",
+          "title": "MediScan – Prescription Digitizer",
+          "batch": "Health & Medicine Projects",
+          "why_it_matters": "Handwritten prescriptions cause misreading and medication errors.",
+          "goal": "Digitize and interpret prescriptions into structured, searchable data.",
+          "users": "Pharmacies, clinics, researchers.",
+          "difficulty": "★★★★☆ – OCR + NLP pipeline.",
+          "time": "9 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Sample prescription images, synthetic handwriting datasets."
+            ]
+          },
+          "ai_use": [
+            "OCR (Tesseract) + text normalization.",
+            "Entity extraction (Drug, Dosage, Frequency)."
+          ],
+          "workflow": [
+            "1. Upload prescription photo.",
+            "2. Extract text via OCR.",
+            "3. Parse structured info.",
+            "4. Save in digital format + flag potential conflicts."
+          ],
+          "portfolio_value": "Vision + NLP hybrid; practical healthcare automation."
+        },
+        {
+          "slug": "nutriai-food-ingredient-analyzer",
+          "title": "NutriAI – Food Ingredient Analyzer",
+          "batch": "Health & Medicine Projects",
+          "why_it_matters": "Packaged foods hide complex ingredients; people need clarity.",
+          "goal": "Decode ingredients, highlight allergens, and provide healthier alternatives.",
+          "users": "Consumers, nutrition clubs, product reviewers.",
+          "difficulty": "★★☆☆☆ – text extraction + rule-based NLP.",
+          "time": "5 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Nutrition facts datasets (USDA, Open Food Facts)."
+            ]
+          },
+          "ai_use": [
+            "Entity recognition (ingredients → allergens).",
+            "Keyword-based health scoring."
+          ],
+          "workflow": [
+            "1. Paste or scan ingredient list.",
+            "2. Extract keywords (sugar, sodium, etc.).",
+            "3. Calculate “health index” score.",
+            "4. Recommend cleaner options."
+          ],
+          "portfolio_value": "Smart yet simple NLP + public health design."
+        },
+        {
+          "slug": "vitalsight-health-vitals-dashboard",
+          "title": "VitalSight – Health Vitals Dashboard",
+          "batch": "Health & Medicine Projects",
+          "why_it_matters": "Students and professionals rarely monitor vitals consistently.",
+          "goal": "Track and visualize health vitals (heart rate, sleep, steps) with insights.",
+          "users": "General audience, wearable users.",
+          "difficulty": "★★☆☆☆ – data visualization and trend logic.",
+          "time": "5 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Fitbit or mock wearable datasets."
+            ]
+          },
+          "ai_use": [
+            "Regression or z-score alerts for unusual readings."
+          ],
+          "workflow": [
+            "1. Import daily vitals.",
+            "2. Compute weekly averages.",
+            "3. Highlight anomalies with suggestions.",
+            "4. Display dashboard of health progress."
+          ],
+          "portfolio_value": "Great data-viz + UX project with wellness analytics."
+        },
+        {
+          "slug": "safezone-epidemic-spread-simulator",
+          "title": "SafeZone – Epidemic Spread Simulator",
+          "batch": "Health & Medicine Projects",
+          "why_it_matters": "Modeling disease spread helps in awareness and preparedness.",
+          "goal": "Simulate spread of an infectious disease under different control measures.",
+          "users": "Students, public health departments.",
+          "difficulty": "★★★★☆ – simulation modeling.",
+          "time": "8 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Synthetic population + infection parameters."
+            ]
+          },
+          "ai_use": [
+            "SEIR model + optional LSTM for prediction."
+          ],
+          "workflow": [
+            "1. Input population size & R₀.",
+            "2. Simulate infection spread day by day.",
+            "3. Show graph of cases with/without interventions.",
+            "4. Compare outcomes visually."
+          ],
+          "portfolio_value": "Quantitative modeling with policy relevance."
+        },
+        {
+          "slug": "medibot-virtual-health-assistant",
+          "title": "MediBot – Virtual Health Assistant",
+          "batch": "Health & Medicine Projects",
+          "why_it_matters": "Students and elderly need quick, friendly answers for minor issues.",
+          "goal": "Create a conversational assistant for simple medical queries and reminders.",
+          "users": "Students, clinics, families.",
+          "difficulty": "★★★☆☆ – chatbot + NLP integration.",
+          "time": "6–7 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Health Q&A dataset (Symptom→Advice pairs)."
+            ]
+          },
+          "ai_use": [
+            "Intent classification (DistilBERT).",
+            "Response retrieval from FAQ bank."
+          ],
+          "workflow": [
+            "1. Input natural query (“I have a cold”).",
+            "2. Classify intent and fetch relevant tip.",
+            "3. Respond conversationally with empathy.",
+            "4. Optionally set reminder or follow-up."
+          ],
+          "portfolio_value": "Conversational AI with ethical health application."
+        }
+      ]
+    },
+    {
+      "name": "Finance & Economics Projects",
+      "summary": [
+        "Average Difficulty: 3.6 / 4",
+        "Average Build Time: 7–9 days",
+        "Skill Range: Forecasting, classification, NLP, recommendation, ETL pipelines",
+        "Portfolio Tagline: “AI for Financial Foresight — turning markets, data & careers into insight.”"
+      ],
+      "projects": [
+        {
+          "slug": "finscope-market-trends-investor-sentiment-dashboard",
+          "title": "FinScope – Market Trends & Investor Sentiment Dashboard",
+          "batch": "Finance & Economics Projects",
+          "why_it_matters": "Investors drown in scattered data; clear signals boost smarter decisions.",
+          "goal": "Combine market indicators with news sentiment to show daily “market mood.”",
+          "users": "Students, retail investors, finance societies.",
+          "difficulty": "★★★★☆ – NLP + data fusion.",
+          "time": "8–10 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Yahoo Finance API, Finviz news headlines, sample tweets."
+            ]
+          },
+          "ai_use": [
+            "Sentiment model (FinBERT/VADER) to score news and tweets.",
+            "Linear regression for correlation with price movement."
+          ],
+          "workflow": [
+            "1. Fetch daily prices + headlines.",
+            "2. Score sentiment by company/sector.",
+            "3. Merge into market overview heatmap.",
+            "4. Generate “Top 5 Bullish/Bearish” cards."
+          ],
+          "portfolio_value": "Perfect mix of finance data engineering + applied NLP."
+        },
+        {
+          "slug": "jobtrends-labor-market-analyzer",
+          "title": "JobTrends – Labor Market Analyzer",
+          "batch": "Finance & Economics Projects",
+          "why_it_matters": "Students need evidence-based insight on rising skills and roles.",
+          "goal": "Track monthly hiring trends across domains and skills.",
+          "users": "Career centers, students, recruiters.",
+          "difficulty": "★★★☆☆ – ETL + text mining.",
+          "time": "6–7 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Indeed/Kaggle job postings, ESCO skill ontology."
+            ]
+          },
+          "ai_use": [
+            "Keyword extraction for skills.",
+            "Trend scoring (z-score vs 3-month avg)."
+          ],
+          "workflow": [
+            "1. Parse job titles and descriptions.",
+            "2. Extract top skills per month.",
+            "3. Show heatmaps of rising/falling skills.",
+            "4. Summarize domain-specific insights."
+          ],
+          "portfolio_value": "Real data storytelling + career impact."
+        },
+        {
+          "slug": "spendwise-personal-finance-budget-tracker",
+          "title": "SpendWise – Personal Finance & Budget Tracker",
+          "batch": "Finance & Economics Projects",
+          "why_it_matters": "Budgeting tools often lack AI-driven insight.",
+          "goal": "Auto-categorize expenses and suggest saving strategies.",
+          "users": "Students, young professionals.",
+          "difficulty": "★★☆☆☆ – classification + UI.",
+          "time": "5 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Transaction CSV (dummy bank feeds)."
+            ]
+          },
+          "ai_use": [
+            "Text classifier to tag expense types.",
+            "Rule-based budget recommendations."
+          ],
+          "workflow": [
+            "1. Upload CSV.",
+            "2. Categorize expenses (transport, food, etc.).",
+            "3. Compute savings ratio & generate tips.",
+            "4. Visualize spending pattern charts."
+          ],
+          "portfolio_value": "Usability-focused fintech mini-app."
+        },
+        {
+          "slug": "stocklens-financial-report-summarizer",
+          "title": "StockLens – Financial Report Summarizer",
+          "batch": "Finance & Economics Projects",
+          "why_it_matters": "Quarterly reports are dense; summaries save hours.",
+          "goal": "Convert earnings reports into concise insights and ratios.",
+          "users": "Analysts, students, investor forums.",
+          "difficulty": "★★★★☆ – NLP with domain language.",
+          "time": "8 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Public 10-Q filings (SEC EDGAR)."
+            ]
+          },
+          "ai_use": [
+            "Key figure extraction via regex + summary model.",
+            "Entity linking for company metrics."
+          ],
+          "workflow": [
+            "1. Scrape text sections (MD&A, Financials).",
+            "2. Extract revenues, margins, growth.",
+            "3. Summarize performance in plain English.",
+            "4. Rank positive/negative quarters."
+          ],
+          "portfolio_value": "Strong analyst-assist NLP demo."
+        },
+        {
+          "slug": "inflationeye-price-index-visualizer",
+          "title": "InflationEye – Price Index Visualizer",
+          "batch": "Finance & Economics Projects",
+          "why_it_matters": "Public confusion around inflation data blocks informed decisions.",
+          "goal": "Interactive CPI dashboard tracking monthly category changes.",
+          "users": "Economics students, policy clubs.",
+          "difficulty": "★★★☆☆ – data viz + stats.",
+          "time": "6 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "CPI datasets (World Bank, FRED)."
+            ]
+          },
+          "ai_use": [
+            "Regression for forecast next 3 months.",
+            "Keyword summary of major price drivers."
+          ],
+          "workflow": [
+            "1. Import CPI series.",
+            "2. Compute category deltas.",
+            "3. Visualize trends and predictions.",
+            "4. Output insight cards (“Fuel rising 3.4%”)."
+          ],
+          "portfolio_value": "Policy analytics + economic data interpretation."
+        },
+        {
+          "slug": "tradeflow-global-imports-exports-visualizer",
+          "title": "TradeFlow – Global Imports & Exports Visualizer",
+          "batch": "Finance & Economics Projects",
+          "why_it_matters": "Trade shifts define economies; few tools simplify that data.",
+          "goal": "Show bilateral trade flows and growth rates between countries.",
+          "users": "Policy analysts, students, researchers.",
+          "difficulty": "★★★★☆ – large data and geo visualization.",
+          "time": "9 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "UN Comtrade / World Bank datasets."
+            ]
+          },
+          "ai_use": [
+            "Clustering of trade patterns by commodity.",
+            "Forecasting top trading partners."
+          ],
+          "workflow": [
+            "1. Load multi-year export/import data.",
+            "2. Calculate percent change & balance.",
+            "3. Cluster countries by trade type.",
+            "4. Map flows with animated arcs."
+          ],
+          "portfolio_value": "Data engineering + geo-analytics masterpiece."
+        },
+        {
+          "slug": "creditsmart-credit-risk-simulator",
+          "title": "CreditSmart – Credit Risk Simulator",
+          "batch": "Finance & Economics Projects",
+          "why_it_matters": "Understanding credit risk teaches responsible finance.",
+          "goal": "Predict default risk and educate users on lending factors.",
+          "users": "Students, fintech learners.",
+          "difficulty": "★★★★☆ – ML classification.",
+          "time": "8 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Open credit datasets (UCI German Credit)."
+            ]
+          },
+          "ai_use": [
+            "Logistic Regression / XGBoost to predict default.",
+            "SHAP values to explain factors."
+          ],
+          "workflow": [
+            "1. Train model on sample data.",
+            "2. Input custom borrower profile.",
+            "3. Output risk score + reasoning.",
+            "4. Visualize factor importance."
+          ],
+          "portfolio_value": "Interpretable AI + financial education tool."
+        },
+        {
+          "slug": "ecopay-digital-payment-fraud-detector",
+          "title": "EcoPay – Digital Payment Fraud Detector",
+          "batch": "Finance & Economics Projects",
+          "why_it_matters": "Fraud detection saves billions; a must-learn pattern for AI engineers.",
+          "goal": "Detect suspicious transactions based on anomalies and behavior patterns.",
+          "users": "Banks, research students.",
+          "difficulty": "★★★★☆ – imbalanced classification.",
+          "time": "9 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Kaggle Credit Card Fraud Dataset."
+            ]
+          },
+          "ai_use": [
+            "Isolation Forest / Autoencoder for anomaly detection.",
+            "SMOTE for balancing classes."
+          ],
+          "workflow": [
+            "1. Preprocess transaction records.",
+            "2. Train fraud model.",
+            "3. Evaluate F1 and false positives.",
+            "4. Display alert dashboard."
+          ],
+          "portfolio_value": "Classic industry AI use case + model evaluation."
+        },
+        {
+          "slug": "wagemap-income-inequality-visualizer",
+          "title": "WageMap – Income & Inequality Visualizer",
+          "batch": "Finance & Economics Projects",
+          "why_it_matters": "Understanding income gaps helps design fair policies.",
+          "goal": "Show income distribution by region and sector.",
+          "users": "Economists, policy students.",
+          "difficulty": "★★★☆☆ – statistical viz.",
+          "time": "7 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Census income data, ILO statistics."
+            ]
+          },
+          "ai_use": [
+            "Regression for inequality index.",
+            "Clustering of regions by income tier."
+          ],
+          "workflow": [
+            "1. Clean income datasets.",
+            "2. Compute Gini and Lorenz curves.",
+            "3. Visualize sector wise distribution.",
+            "4. Generate summary insights."
+          ],
+          "portfolio_value": "Elegant policy visualization project."
+        },
+        {
+          "slug": "hirelens-job-recommendation-engine",
+          "title": "HireLens – Job Recommendation Engine",
+          "batch": "Finance & Economics Projects",
+          "why_it_matters": "Students waste hours searching roles that don’t fit their skills.",
+          "goal": "Match user skills to relevant roles and display career gaps.",
+          "users": "Students, career platforms.",
+          "difficulty": "★★★☆☆ – recommendation system.",
+          "time": "7 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Job postings dataset, user skills profile."
+            ]
+          },
+          "ai_use": [
+            "Embedding similarity (MiniLM or TF-IDF).",
+            "Diversity penalty to avoid repetitions."
+          ],
+          "workflow": [
+            "1. Parse user skills input.",
+            "2. Rank matching jobs.",
+            "3. Suggest courses for gap skills.",
+            "4. Export career roadmap."
+          ],
+          "portfolio_value": "Practical AI recommender with high student appeal."
+        }
+      ]
+    },
+    {
+      "name": "Energy & Infrastructure Projects",
+      "summary": [
+        "Average Difficulty: 3.7 / 4",
+        "Average Duration: 7–9 days",
+        "Skill Focus: Forecasting, computer vision, IoT analytics, route optimization",
+        "Portfolio Tagline: “AI for Smart Cities — powering infrastructure with data, vision, and foresight.”"
+      ],
+      "projects": [
+        {
+          "slug": "powergridiq-energy-demand-forecast-dashboard",
+          "title": "PowerGridIQ – Energy Demand Forecast Dashboard",
+          "batch": "Energy & Infrastructure Projects",
+          "why_it_matters": "Predicting demand helps reduce blackouts and optimize energy distribution.",
+          "goal": "Forecast city-level electricity demand using weather and usage data.",
+          "users": "Utility boards, students, data analysts.",
+          "difficulty": "★★★★☆ – time-series forecasting + visualization.",
+          "time": "9–10 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Hourly consumption data (UCI Electricity dataset), temperature, humidity."
+            ]
+          },
+          "ai_use": [
+            "Prophet / LSTM for load forecasting.",
+            "Correlation analysis between temperature and load."
+          ],
+          "workflow": [
+            "1. Aggregate daily/hourly usage.",
+            "2. Train forecasting model.",
+            "3. Visualize predicted vs actual demand.",
+            "4. Display peak-hour alerts and usage summaries."
+          ],
+          "portfolio_value": "High-impact predictive analytics; shows practical modeling and dashboard design."
+        },
+        {
+          "slug": "gridguard-power-outage-predictor",
+          "title": "GridGuard – Power Outage Predictor",
+          "batch": "Energy & Infrastructure Projects",
+          "why_it_matters": "Anticipating outages allows pre-emptive maintenance.",
+          "goal": "Predict outages based on weather, fault logs, and infrastructure age.",
+          "users": "Smart city teams, utility maintenance staff.",
+          "difficulty": "★★★★☆ – ML classification.",
+          "time": "8 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Utility fault history, storm data, equipment details."
+            ]
+          },
+          "ai_use": [
+            "RandomForest / GradientBoosting for outage prediction.",
+            "SHAP for feature importance."
+          ],
+          "workflow": [
+            "1. Merge fault & weather data.",
+            "2. Train binary outage predictor.",
+            "3. Display risk map for upcoming days.",
+            "4. Generate maintenance recommendations."
+          ],
+          "portfolio_value": "Perfect AI-for-infrastructure project — interpretable, preventive, and civic."
+        },
+        {
+          "slug": "smartgridmap-renewable-energy-planner",
+          "title": "SmartGridMap – Renewable Energy Planner",
+          "batch": "Energy & Infrastructure Projects",
+          "why_it_matters": "Urban areas need localized solar/wind feasibility mapping.",
+          "goal": "Identify optimal renewable energy installation spots.",
+          "users": "Planners, sustainability NGOs.",
+          "difficulty": "★★★★☆ – geospatial + regression.",
+          "time": "9 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Solar irradiation, wind speed, land-use maps."
+            ]
+          },
+          "ai_use": [
+            "Regression to compute site suitability.",
+            "Clustering for high-potential zones."
+          ],
+          "workflow": [
+            "1. Merge satellite and weather data.",
+            "2. Score zones by sunlight, wind, land type.",
+            "3. Visualize feasibility map.",
+            "4. Suggest top 5 installation sites."
+          ],
+          "portfolio_value": "Geo-AI + sustainability synergy."
+        },
+        {
+          "slug": "roadpulse-infrastructure-condition-monitor",
+          "title": "RoadPulse – Infrastructure Condition Monitor",
+          "batch": "Energy & Infrastructure Projects",
+          "why_it_matters": "Poor road maintenance leads to accidents and inefficiency.",
+          "goal": "Detect road damage from images and classify severity.",
+          "users": "City councils, civic reporters.",
+          "difficulty": "★★★★☆ – computer vision.",
+          "time": "8–9 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Road surface images (Kaggle Road Damage dataset)."
+            ]
+          },
+          "ai_use": [
+            "CNN model to detect cracks/potholes.",
+            "Geo-tagging for map overlay."
+          ],
+          "workflow": [
+            "1. Upload or capture road image.",
+            "2. Detect and classify damage.",
+            "3. Mark affected zones on map.",
+            "4. Generate repair priority report."
+          ],
+          "portfolio_value": "Vision + civic engagement; looks great in demos."
+        },
+        {
+          "slug": "infrastat-construction-progress-tracker",
+          "title": "InfraStat – Construction Progress Tracker",
+          "batch": "Energy & Infrastructure Projects",
+          "why_it_matters": "Public projects overrun budgets due to poor tracking.",
+          "goal": "Monitor construction progress via image comparison and schedule analysis.",
+          "users": "Municipal agencies, project managers.",
+          "difficulty": "★★★★☆ – vision + analytics.",
+          "time": "9 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Site photos over time, project milestones CSV."
+            ]
+          },
+          "ai_use": [
+            "Image similarity to detect stage change.",
+            "Linear regression for completion estimation."
+          ],
+          "workflow": [
+            "1. Input time-stamped project images.",
+            "2. Compare and quantify visual progress.",
+            "3. Estimate % completion.",
+            "4. Show deviation from planned timeline."
+          ],
+          "portfolio_value": "Strong applied AI for project monitoring."
+        },
+        {
+          "slug": "energyflow-household-energy-analyzer",
+          "title": "EnergyFlow – Household Energy Analyzer",
+          "batch": "Energy & Infrastructure Projects",
+          "why_it_matters": "Households waste energy due to unmonitored consumption.",
+          "goal": "Visualize device-level consumption and suggest optimizations.",
+          "users": "Residents, students, smart-home builders.",
+          "difficulty": "★★★☆☆ – data aggregation + analytics.",
+          "time": "6 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Smart-meter CSV (Appliances Energy dataset)."
+            ]
+          },
+          "ai_use": [
+            "Anomaly detection for high-usage spikes.",
+            "Regression for consumption forecasting."
+          ],
+          "workflow": [
+            "1. Load hourly household usage.",
+            "2. Identify peak devices/time.",
+            "3. Suggest energy-saving tips.",
+            "4. Display savings potential charts."
+          ],
+          "portfolio_value": "Accessible energy data + sustainability insights."
+        },
+        {
+          "slug": "urbanlight-smart-streetlight-optimizer",
+          "title": "UrbanLight – Smart Streetlight Optimizer",
+          "batch": "Energy & Infrastructure Projects",
+          "why_it_matters": "Public lighting wastes energy without adaptive control.",
+          "goal": "Predict lighting needs by time, weather, and foot traffic.",
+          "users": "City municipalities, IoT labs.",
+          "difficulty": "★★★★☆ – IoT + prediction.",
+          "time": "8 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Sensor logs, traffic counts, weather."
+            ]
+          },
+          "ai_use": [
+            "Regression for brightness prediction.",
+            "Clustering for pattern grouping."
+          ],
+          "workflow": [
+            "1. Merge light sensor and traffic data.",
+            "2. Build model to predict optimal intensity.",
+            "3. Visualize savings vs baseline.",
+            "4. Simulate adaptive lighting schedule."
+          ],
+          "portfolio_value": "Smart-city IoT AI demo; quantifiable energy savings."
+        },
+        {
+          "slug": "buildsafe-structural-risk-evaluator",
+          "title": "BuildSafe – Structural Risk Evaluator",
+          "batch": "Energy & Infrastructure Projects",
+          "why_it_matters": "Detecting structural risk early saves lives.",
+          "goal": "Assess building safety using material data and environmental stress.",
+          "users": "Civil engineers, inspection teams.",
+          "difficulty": "★★★★☆ – regression + anomaly detection.",
+          "time": "9 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Building material properties, stress tests, local hazard data."
+            ]
+          },
+          "ai_use": [
+            "Regression for stress-limit prediction.",
+            "Isolation Forest for outlier detection."
+          ],
+          "workflow": [
+            "1. Collect property and environment inputs.",
+            "2. Compute risk score per structure.",
+            "3. Visualize red-flagged buildings.",
+            "4. Recommend inspection frequency."
+          ],
+          "portfolio_value": "Real engineering AI use case with civic safety focus."
+        },
+        {
+          "slug": "solarlink-community-solar-dashboard",
+          "title": "SolarLink – Community Solar Dashboard",
+          "batch": "Energy & Infrastructure Projects",
+          "why_it_matters": "People rarely know their neighborhood’s renewable potential.",
+          "goal": "Build an open dashboard showing local solar adoption and output.",
+          "users": "Residents, green NGOs.",
+          "difficulty": "★★★☆☆ – ETL + visualization.",
+          "time": "6–7 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Rooftop solar datasets, public power output stats."
+            ]
+          },
+          "ai_use": [
+            "Simple regression for generation prediction.",
+            "Keyword-based insights from adoption reports."
+          ],
+          "workflow": [
+            "1. Aggregate rooftop installations.",
+            "2. Compute energy output estimates.",
+            "3. Visualize city map with adoption trends.",
+            "4. Auto-generate “community impact” text."
+          ],
+          "portfolio_value": "Great sustainability data visualization portfolio piece."
+        },
+        {
+          "slug": "wastegrid-smart-waste-collection-optimizer",
+          "title": "WasteGrid – Smart Waste Collection Optimizer",
+          "batch": "Energy & Infrastructure Projects",
+          "why_it_matters": "Waste trucks follow inefficient routes, wasting fuel.",
+          "goal": "Optimize collection schedules based on fill-level data.",
+          "users": "Smart-city waste departments.",
+          "difficulty": "★★★★☆ – routing + ML.",
+          "time": "8–9 days.",
+          "data": {
+            "label": "Data Required",
+            "items": [
+              "Bin fill-sensor readings, truck capacities, road network."
+            ]
+          },
+          "ai_use": [
+            "Regression for fill-level prediction.",
+            "Vehicle routing optimization (Dijkstra / Genetic Algorithm)."
+          ],
+          "workflow": [
+            "1. Collect bin-level data.",
+            "2. Predict which bins need pickup.",
+            "3. Generate optimized routes.",
+            "4. Display map and distance reduction."
+          ],
+          "portfolio_value": "Optimization + sustainability + logistics engineering."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "analytical": {
+    "tone": "neutral",
+    "verbs": ["analyze", "evaluate", "deduce", "summarize"],
+    "color": "blue",
+    "reasoningMultiplier": 1.1,
+    "creativityBias": 0.8
+  },
+  "reflective": {
+    "tone": "warm",
+    "verbs": ["consider", "test", "observe", "reflect"],
+    "color": "purple",
+    "reasoningMultiplier": 1.2,
+    "creativityBias": 1.0
+  },
+  "technical": {
+    "tone": "precise",
+    "verbs": ["define", "execute", "verify", "document"],
+    "color": "cyan",
+    "reasoningMultiplier": 1.3,
+    "creativityBias": 0.6
+  },
+  "creative": {
+    "tone": "playful",
+    "verbs": ["imagine", "compose", "design", "refine"],
+    "color": "pink",
+    "reasoningMultiplier": 1.15,
+    "creativityBias": 1.5
+  },
+  "mentor": {
+    "tone": "friendly",
+    "verbs": ["explain", "guide", "encourage", "conclude"],
+    "color": "green",
+    "reasoningMultiplier": 1.05,
+    "creativityBias": 1.1
+  }
+}

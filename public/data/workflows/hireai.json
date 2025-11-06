@@ -1,0 +1,21 @@
+{
+  "slug": "hireai",
+  "title": "HireAI – Bias-Free Resume Screener",
+  "topic": "Finance, Economics & Employment",
+  "difficulty": "★★★★☆ – NLP + ethics.",
+  "goal": "Screen resumes for skills fit while flagging potential bias signals.",
+  "why_it_matters": "AI recruiting systems can perpetuate bias if not audited.",
+  "users": "Recruiters, career services.",
+  "data": "Resume + job description datasets.",
+  "ai": [
+    "Embedding similarity for skills matching.",
+    "Bias detector for language and demographic tokens."
+  ],
+  "workflow": [
+    "Parse resumes and JD text.",
+    "Compute similarity scores.",
+    "Flag potential bias phrases.",
+    "Generate transparency report."
+  ],
+  "outcome": "Responsible AI in HR automation."
+}

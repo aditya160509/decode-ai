@@ -1,0 +1,21 @@
+{
+  "slug": "climatecivic",
+  "title": "ClimateCivic – Sustainable Policy Tracker",
+  "topic": "Civic & Governance Batch",
+  "difficulty": "★★★☆☆ – text summarization + structured data blend.",
+  "goal": "Track municipal sustainability targets and visualize impact.",
+  "why_it_matters": "Links between governance and sustainability are often hidden in reports.",
+  "users": "Students, policy researchers, local bodies.",
+  "data": "City climate action plans, energy data, transport stats.",
+  "ai": [
+    "Keyword extraction for sustainability terms.",
+    "Rule-based scoring for progress evaluation."
+  ],
+  "workflow": [
+    "Collect targets and updates.",
+    "Extract metrics (emissions, renewable %).",
+    "Compute progress scores.",
+    "Display traffic-light style dashboards."
+  ],
+  "outcome": "Combines governance + environmental policy analytics beautifully."
+}
