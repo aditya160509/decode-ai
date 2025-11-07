@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="none">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="letter-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e0e7ff;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background with rounded corners -->
+  <rect width="256" height="256" rx="48" fill="url(#bg-gradient)"/>
+
+  <!-- Letter "D" -->
+  <path d="M 70 64 L 126 64 C 170 64 192 86 192 128 C 192 170 170 192 126 192 L 70 192 L 70 64 Z M 100 94 L 100 162 L 120 162 C 145 162 162 145 162 128 C 162 111 145 94 120 94 L 100 94 Z" fill="url(#letter-gradient)"/>
+
+  <!-- AI accent - small sparkle/dots -->
+  <circle cx="200" cy="80" r="12" fill="#facc15" opacity="0.9"/>
+  <circle cx="195" cy="68" r="6" fill="#fef08a" opacity="0.8"/>
+  <circle cx="210" cy="75" r="5" fill="#fef08a" opacity="0.7"/>
+</svg>
