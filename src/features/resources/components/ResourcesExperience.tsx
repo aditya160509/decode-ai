@@ -146,8 +146,7 @@ export const ResourcesExperience = () => {
         </section>
       </AnimatedHero>
 
-      <AnimatedSection>
-        <section className="container mx-auto px-4 py-12">
+      <section className="container mx-auto px-4 py-12">
         <div className="mb-8 flex items-baseline justify-between gap-4">
           <h2 className="text-3xl font-semibold">Learning Resources</h2>
         </div>
@@ -179,11 +178,9 @@ export const ResourcesExperience = () => {
         {!loading && !error && (
           <ResourceList resources={filteredResources} onOpenResource={handleResourceOpen} />
         )}
-        </section>
-      </AnimatedSection>
+      </section>
 
-      <AnimatedSection delay={0.1}>
-        <section className="container mx-auto px-4 pb-12">
+      <section className="container mx-auto px-4 pb-12">
         <div className="mb-8">
           <h2 className="text-3xl font-semibold">Project Workflows</h2>
           <p className="mt-2 max-w-3xl text-base text-muted-foreground">
@@ -201,14 +198,11 @@ export const ResourcesExperience = () => {
             />
           ))}
         </div>
-        </section>
-      </AnimatedSection>
+      </section>
 
-      <AnimatedSection delay={0.2}>
-        <section className="container mx-auto px-4 pb-16">
-          <FAQSection />
-        </section>
-      </AnimatedSection>
+      <section className="container mx-auto px-4 pb-16">
+        <FAQSection />
+      </section>
     </div>
   );
 };

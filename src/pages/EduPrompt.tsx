@@ -1,7 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useGlobalSearch } from "@/contexts/global-search";
 import { AnimatedHero } from "@/components/AnimatedHero";
-import { AnimatedSection } from "@/components/AnimatedSection";
 import { TiltCard } from "@/components/TiltCard";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -596,9 +595,8 @@ const EduPrompt = () => {
             </div>
           ) : (
             <>
-              <AnimatedSection>
-                <PromptEnhancerSection
-                  id={SECTION_IDS.enhancer}
+              <PromptEnhancerSection
+                id={SECTION_IDS.enhancer}
                 textareaRef={enhancerTextareaRef}
                 input={enhancerInput}
                 setInput={setEnhancerInput}
@@ -618,10 +616,8 @@ const EduPrompt = () => {
                 onClear={handleClearEnhancer}
                 recentRuns={recentRuns}
               />
-              </AnimatedSection>
 
-              <AnimatedSection delay={0.1}>
-                {builderConfig && (
+              {builderConfig && (
                   <WizardBuilderSection
                   id={SECTION_IDS.builder}
                   builderConfig={builderConfig}
@@ -641,11 +637,9 @@ const EduPrompt = () => {
                   outcome={builderOutcome}
                   error={builderError}
                 />
-                )}
-              </AnimatedSection>
+              )}
 
-              <AnimatedSection delay={0.2}>
-                <TemplatesGallerySection
+              <TemplatesGallerySection
                 id={SECTION_IDS.templates}
                 templates={templatesFiltered}
                 layout={templatesLayout}
@@ -667,10 +661,8 @@ const EduPrompt = () => {
                   window.setTimeout(() => enhancerTextareaRef.current?.focus(), 200);
                 }}
               />
-              </AnimatedSection>
 
-              <AnimatedSection delay={0.3}>
-                <ComparisonSection
+              <ComparisonSection
                 id={SECTION_IDS.comparison}
                 samples={comparisonSamples}
                 selectedSampleId={selectedSampleId}
@@ -687,10 +679,8 @@ const EduPrompt = () => {
                 outputs={comparisonOutputs}
                 message={comparisonMessage}
               />
-              </AnimatedSection>
 
-              <AnimatedSection delay={0.4}>
-                <MiniQuizSection
+              <MiniQuizSection
                 id={SECTION_IDS.quiz}
                 challenges={filteredMiniChallenges}
                 difficultyFilter={miniDifficulty}
@@ -709,7 +699,6 @@ const EduPrompt = () => {
                 revealedAnswers={revealedAnswers}
                 onReset={handleMiniReset}
               />
-              </AnimatedSection>
             </>
           )}
         </div>
