@@ -1,73 +1,118 @@
-# Welcome to your Lovable project
+# DecodeAI × EduPrompt
 
-## Project info
+Master AI, GitHub, and Prompt Engineering through hands-on learning. Built by students, for students.
 
-**URL**: https://lovable.dev/projects/12a62e57-97bd-4624-8c62-276c77e54061
+## About
 
-## How can I edit this code?
+DecodeAI is an interactive learning platform designed to demystify AI technologies, GitHub workflows, and prompt engineering. Whether you're a developer, student, or AI enthusiast, this platform provides practical resources and tools to accelerate your learning journey in the AI space.
 
-There are several ways of editing your application.
+## Key Features
 
-**Use Lovable**
+- **Interactive AI Learning Modules** - Comprehensive guides covering LLMs, machine learning concepts, and AI fundamentals
+- **Prompt Engineering Tools** - Hands-on EduPrompt experience with real-world examples and best practices
+- **GitHub Workflow Guides** - Step-by-step tutorials for version control, collaboration, and Git best practices
+- **No-Code Platform Comparisons** - Explore and compare popular no-code AI tools
+- **Resource Library** - Curated collection of AI learning materials, tutorials, and documentation
+- **Premium UI/UX** - Modern interface with smooth animations powered by Framer Motion
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/12a62e57-97bd-4624-8c62-276c77e54061) and start prompting.
+## Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Frontend Framework:** React 18 + TypeScript
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS
+- **UI Components:** shadcn/ui + Radix UI
+- **Routing:** React Router v6
+- **Animations:** Framer Motion
+- **State Management:** Zustand
+- **Forms:** React Hook Form + Zod validation
+- **Data Fetching:** TanStack Query
 
-**Use your preferred IDE**
+## Getting Started
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Prerequisites
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Node.js 18.x or higher
+- npm or bun package manager
 
-Follow these steps:
+### Installation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+1. Clone the repository:
+```bash
+git clone <your-repo-url>
+cd eduprompt-hub-main
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+2. Install dependencies:
+```bash
+npm install
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Build for Production
 
-**Use GitHub Codespaces**
+```bash
+npm run build
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Preview the production build:
+```bash
+npm run preview
+```
 
-## What technologies are used for this project?
+## Project Structure
 
-This project is built with:
+```
+src/
+├── app/              # Application configuration
+├── components/       # Reusable UI components
+├── contexts/         # React context providers
+├── data/            # Static data and content
+├── features/        # Feature-specific modules
+│   └── resources/   # Resource library components
+├── hooks/           # Custom React hooks
+├── lib/             # Utility functions
+├── pages/           # Page components
+│   ├── Home.tsx
+│   ├── AI.tsx
+│   ├── GitHub.tsx
+│   ├── EduPrompt.tsx
+│   ├── NoCode.tsx
+│   └── Resources.tsx
+└── types/           # TypeScript type definitions
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Available Scripts
 
-## How can I deploy this project?
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run build:dev` - Build in development mode
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
 
-Simply open [Lovable](https://lovable.dev/projects/12a62e57-97bd-4624-8c62-276c77e54061) and click on Share -> Publish.
+## Contributing
 
-## Can I connect a custom domain to my Lovable project?
+Contributions are welcome! If you'd like to improve DecodeAI:
 
-Yes, you can!
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## License
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+This project is open source and available for educational purposes.
+
+## Author
+
+**Aditya Balaji**
+
+---
+
+Built with React, TypeScript, and Vite
