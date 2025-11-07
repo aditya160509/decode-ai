@@ -1,4 +1,4 @@
-# DecodeAI × EduPrompt
+# DecodeAI
 
 Master AI, GitHub, and Prompt Engineering through hands-on learning. Built by students, for students.
 
