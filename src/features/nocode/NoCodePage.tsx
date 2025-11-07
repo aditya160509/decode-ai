@@ -1499,9 +1499,12 @@ const LimitsTable = ({ limits, description }: LimitsTableProps) => {
         <div className="mt-4 flex flex-wrap items-center gap-3 text-xs text-muted-foreground">
           <span className="inline-flex items-center gap-1 rounded-md bg-muted px-3 py-1">
             <SleepIcon />
-            “Sleep” shows when free apps pause or shut down when idle.
+            "Sleep" shows when free apps pause or shut down when idle.
           </span>
         </div>
+        <p className="text-sm text-muted-foreground mt-3 italic">
+          ← Scroll horizontally to see all columns →
+        </p>
       </header>
 
       <div className="rounded-lg border">
@@ -1520,30 +1523,30 @@ const LimitsTable = ({ limits, description }: LimitsTableProps) => {
             Tool | Free Tier | Limit | Build Time | Sleep | Notes
           </div>
         </div>
-        <div className="overflow-x-auto">
+        <div className="overflow-x-auto rounded-b-lg">
           <ScrollArea className="max-h-[480px]">
-            <table className="w-full text-sm min-w-[800px]">
+            <table className="text-sm">
             <thead className="sticky top-0 z-10 bg-background">
               <tr className="text-left">
-                <th className="sticky left-0 bg-background px-4 py-2">Tool</th>
-                <th className="px-4 py-2">Free Tier</th>
-                <th className="px-4 py-2">Limit</th>
-                <th className="px-4 py-2">Build Time</th>
-                <th className="px-4 py-2">Sleep</th>
-                <th className="px-4 py-2">Notes</th>
+                <th className="sticky left-0 z-20 bg-background px-4 py-2 min-w-[150px]">Tool</th>
+                <th className="px-4 py-2 min-w-[120px]">Free Tier</th>
+                <th className="px-4 py-2 min-w-[200px]">Limit</th>
+                <th className="px-4 py-2 min-w-[120px]">Build Time</th>
+                <th className="px-4 py-2 min-w-[100px]">Sleep</th>
+                <th className="px-4 py-2 min-w-[250px]">Notes</th>
               </tr>
             </thead>
             <tbody>
               {filtered.map((row) => (
                 <tr key={row.tool} className="border-t">
-                  <td className="sticky left-0 bg-background px-4 py-3 font-medium">
+                  <td className="sticky left-0 z-10 bg-background px-4 py-3 font-medium min-w-[150px]">
                     {row.tool}
                   </td>
-                  <td className="px-4 py-3">{row.free_tier}</td>
-                  <td className="px-4 py-3">{row.limit}</td>
-                  <td className="px-4 py-3">{row.build_time}</td>
-                  <td className="px-4 py-3">{row.sleep}</td>
-                  <td className="px-4 py-3 text-muted-foreground">{row.notes}</td>
+                  <td className="px-4 py-3 min-w-[120px]">{row.free_tier}</td>
+                  <td className="px-4 py-3 min-w-[200px]">{row.limit}</td>
+                  <td className="px-4 py-3 min-w-[120px]">{row.build_time}</td>
+                  <td className="px-4 py-3 min-w-[100px]">{row.sleep}</td>
+                  <td className="px-4 py-3 text-muted-foreground min-w-[250px]">{row.notes}</td>
                 </tr>
               ))}
             </tbody>
@@ -1829,22 +1832,25 @@ const ComparisonMatrix = ({ rows, description }: ComparisonMatrixProps) => {
           Compare Platforms
         </h2>
         {description && <p className="text-muted-foreground mt-2 max-w-3xl">{description}</p>}
-        <div className="mt-3 flex gap-2 text-xs text-muted-foreground">
+        <div className="mt-3 flex gap-2 text-xs text-muted-foreground flex-wrap">
           {legend.map((item) => (
             <span key={item.symbol} className="inline-flex items-center gap-1 rounded-md bg-muted px-2 py-1">
               {item.symbol} = {item.meaning}
             </span>
           ))}
         </div>
+        <p className="text-sm text-muted-foreground mt-3 italic">
+          ← Scroll horizontally to see all platforms ({tools.length} total) →
+        </p>
       </header>
-      <div className="overflow-x-auto">
+      <div className="overflow-x-auto border border-white/10 rounded-lg">
         <ScrollArea className="max-h-[520px]">
-          <table className="min-w-full text-sm border rounded-lg overflow-hidden">
-          <thead className="bg-muted/50">
+          <table className="text-sm border-collapse">
+          <thead className="bg-muted/50 sticky top-0 z-10">
             <tr>
-              <th className="sticky left-0 bg-muted/50 px-4 py-2 text-left">Feature</th>
+              <th className="sticky left-0 z-20 bg-muted/50 px-4 py-2 text-left min-w-[200px] border-r border-white/10">Feature</th>
               {tools.map((tool) => (
-                <th key={tool} className="px-4 py-2 text-left whitespace-nowrap">
+                <th key={tool} className="px-4 py-2 text-left whitespace-nowrap min-w-[150px]">
                   {tool}
                 </th>
               ))}
@@ -1852,12 +1858,12 @@ const ComparisonMatrix = ({ rows, description }: ComparisonMatrixProps) => {
           </thead>
           <tbody>
             {rows.map((row) => (
-              <tr key={row.feature} className="border-t">
-                <td className="sticky left-0 bg-background px-4 py-2 font-medium">
+              <tr key={row.feature} className="border-t border-white/10">
+                <td className="sticky left-0 z-10 bg-background px-4 py-2 font-medium min-w-[200px] border-r border-white/10">
                   {row.feature}
                 </td>
                 {tools.map((tool) => (
-                  <td key={tool} className="px-4 py-2">
+                  <td key={tool} className="px-4 py-2 min-w-[150px]">
                     {row[tool]}
                   </td>
                 ))}
