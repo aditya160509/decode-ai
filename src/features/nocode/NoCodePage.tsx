@@ -1523,9 +1523,8 @@ const LimitsTable = ({ limits, description }: LimitsTableProps) => {
             Tool | Free Tier | Limit | Build Time | Sleep | Notes
           </div>
         </div>
-        <div className="overflow-x-auto rounded-b-lg">
-          <ScrollArea className="max-h-[480px]">
-            <table className="text-sm">
+        <div className="w-full overflow-auto max-h-[480px] rounded-b-lg" style={{ WebkitOverflowScrolling: 'touch' }}>
+          <table className="text-sm" style={{ minWidth: '1000px' }}>
             <thead className="sticky top-0 z-10 bg-background">
               <tr className="text-left">
                 <th className="sticky left-0 z-20 bg-background px-4 py-2 min-w-[150px]">Tool</th>
@@ -1551,7 +1550,6 @@ const LimitsTable = ({ limits, description }: LimitsTableProps) => {
               ))}
             </tbody>
           </table>
-        </ScrollArea>
         </div>
       </div>
     </div>
@@ -1843,9 +1841,8 @@ const ComparisonMatrix = ({ rows, description }: ComparisonMatrixProps) => {
           ← Scroll horizontally to see all platforms ({tools.length} total) →
         </p>
       </header>
-      <div className="overflow-x-auto border border-white/10 rounded-lg">
-        <ScrollArea className="max-h-[520px]">
-          <table className="text-sm border-collapse">
+      <div className="w-full overflow-auto max-h-[520px] border border-white/10 rounded-lg" style={{ WebkitOverflowScrolling: 'touch' }}>
+        <table className="text-sm border-collapse" style={{ minWidth: '1400px' }}>
           <thead className="bg-muted/50 sticky top-0 z-10">
             <tr>
               <th className="sticky left-0 z-20 bg-muted/50 px-4 py-2 text-left min-w-[200px] border-r border-white/10">Feature</th>
@@ -1871,7 +1868,6 @@ const ComparisonMatrix = ({ rows, description }: ComparisonMatrixProps) => {
             ))}
           </tbody>
         </table>
-      </ScrollArea>
       </div>
     </div>
   );
