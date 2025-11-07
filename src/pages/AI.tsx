@@ -768,9 +768,9 @@ const AI = () => {
   };
 
   return (
-    <div className="relative min-h-screen bg-background noise-texture">
+    <div className="relative min-h-screen overflow-x-hidden bg-background noise-texture">
       <AnimatedHero className="pb-16 pt-24">
-        <div className="mx-auto flex max-w-7xl flex-col gap-10 px-4 sm:px-6 lg:px-8 lg:flex-row">
+        <div className="mx-auto flex max-w-7xl flex-col gap-10 px-4 sm:px-6 lg:px-8 lg:flex-row w-full">
         <aside className="hidden w-64 shrink-0 lg:block">
           <nav className="sticky top-28 space-y-4 glass-card-softer p-4">
             <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">DecodeAI / Sections</p>
@@ -797,7 +797,7 @@ const AI = () => {
             </ul>
           </nav>
         </aside>
-        <div className="flex-1 space-y-12">
+        <div className="flex-1 space-y-12 min-w-0">
           <AnimatedSection>
             <header className="space-y-6 glass-card-soft p-6 ring-gradient-glow hover:shadow-[0_20px_70px_-15px_rgba(139,92,246,0.3)] transition-all duration-300">
               <div className="inline-flex items-center gap-2 rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-primary">

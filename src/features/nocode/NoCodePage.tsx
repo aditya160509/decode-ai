@@ -525,9 +525,9 @@ const NoCodePage = () => {
   }
 
   return (
-    <div className="relative min-h-screen noise-texture">
+    <div className="relative min-h-screen overflow-x-hidden noise-texture">
       <AnimatedHero className="pb-24 pt-28">
-        <div className="relative flex gap-6 lg:gap-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="relative flex gap-6 lg:gap-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <aside className="hidden lg:block w-64 shrink-0 sticky top-28 h-[calc(100vh-7rem)]">
           <ScrollArea className="h-full pr-4">
             <nav aria-label="Section navigation" className="space-y-1">
@@ -559,7 +559,7 @@ const NoCodePage = () => {
           </ScrollArea>
         </aside>
 
-        <div className="flex-1 space-y-16">
+        <div className="flex-1 space-y-16 min-w-0">
           <header id="intro" className="scroll-mt-24">
             <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.4 }}>
               <div className="uppercase tracking-[0.3em] text-xs text-primary/70 mb-4 flex items-center gap-2">
@@ -1074,8 +1074,8 @@ const RecommenderSection = ({
         </div>
       </header>
 
-      <div className="grid gap-4 lg:grid-cols-[minmax(0,1fr),minmax(0,320px)] lg:items-start">
-        <div className="space-y-4">
+      <div className="grid gap-4 lg:grid-cols-[minmax(0,1fr),minmax(0,min(320px,30%))] lg:items-start w-full">
+        <div className="space-y-4 min-w-0">
           {data.questions.map((question, qIdx) => {
             const multi = multiSelectQuestions.has(question.question);
             const selected = persisted.answers[qIdx] ?? [];
@@ -1124,7 +1124,7 @@ const RecommenderSection = ({
           })}
         </div>
 
-        <aside className="sticky top-28 space-y-4">
+        <aside className="sticky top-28 space-y-4 min-w-0">
           <RecommendationPanel
             recommended={recommended}
             persisted={persisted}
@@ -1520,8 +1520,9 @@ const LimitsTable = ({ limits, description }: LimitsTableProps) => {
             Tool | Free Tier | Limit | Build Time | Sleep | Notes
           </div>
         </div>
-        <ScrollArea className="max-h-[480px]">
-          <table className="w-full text-sm">
+        <div className="overflow-x-auto">
+          <ScrollArea className="max-h-[480px]">
+            <table className="w-full text-sm min-w-[800px]">
             <thead className="sticky top-0 z-10 bg-background">
               <tr className="text-left">
                 <th className="sticky left-0 bg-background px-4 py-2">Tool</th>
@@ -1548,6 +1549,7 @@ const LimitsTable = ({ limits, description }: LimitsTableProps) => {
             </tbody>
           </table>
         </ScrollArea>
+        </div>
       </div>
     </div>
   );
@@ -1835,8 +1837,9 @@ const ComparisonMatrix = ({ rows, description }: ComparisonMatrixProps) => {
           ))}
         </div>
       </header>
-      <ScrollArea className="max-h-[520px]">
-        <table className="min-w-full text-sm border rounded-lg overflow-hidden">
+      <div className="overflow-x-auto">
+        <ScrollArea className="max-h-[520px]">
+          <table className="min-w-full text-sm border rounded-lg overflow-hidden">
           <thead className="bg-muted/50">
             <tr>
               <th className="sticky left-0 bg-muted/50 px-4 py-2 text-left">Feature</th>
@@ -1863,6 +1866,7 @@ const ComparisonMatrix = ({ rows, description }: ComparisonMatrixProps) => {
           </tbody>
         </table>
       </ScrollArea>
+      </div>
     </div>
   );
 };
