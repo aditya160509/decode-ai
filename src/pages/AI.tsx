@@ -770,7 +770,7 @@ const AI = () => {
   return (
     <div className="relative min-h-screen bg-background noise-texture">
       <AnimatedHero className="pb-16 pt-24">
-        <div className="mx-auto flex max-w-7xl flex-col gap-10 px-4 lg:flex-row">
+        <div className="mx-auto flex max-w-7xl flex-col gap-10 px-4 sm:px-6 lg:px-8 lg:flex-row">
         <aside className="hidden w-64 shrink-0 lg:block">
           <nav className="sticky top-28 space-y-4 glass-card-softer p-4">
             <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">DecodeAI / Sections</p>

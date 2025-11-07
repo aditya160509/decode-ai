@@ -526,8 +526,8 @@ const NoCodePage = () => {
 
   return (
     <div className="relative min-h-screen noise-texture">
-      <AnimatedHero className="px-4 md:px-8 lg:px-12 pb-24 pt-28">
-        <div className="relative flex gap-6 lg:gap-10 xl:gap-14">
+      <AnimatedHero className="pb-24 pt-28">
+        <div className="relative flex gap-6 lg:gap-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <aside className="hidden lg:block w-64 shrink-0 sticky top-28 h-[calc(100vh-7rem)]">
           <ScrollArea className="h-full pr-4">
             <nav aria-label="Section navigation" className="space-y-1">
